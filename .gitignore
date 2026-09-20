@@ -1,0 +1,9 @@
+# Local LaTeX build products. The checked release PDF lives under output/pdf/.
+/reconstruction/main.aux
+/reconstruction/main.fdb_latexmk
+/reconstruction/main.fls
+/reconstruction/main.log
+/reconstruction/main.out
+/reconstruction/main.pdf
+/reconstruction/main.synctex.gz
+/reconstruction/main.toc

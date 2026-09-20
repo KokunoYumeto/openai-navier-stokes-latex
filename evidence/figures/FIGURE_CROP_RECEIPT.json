@@ -1,0 +1,114 @@
+{
+  "schema": "navier-stokes-vector-figure-crop-receipt/v1",
+  "source_pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
+  "figures": [
+    {
+      "id": "NS-FIG-1",
+      "number": 1,
+      "pdf_page": 4,
+      "x": 95,
+      "y": 88,
+      "width": 420,
+      "height": 180,
+      "pdf_box_lower_left": [
+        95.0,
+        524.0,
+        515.0,
+        704.0
+      ],
+      "output": "reconstruction/assets/figures/figure-1.pdf",
+      "bytes": 518182,
+      "sha256": "1d1e1ee398b3c3be4c7341ad35a908aa666559e6b41190acfd79dcd21aff5e8a"
+    },
+    {
+      "id": "NS-FIG-2",
+      "number": 2,
+      "pdf_page": 5,
+      "x": 45,
+      "y": 78,
+      "width": 522,
+      "height": 132,
+      "pdf_box_lower_left": [
+        45.0,
+        582.0,
+        567.0,
+        714.0
+      ],
+      "output": "reconstruction/assets/figures/figure-2.pdf",
+      "bytes": 1387184,
+      "sha256": "58daad0c4f4aa237bb9290543d3f8928ccd7e16f95157130483d0f6d5c1e4fa6"
+    },
+    {
+      "id": "NS-FIG-3",
+      "number": 3,
+      "pdf_page": 9,
+      "x": 100,
+      "y": 85,
+      "width": 415,
+      "height": 185,
+      "pdf_box_lower_left": [
+        100.0,
+        522.0,
+        515.0,
+        707.0
+      ],
+      "output": "reconstruction/assets/figures/figure-3.pdf",
+      "bytes": 302324,
+      "sha256": "42f519ae9fe10f9a9b8d496c220603cd0bdeb16a943c6f86a8990e6a7409221c"
+    },
+    {
+      "id": "NS-FIG-4",
+      "number": 4,
+      "pdf_page": 10,
+      "x": 160,
+      "y": 202,
+      "width": 300,
+      "height": 112,
+      "pdf_box_lower_left": [
+        160.0,
+        478.0,
+        460.0,
+        590.0
+      ],
+      "output": "reconstruction/assets/figures/figure-4.pdf",
+      "bytes": 146241,
+      "sha256": "e1db12f2bf1e8614f44ec343b16fa74f5000c8b217d25dd90ed0449679d2c389"
+    },
+    {
+      "id": "NS-FIG-5",
+      "number": 5,
+      "pdf_page": 13,
+      "x": 95,
+      "y": 125,
+      "width": 425,
+      "height": 292,
+      "pdf_box_lower_left": [
+        95.0,
+        375.0,
+        520.0,
+        667.0
+      ],
+      "output": "reconstruction/assets/figures/figure-5.pdf",
+      "bytes": 153415,
+      "sha256": "8aec0aaaca85f0d3d6d506e83285af6c6c47d1b6ab62de0c514d92172b59809c"
+    },
+    {
+      "id": "NS-FIG-6",
+      "number": 6,
+      "pdf_page": 15,
+      "x": 105,
+      "y": 82,
+      "width": 405,
+      "height": 223,
+      "pdf_box_lower_left": [
+        105.0,
+        487.0,
+        510.0,
+        710.0
+      ],
+      "output": "reconstruction/assets/figures/figure-6.pdf",
+      "bytes": 187329,
+      "sha256": "aa8ef26620317306c1b80a0951e0ba36cfdd4c1c3c84105c6d95652f6162e15c"
+    }
+  ]
+}
