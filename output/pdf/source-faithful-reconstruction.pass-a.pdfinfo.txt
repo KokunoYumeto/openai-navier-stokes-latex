@@ -1,0 +1,20 @@
+Title:           Finite Time Blowup for Navier–Stokes: independent source-faithful LaTeX reconstruction
+Subject:         Editable source-faithful reconstruction of the complete 166-page paper
+Keywords:        Navier–Stokes, finite-time blowup, LaTeX, source reconstruction
+Author:          OpenAI (paper); independent source reconstruction
+Creator:         Independent source-faithful reconstruction from the frozen official PDF
+Producer:        MiKTeX pdfTeX-1.40.29
+Custom Metadata: no
+Metadata Stream: no
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           166
+Encrypted:       no
+Page size:       612 x 792 pts (letter)
+Page rot:        0
+File size:       4579755 bytes
+Optimized:       no
+PDF version:     1.5

@@ -19,7 +19,7 @@ This audit compares every official source page from PDF page 121 through PDF pag
 
 The audited distinctions are calligraphic (`\mathcal`), RSFS script (`\mathscr`), sans serif (`\mathsf`), Fraktur/blackletter (`\mathfrak`), bold math, ordinary math italic, and upright roman. Named parameters, named radii, reference-profile suffixes, class labels, operators, spaces, and coefficient families were classified by their actual embedded PDF font and visible glyph, not merely by the extracted Unicode letter. Context-sensitive uses were not normalized globally.
 
-The sole source authority is `sources/official/paper/navier-stokes.pdf`, SHA-256 `0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f`. All 46 supplied 180-dpi page renders in `sources/official/paper/renders/180dpi/` were inspected. Ambiguous letters were re-inspected in enlarged crops. Plain extracted text was used only for navigation and was never treated as font evidence.
+The sole source authority is `sources/official/paper/navier-stokes.pdf`, SHA-256 `0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f`. All 46 supplied 180-dpi page renders in `sources/official/paper/renders/180dpi/` were inspected. Ambiguous letters were re-inspected in enlarged crops. Extracted text without font information was used only for navigation and was never treated as font evidence.
 
 No prose, mathematical relation, sign, constant, hypothesis, marker, equation number, or page order was intentionally changed. No build, cumulative PDF regeneration, publication file, shared script, or illustration file was touched by this audit.
 
@@ -42,7 +42,7 @@ The resulting evidence file is `tmp/notation_font_audit_pp121_166/official-pp121
 | `/F510` | 3833 | `CMSS10` | sans-serif named amplitude/normalization |
 | `/F99` | 3829 | `rsfs10` | RSFS script, distinct from `/F180` |
 
-`CMSY10` also carries nonalphabetic mathematical symbols, so a font-name match alone was not enough: the letter, its coordinates, the visible render, and its formula context were checked together. Conversely, the RSFS `A,B` on page 161 were not collapsed into the calligraphic family merely because plain text extraction reports the same ASCII letters.
+`CMSY10` also carries nonalphabetic mathematical symbols, so a font-name match alone was not enough: the letter, its coordinates, the visible render, and its formula context were checked together. Conversely, the RSFS `A,B` on page 161 were not collapsed into the calligraphic family merely because text extraction without font information reports the same ASCII letters.
 
 For routing, the existing pre-audit 166-page reconstruction PDF (SHA-256 `7645ecd59a3d6614695391bbd89e9ff587a9963af0c29a19a969ff10bff29253`) was also extracted page-bounded. Its 46-page structured-text file is `tmp/notation_font_audit_pp121_166/reconstruction-pp121-166.stext.json`, 3,739,690 bytes, SHA-256 `bd7182f69bac2af4bba7c258017fb428aa0e1f32861e8fd34b67679c84f5350e`. Coordinate-aligned comparison against the official spans isolated 60 calligraphic-to-italic glyph losses, 51 sans-to-italic losses, 32 Fraktur-to-italic losses, and nine RSFS-script-to-calligraphic losses. The roman-to-italic losses localized to the named suffixes and page-156 asymptotic subscript reported below; no italic-to-roman loss survived inspection. This old reconstruction rendering was a diagnostic only: it predates the corrections, and no post-audit build is claimed here.
 
@@ -140,7 +140,7 @@ The page markers and formula-occurrence markers are unchanged:
 | `pp163-164.tex` | 66 |
 | `pp165-166.tex` | 16 |
 
-A residual scan for unescaped raw spacing words `qquad`, `quad`, `enspace`, `thinspace`, `hspace`, and `vspace` returned no hits. The independent root repairs remain present as control sequences in Equation (A.26), `pp133-138.tex:177`, and Equation (A.32), `pp133-138.tex:427`; neither was overwritten. A residual scan also found no plain `D_X` or `T_0` in the audited fragments and no `\mathcal A`/`\mathcal B` substitution for the page-161 RSFS pair.
+A residual scan for unescaped raw spacing words `qquad`, `quad`, `enspace`, `thinspace`, `hspace`, and `vspace` returned no hits. The independent root repairs remain present as control sequences in Equation (A.26), `pp133-138.tex:177`, and Equation (A.32), `pp133-138.tex:427`; neither was overwritten. A residual scan also found no ordinary italic `D_X` or `T_0` in the audited fragments and no `\mathcal A`/`\mathcal B` substitution for the page-161 RSFS pair.
 
 ## Post-audit fragment identities
 

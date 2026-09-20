@@ -1,5 +1,8 @@
 {
   "schema": "navier-stokes-vector-figure-crop-receipt/v1",
+  "status": "superseded_by_svg_pdf_repair",
+  "hash_scope": "The output hashes below identify the earlier page-box-only imports. They are kept as provenance and do not identify the current bytes at those paths.",
+  "superseded_by": "evidence/figures/FIGURE_SVG_PDF_REPAIR_RECEIPT.json",
   "source_pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
   "figures": [
     {

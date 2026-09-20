@@ -1,0 +1,1575 @@
+{
+  "schema": "navier-stokes-svg-pdf-repair-receipt/v1",
+  "purpose": "Replace page-box-only PDF imports with deterministic PDFs made from the checked cropped SVGs, preserving the visible vector crop while removing every extractable text character.",
+  "source_pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
+  "conversion": {
+    "command_template": "mutool convert -o OUTPUT.pdf -F pdf -O compress,compress-fonts,compress-images,garbage=deduplicate,regenerate-id=no INPUT.svg",
+    "mutool_path": "C:\\Users\\Floris\\AppData\\Local\\Microsoft\\WinGet\\Packages\\ArtifexSoftware.mutool_Microsoft.Winget.Source_8wekyb3d8bbwe\\mupdf-1.23.0-windows\\mutool.exe",
+    "mutool_version": "mutool version 1.23.0",
+    "two_independent_conversions_required_to_match": true
+  },
+  "render_and_text_tools": {
+    "render_dpi": 576,
+    "pixels_per_pdf_point": 8,
+    "pdf_render_command_template": "pdftoppm -r 576 -cropbox -singlefile -png INPUT.pdf OUTPUT_PREFIX",
+    "source_crop_render_command_template": "pdftoppm -f PAGE -l PAGE -r 576 -x X_PIXELS -y Y_PIXELS -W WIDTH_PIXELS -H HEIGHT_PIXELS -singlefile -png SOURCE.pdf OUTPUT_PREFIX",
+    "svg_and_pdf_mutool_render_command_template": "mutool draw -q -r 576 -o OUTPUT.png INPUT",
+    "text_extraction_command_template": "pdftotext -enc UTF-8 INPUT.pdf -",
+    "pdftoppm_path": "C:\\Users\\Floris\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe",
+    "pdftoppm_version": "pdftoppm version 26.07.0 Copyright 2005-2026 The Poppler Developers - http://poppler.freedesktop.org Copyright 1996-2011, 2022 Glyph & Cog, LLC",
+    "pdftotext_path": "C:\\Users\\Floris\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdftotext.exe",
+    "pdftotext_version": "pdftotext version 24.04.0 Copyright 2005-2024 The Poppler Developers - http://poppler.freedesktop.org Copyright 1996-2011, 2022 Glyph & Cog, LLC",
+    "python_version": "3.13.9",
+    "pypdf_version": "6.12.2",
+    "pillow_version": "12.2.0",
+    "numpy_version": "2.4.4"
+  },
+  "global_checks": {
+    "figure_count": 6,
+    "every_replacement_has_zero_pypdf_text": true,
+    "every_replacement_has_zero_pdftotext_text": true,
+    "every_replacement_is_deterministic": true,
+    "every_replacement_is_vector_only_with_no_images_or_fonts": true,
+    "every_old_import_matches_the_source_crop_pixel_for_pixel": true,
+    "every_replacement_matches_the_svg_authority_with_mutool_mae_below_0_05": true,
+    "every_visual_inspection_passed": true,
+    "page_box_interpretation": "MuPDF writes an explicit MediaBox. Under PDF defaults the absent CropBox, TrimBox, BleedBox, and ArtBox take the same effective rectangle; both the direct keys and all five effective boxes are recorded for every figure."
+  },
+  "figures": [
+    {
+      "id": "NS-FIG-1",
+      "number": 1,
+      "source_locator": {
+        "pdf": "sources/official/paper/navier-stokes.pdf",
+        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
+        "page": 4,
+        "crop_top_left_points": [
+          95,
+          88,
+          420,
+          180
+        ],
+        "crop_pdf_box_lower_left_points": [
+          95.0,
+          524.0,
+          515.0,
+          704.0
+        ]
+      },
+      "svg_authority": {
+        "path": "reconstruction/assets/figures/figure-1.svg",
+        "sha256": "c938c5512dc3f00d29f91c89d7ae81f77508f1596b1efde6bcea94e03c79af04",
+        "bytes": 3758644,
+        "root_width_points": 420,
+        "root_height_points": 180,
+        "root_view_box": [
+          95,
+          88,
+          420,
+          180
+        ],
+        "text_elements": 0,
+        "visible_letters_and_symbols_are_vector_outlines": true
+      },
+      "legacy_imported_pdf": {
+        "bytes": 518182,
+        "sha256": "1d1e1ee398b3c3be4c7341ad35a908aa666559e6b41190acfd79dcd21aff5e8a",
+        "page_count": 1,
+        "effective_page_boxes_points": {
+          "media": [
+            95.0,
+            524.0,
+            515.0,
+            704.0
+          ],
+          "crop": [
+            95.0,
+            524.0,
+            515.0,
+            704.0
+          ],
+          "trim": [
+            95.0,
+            524.0,
+            515.0,
+            704.0
+          ],
+          "bleed": [
+            95.0,
+            524.0,
+            515.0,
+            704.0
+          ],
+          "art": [
+            95.0,
+            524.0,
+            515.0,
+            704.0
+          ]
+        },
+        "direct_page_box_keys": {
+          "/MediaBox": true,
+          "/CropBox": true,
+          "/TrimBox": true,
+          "/BleedBox": true,
+          "/ArtBox": true
+        },
+        "pypdf_extracted_character_count": 1900,
+        "pdftotext_extracted_character_count": 14,
+        "path": "reconstruction/assets/figures/figure-1.pdf"
+      },
+      "replacement_pdf": {
+        "bytes": 421665,
+        "sha256": "6c353ed5cd66e87404649782ecc245dce8c84259446825fb8f837b4e500bcf34",
+        "page_count": 1,
+        "effective_page_boxes_points": {
+          "media": [
+            0.0,
+            0.0,
+            420.0,
+            180.0
+          ],
+          "crop": [
+            0.0,
+            0.0,
+            420.0,
+            180.0
+          ],
+          "trim": [
+            0.0,
+            0.0,
+            420.0,
+            180.0
+          ],
+          "bleed": [
+            0.0,
+            0.0,
+            420.0,
+            180.0
+          ],
+          "art": [
+            0.0,
+            0.0,
+            420.0,
+            180.0
+          ]
+        },
+        "direct_page_box_keys": {
+          "/MediaBox": true,
+          "/CropBox": false,
+          "/TrimBox": false,
+          "/BleedBox": false,
+          "/ArtBox": false
+        },
+        "pypdf_extracted_character_count": 0,
+        "pdftotext_extracted_character_count": 0,
+        "embedded_image_count": 0,
+        "font_resource_count": 0,
+        "xobject_resource_count": 0,
+        "decoded_content_stream_bytes": 2616213,
+        "path": "reconstruction/assets/figures/figure-1.pdf",
+        "determinism_check": {
+          "pass_a_sha256": "6c353ed5cd66e87404649782ecc245dce8c84259446825fb8f837b4e500bcf34",
+          "pass_b_sha256": "6c353ed5cd66e87404649782ecc245dce8c84259446825fb8f837b4e500bcf34",
+          "identical": true
+        }
+      },
+      "renders": {
+        "old_page_box_import": {
+          "path": "evidence/figures/replacement_qa/figure-1-old-page-box-import-576dpi.png",
+          "sha256": "3bce540d71ffb4520d9ee6a160d1fa0a03fc14cc0e0e5dd9eee4b9a9731b0f6a",
+          "bytes": 252122,
+          "pixel_width": 3360,
+          "pixel_height": 1440,
+          "mode": "RGB"
+        },
+        "source_crop": {
+          "path": "evidence/figures/replacement_qa/figure-1-source-crop-576dpi.png",
+          "sha256": "3bce540d71ffb4520d9ee6a160d1fa0a03fc14cc0e0e5dd9eee4b9a9731b0f6a",
+          "bytes": 252122,
+          "pixel_width": 3360,
+          "pixel_height": 1440,
+          "mode": "RGB"
+        },
+        "replacement": {
+          "path": "evidence/figures/replacement_qa/figure-1-replacement-576dpi.png",
+          "sha256": "5187407707fdbe1cefad04157e7067d04e31345b032bdb3c82561b79c82106f2",
+          "bytes": 252259,
+          "pixel_width": 3360,
+          "pixel_height": 1440,
+          "mode": "RGB"
+        },
+        "replacement_source_difference_x8": {
+          "path": "evidence/figures/replacement_qa/figure-1-replacement-source-diff-x8.png",
+          "sha256": "94d15f7d78a1ac63ed31b68e990a782c47edf75e6acf6b5b28f594a1d5e647cd",
+          "bytes": 21645,
+          "pixel_width": 3360,
+          "pixel_height": 1440,
+          "mode": "RGB"
+        },
+        "comparison": {
+          "path": "evidence/figures/replacement_qa/figure-1-comparison.png",
+          "sha256": "dfc82ef8d0b2be3d6100e878ddbe82ad0518debb53a2e5bd6d814e2125ff4bd5",
+          "bytes": 93860,
+          "pixel_width": 3636,
+          "pixel_height": 420,
+          "mode": "RGB"
+        },
+        "svg_authority_mutool": {
+          "path": "evidence/figures/replacement_qa/figure-1-svg-authority-576dpi-mutool.png",
+          "sha256": "cb354a6c28e611bcea828711c7d54f3bbeb5d78fc61ac86a6e377dc8021bfb3c",
+          "bytes": 258717,
+          "pixel_width": 3360,
+          "pixel_height": 1440,
+          "mode": "RGB"
+        },
+        "replacement_mutool": {
+          "path": "evidence/figures/replacement_qa/figure-1-replacement-576dpi-mutool.png",
+          "sha256": "cb354a6c28e611bcea828711c7d54f3bbeb5d78fc61ac86a6e377dc8021bfb3c",
+          "bytes": 258717,
+          "pixel_width": 3360,
+          "pixel_height": 1440,
+          "mode": "RGB"
+        },
+        "replacement_svg_difference_x8_mutool": {
+          "path": "evidence/figures/replacement_qa/figure-1-replacement-svg-diff-x8-mutool.png",
+          "sha256": "7edb2aabcc7923f5443886fab643a2752aceb94e5965892ea6edf564eb00aaec",
+          "bytes": 14159,
+          "pixel_width": 3360,
+          "pixel_height": 1440,
+          "mode": "RGB"
+        },
+        "svg_authority_comparison": {
+          "path": "evidence/figures/replacement_qa/figure-1-svg-authority-comparison.png",
+          "sha256": "b1d184362efa1b7f0d03a855accbde46076d1bac9221adc5ed239805ced9f158",
+          "bytes": 87190,
+          "pixel_width": 3024,
+          "pixel_height": 463,
+          "mode": "RGB"
+        }
+      },
+      "image_differences": {
+        "old_import_against_source_crop": {
+          "mean_absolute_error_per_channel": 0.0,
+          "root_mean_square_error_per_channel": 0.0,
+          "maximum_absolute_channel_difference": 0,
+          "changed_channel_values": 0,
+          "changed_pixels": 0,
+          "total_pixels": 4838400,
+          "changed_pixel_fraction": 0.0
+        },
+        "replacement_against_source_crop": {
+          "mean_absolute_error_per_channel": 0.055611152447089945,
+          "root_mean_square_error_per_channel": 2.076541889967366,
+          "maximum_absolute_channel_difference": 221,
+          "changed_channel_values": 19082,
+          "changed_pixels": 6700,
+          "total_pixels": 4838400,
+          "changed_pixel_fraction": 0.001384755291005291
+        },
+        "old_import_against_replacement": {
+          "mean_absolute_error_per_channel": 0.055611152447089945,
+          "root_mean_square_error_per_channel": 2.076541889967366,
+          "maximum_absolute_channel_difference": 221,
+          "changed_channel_values": 19082,
+          "changed_pixels": 6700,
+          "total_pixels": 4838400,
+          "changed_pixel_fraction": 0.001384755291005291
+        },
+        "replacement_against_svg_authority_using_mutool": {
+          "mean_absolute_error_per_channel": 0.0,
+          "root_mean_square_error_per_channel": 0.0,
+          "maximum_absolute_channel_difference": 0,
+          "changed_channel_values": 0,
+          "changed_pixels": 0,
+          "total_pixels": 4838400,
+          "changed_pixel_fraction": 0.0
+        }
+      },
+      "visual_inspection": {
+        "status": "pass",
+        "inspector_note": "Inspected the 576 dpi source/old/replacement comparison, the SVG-authority comparison, and the full-resolution replacement. The three time labels, arrows, colored streamline curves, and all crop edges match with no clipping or visible distortion. Recorded differences are confined to subpixel edge antialiasing."
+      }
+    },
+    {
+      "id": "NS-FIG-2",
+      "number": 2,
+      "source_locator": {
+        "pdf": "sources/official/paper/navier-stokes.pdf",
+        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
+        "page": 5,
+        "crop_top_left_points": [
+          45,
+          78,
+          522,
+          132
+        ],
+        "crop_pdf_box_lower_left_points": [
+          45.0,
+          582.0,
+          567.0,
+          714.0
+        ]
+      },
+      "svg_authority": {
+        "path": "reconstruction/assets/figures/figure-2.svg",
+        "sha256": "38155f155c7245a4bb8de1b99f3005cb118fee05185a80901fadbe229c427481",
+        "bytes": 3984767,
+        "root_width_points": 522,
+        "root_height_points": 132,
+        "root_view_box": [
+          45,
+          78,
+          522,
+          132
+        ],
+        "text_elements": 0,
+        "visible_letters_and_symbols_are_vector_outlines": true
+      },
+      "legacy_imported_pdf": {
+        "bytes": 1387184,
+        "sha256": "58daad0c4f4aa237bb9290543d3f8928ccd7e16f95157130483d0f6d5c1e4fa6",
+        "page_count": 1,
+        "effective_page_boxes_points": {
+          "media": [
+            45.0,
+            582.0,
+            567.0,
+            714.0
+          ],
+          "crop": [
+            45.0,
+            582.0,
+            567.0,
+            714.0
+          ],
+          "trim": [
+            45.0,
+            582.0,
+            567.0,
+            714.0
+          ],
+          "bleed": [
+            45.0,
+            582.0,
+            567.0,
+            714.0
+          ],
+          "art": [
+            45.0,
+            582.0,
+            567.0,
+            714.0
+          ]
+        },
+        "direct_page_box_keys": {
+          "/MediaBox": true,
+          "/CropBox": true,
+          "/TrimBox": true,
+          "/BleedBox": true,
+          "/ArtBox": true
+        },
+        "pypdf_extracted_character_count": 2607,
+        "pdftotext_extracted_character_count": 153,
+        "path": "reconstruction/assets/figures/figure-2.pdf"
+      },
+      "replacement_pdf": {
+        "bytes": 1306917,
+        "sha256": "8891238431a29c228766dbcace8e53436b3c84903a94fd771e0e91299a9b2239",
+        "page_count": 1,
+        "effective_page_boxes_points": {
+          "media": [
+            0.0,
+            0.0,
+            522.0,
+            132.0
+          ],
+          "crop": [
+            0.0,
+            0.0,
+            522.0,
+            132.0
+          ],
+          "trim": [
+            0.0,
+            0.0,
+            522.0,
+            132.0
+          ],
+          "bleed": [
+            0.0,
+            0.0,
+            522.0,
+            132.0
+          ],
+          "art": [
+            0.0,
+            0.0,
+            522.0,
+            132.0
+          ]
+        },
+        "direct_page_box_keys": {
+          "/MediaBox": true,
+          "/CropBox": false,
+          "/TrimBox": false,
+          "/BleedBox": false,
+          "/ArtBox": false
+        },
+        "pypdf_extracted_character_count": 0,
+        "pdftotext_extracted_character_count": 0,
+        "embedded_image_count": 0,
+        "font_resource_count": 0,
+        "xobject_resource_count": 0,
+        "decoded_content_stream_bytes": 5951676,
+        "path": "reconstruction/assets/figures/figure-2.pdf",
+        "determinism_check": {
+          "pass_a_sha256": "8891238431a29c228766dbcace8e53436b3c84903a94fd771e0e91299a9b2239",
+          "pass_b_sha256": "8891238431a29c228766dbcace8e53436b3c84903a94fd771e0e91299a9b2239",
+          "identical": true
+        }
+      },
+      "renders": {
+        "old_page_box_import": {
+          "path": "evidence/figures/replacement_qa/figure-2-old-page-box-import-576dpi.png",
+          "sha256": "ba154ac3e072a6874fba009e20e097d15ee5745a8ec8455f3420f1b2dae01fe6",
+          "bytes": 396789,
+          "pixel_width": 4176,
+          "pixel_height": 1056,
+          "mode": "RGB"
+        },
+        "source_crop": {
+          "path": "evidence/figures/replacement_qa/figure-2-source-crop-576dpi.png",
+          "sha256": "ba154ac3e072a6874fba009e20e097d15ee5745a8ec8455f3420f1b2dae01fe6",
+          "bytes": 396789,
+          "pixel_width": 4176,
+          "pixel_height": 1056,
+          "mode": "RGB"
+        },
+        "replacement": {
+          "path": "evidence/figures/replacement_qa/figure-2-replacement-576dpi.png",
+          "sha256": "1033d06354b6fcfafc4b23a0682f8364617cf4c9fb913503a18117a8fb5411f6",
+          "bytes": 388804,
+          "pixel_width": 4176,
+          "pixel_height": 1056,
+          "mode": "RGB"
+        },
+        "replacement_source_difference_x8": {
+          "path": "evidence/figures/replacement_qa/figure-2-replacement-source-diff-x8.png",
+          "sha256": "5b19d52b09c17dfc73fa753b0771b9d0e4fbc08ada6b9a88a0e1f8a9760cb67e",
+          "bytes": 49650,
+          "pixel_width": 4176,
+          "pixel_height": 1056,
+          "mode": "RGB"
+        },
+        "comparison": {
+          "path": "evidence/figures/replacement_qa/figure-2-comparison.png",
+          "sha256": "6a202c80c8afc46c5daec55b2935640b38f1f32e9efe9d880241345babc4e86b",
+          "bytes": 122791,
+          "pixel_width": 3636,
+          "pixel_height": 262,
+          "mode": "RGB"
+        },
+        "svg_authority_mutool": {
+          "path": "evidence/figures/replacement_qa/figure-2-svg-authority-576dpi-mutool.png",
+          "sha256": "c2e54ae853f43944411bb375ce209e458a1db9ffb313369fcf627dc148079728",
+          "bytes": 475235,
+          "pixel_width": 4176,
+          "pixel_height": 1056,
+          "mode": "RGB"
+        },
+        "replacement_mutool": {
+          "path": "evidence/figures/replacement_qa/figure-2-replacement-576dpi-mutool.png",
+          "sha256": "e4a84b0c61e0b11ace4fa2087bb5d57601c51f8e602ce6bb8224157ab17ff2b8",
+          "bytes": 475280,
+          "pixel_width": 4176,
+          "pixel_height": 1056,
+          "mode": "RGB"
+        },
+        "replacement_svg_difference_x8_mutool": {
+          "path": "evidence/figures/replacement_qa/figure-2-replacement-svg-diff-x8-mutool.png",
+          "sha256": "1e6b0a36c138129f71759567332e4e85189bd438550e02209e6ea4d8fa67c65f",
+          "bytes": 30407,
+          "pixel_width": 4176,
+          "pixel_height": 1056,
+          "mode": "RGB"
+        },
+        "svg_authority_comparison": {
+          "path": "evidence/figures/replacement_qa/figure-2-svg-authority-comparison.png",
+          "sha256": "e5bd3513f45cab0bc67c6820404c65e2e26c7c3c73dc8c0771fdcd918970afdf",
+          "bytes": 101276,
+          "pixel_width": 3024,
+          "pixel_height": 287,
+          "mode": "RGB"
+        }
+      },
+      "image_differences": {
+        "old_import_against_source_crop": {
+          "mean_absolute_error_per_channel": 0.0,
+          "root_mean_square_error_per_channel": 0.0,
+          "maximum_absolute_channel_difference": 0,
+          "changed_channel_values": 0,
+          "changed_pixels": 0,
+          "total_pixels": 4409856,
+          "changed_pixel_fraction": 0.0
+        },
+        "replacement_against_source_crop": {
+          "mean_absolute_error_per_channel": 0.6164526309551454,
+          "root_mean_square_error_per_channel": 6.510430172399785,
+          "maximum_absolute_channel_difference": 216,
+          "changed_channel_values": 562391,
+          "changed_pixels": 199475,
+          "total_pixels": 4409856,
+          "changed_pixel_fraction": 0.04523390332926971
+        },
+        "old_import_against_replacement": {
+          "mean_absolute_error_per_channel": 0.6164526309551454,
+          "root_mean_square_error_per_channel": 6.510430172399785,
+          "maximum_absolute_channel_difference": 216,
+          "changed_channel_values": 562391,
+          "changed_pixels": 199475,
+          "total_pixels": 4409856,
+          "changed_pixel_fraction": 0.04523390332926971
+        },
+        "replacement_against_svg_authority_using_mutool": {
+          "mean_absolute_error_per_channel": 0.001969905593289214,
+          "root_mean_square_error_per_channel": 0.08311762762414585,
+          "maximum_absolute_channel_difference": 14,
+          "changed_channel_values": 15081,
+          "changed_pixels": 8802,
+          "total_pixels": 4409856,
+          "changed_pixel_fraction": 0.0019959835423197492
+        }
+      },
+      "visual_inspection": {
+        "status": "pass",
+        "inspector_note": "Inspected the 576 dpi source/old/replacement comparison, the SVG-authority comparison, and the full-resolution replacement. The annulus and axial panels, sigma labels, callout boxes, arrows, boundaries, and crop edges match with no clipping or visible distortion. Recorded differences are confined to subpixel edge antialiasing."
+      }
+    },
+    {
+      "id": "NS-FIG-3",
+      "number": 3,
+      "source_locator": {
+        "pdf": "sources/official/paper/navier-stokes.pdf",
+        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
+        "page": 9,
+        "crop_top_left_points": [
+          100,
+          85,
+          415,
+          185
+        ],
+        "crop_pdf_box_lower_left_points": [
+          100.0,
+          522.0,
+          515.0,
+          707.0
+        ]
+      },
+      "svg_authority": {
+        "path": "reconstruction/assets/figures/figure-3.svg",
+        "sha256": "a62eecbd48f43e78c27d8b22c77b0c707b4d41488dacda164b2263e2234414e6",
+        "bytes": 669646,
+        "root_width_points": 415,
+        "root_height_points": 185,
+        "root_view_box": [
+          100,
+          85,
+          415,
+          185
+        ],
+        "text_elements": 0,
+        "visible_letters_and_symbols_are_vector_outlines": true
+      },
+      "legacy_imported_pdf": {
+        "bytes": 302324,
+        "sha256": "42f519ae9fe10f9a9b8d496c220603cd0bdeb16a943c6f86a8990e6a7409221c",
+        "page_count": 1,
+        "effective_page_boxes_points": {
+          "media": [
+            100.0,
+            522.0,
+            515.0,
+            707.0
+          ],
+          "crop": [
+            100.0,
+            522.0,
+            515.0,
+            707.0
+          ],
+          "trim": [
+            100.0,
+            522.0,
+            515.0,
+            707.0
+          ],
+          "bleed": [
+            100.0,
+            522.0,
+            515.0,
+            707.0
+          ],
+          "art": [
+            100.0,
+            522.0,
+            515.0,
+            707.0
+          ]
+        },
+        "direct_page_box_keys": {
+          "/MediaBox": true,
+          "/CropBox": true,
+          "/TrimBox": true,
+          "/BleedBox": true,
+          "/ArtBox": true
+        },
+        "pypdf_extracted_character_count": 2330,
+        "pdftotext_extracted_character_count": 360,
+        "path": "reconstruction/assets/figures/figure-3.pdf"
+      },
+      "replacement_pdf": {
+        "bytes": 329074,
+        "sha256": "7026bafa48d51e40cc914e297cd717fe4cbbead619464bb2a62d42f78acc81f0",
+        "page_count": 1,
+        "effective_page_boxes_points": {
+          "media": [
+            0.0,
+            0.0,
+            415.0,
+            185.0
+          ],
+          "crop": [
+            0.0,
+            0.0,
+            415.0,
+            185.0
+          ],
+          "trim": [
+            0.0,
+            0.0,
+            415.0,
+            185.0
+          ],
+          "bleed": [
+            0.0,
+            0.0,
+            415.0,
+            185.0
+          ],
+          "art": [
+            0.0,
+            0.0,
+            415.0,
+            185.0
+          ]
+        },
+        "direct_page_box_keys": {
+          "/MediaBox": true,
+          "/CropBox": false,
+          "/TrimBox": false,
+          "/BleedBox": false,
+          "/ArtBox": false
+        },
+        "pypdf_extracted_character_count": 0,
+        "pdftotext_extracted_character_count": 0,
+        "embedded_image_count": 0,
+        "font_resource_count": 0,
+        "xobject_resource_count": 0,
+        "decoded_content_stream_bytes": 2301166,
+        "path": "reconstruction/assets/figures/figure-3.pdf",
+        "determinism_check": {
+          "pass_a_sha256": "7026bafa48d51e40cc914e297cd717fe4cbbead619464bb2a62d42f78acc81f0",
+          "pass_b_sha256": "7026bafa48d51e40cc914e297cd717fe4cbbead619464bb2a62d42f78acc81f0",
+          "identical": true
+        }
+      },
+      "renders": {
+        "old_page_box_import": {
+          "path": "evidence/figures/replacement_qa/figure-3-old-page-box-import-576dpi.png",
+          "sha256": "0407d207b1aa866d0afed9e970d19f58f13607e454f91771086fd9a520d107d4",
+          "bytes": 229702,
+          "pixel_width": 3320,
+          "pixel_height": 1480,
+          "mode": "RGB"
+        },
+        "source_crop": {
+          "path": "evidence/figures/replacement_qa/figure-3-source-crop-576dpi.png",
+          "sha256": "0407d207b1aa866d0afed9e970d19f58f13607e454f91771086fd9a520d107d4",
+          "bytes": 229702,
+          "pixel_width": 3320,
+          "pixel_height": 1480,
+          "mode": "RGB"
+        },
+        "replacement": {
+          "path": "evidence/figures/replacement_qa/figure-3-replacement-576dpi.png",
+          "sha256": "7ad414f11ad8a8bbe488298c2698a5096c5a5e3b6b1835ee5c166c2315285271",
+          "bytes": 214329,
+          "pixel_width": 3320,
+          "pixel_height": 1480,
+          "mode": "RGB"
+        },
+        "replacement_source_difference_x8": {
+          "path": "evidence/figures/replacement_qa/figure-3-replacement-source-diff-x8.png",
+          "sha256": "052184a1d058c2343dbf349674912d26c43c018189186ed85800c5165c1cf636",
+          "bytes": 87155,
+          "pixel_width": 3320,
+          "pixel_height": 1480,
+          "mode": "RGB"
+        },
+        "comparison": {
+          "path": "evidence/figures/replacement_qa/figure-3-comparison.png",
+          "sha256": "8ed4d6b8f3d2dcf4311db7699cb4c4be2d8c2dc23bcb164c761cb04642dced90",
+          "bytes": 246169,
+          "pixel_width": 3636,
+          "pixel_height": 435,
+          "mode": "RGB"
+        },
+        "svg_authority_mutool": {
+          "path": "evidence/figures/replacement_qa/figure-3-svg-authority-576dpi-mutool.png",
+          "sha256": "ef23ef892e0e33a206b5236b336d4faee0f517e5c491f7ef37edccda63824611",
+          "bytes": 271740,
+          "pixel_width": 3320,
+          "pixel_height": 1480,
+          "mode": "RGB"
+        },
+        "replacement_mutool": {
+          "path": "evidence/figures/replacement_qa/figure-3-replacement-576dpi-mutool.png",
+          "sha256": "f716391467dfdd5d54346a9fc388c47a4e8981e135dd8e035906567d0e491785",
+          "bytes": 271175,
+          "pixel_width": 3320,
+          "pixel_height": 1480,
+          "mode": "RGB"
+        },
+        "replacement_svg_difference_x8_mutool": {
+          "path": "evidence/figures/replacement_qa/figure-3-replacement-svg-diff-x8-mutool.png",
+          "sha256": "2eac55ace48c6c0eae832fcbc4168cc001c6a7dec5e574ac16eb2f2c749f46be",
+          "bytes": 38569,
+          "pixel_width": 3320,
+          "pixel_height": 1480,
+          "mode": "RGB"
+        },
+        "svg_authority_comparison": {
+          "path": "evidence/figures/replacement_qa/figure-3-svg-authority-comparison.png",
+          "sha256": "6ac858469c6a124f24da0ff94a7b767554149496ac94e5ecd98109e3d7876a5d",
+          "bytes": 170279,
+          "pixel_width": 3024,
+          "pixel_height": 480,
+          "mode": "RGB"
+        }
+      },
+      "image_differences": {
+        "old_import_against_source_crop": {
+          "mean_absolute_error_per_channel": 0.0,
+          "root_mean_square_error_per_channel": 0.0,
+          "maximum_absolute_channel_difference": 0,
+          "changed_channel_values": 0,
+          "changed_pixels": 0,
+          "total_pixels": 4913600,
+          "changed_pixel_fraction": 0.0
+        },
+        "replacement_against_source_crop": {
+          "mean_absolute_error_per_channel": 1.1159115516118527,
+          "root_mean_square_error_per_channel": 11.636452111064374,
+          "maximum_absolute_channel_difference": 255,
+          "changed_channel_values": 252571,
+          "changed_pixels": 85196,
+          "total_pixels": 4913600,
+          "changed_pixel_fraction": 0.01733881471833279
+        },
+        "old_import_against_replacement": {
+          "mean_absolute_error_per_channel": 1.1159115516118527,
+          "root_mean_square_error_per_channel": 11.636452111064374,
+          "maximum_absolute_channel_difference": 255,
+          "changed_channel_values": 252571,
+          "changed_pixels": 85196,
+          "total_pixels": 4913600,
+          "changed_pixel_fraction": 0.01733881471833279
+        },
+        "replacement_against_svg_authority_using_mutool": {
+          "mean_absolute_error_per_channel": 0.008712078041897319,
+          "root_mean_square_error_per_channel": 0.27400479067355565,
+          "maximum_absolute_channel_difference": 18,
+          "changed_channel_values": 26228,
+          "changed_pixels": 9771,
+          "total_pixels": 4913600,
+          "changed_pixel_fraction": 0.0019885623575382613
+        }
+      },
+      "visual_inspection": {
+        "status": "pass",
+        "inspector_note": "Inspected the 576 dpi source/old/replacement comparison, the SVG-authority comparison, and the full-resolution replacement. Both panels keep every axis, label, curve, shaded cutoff region, and crop edge with no clipping or visible distortion. Recorded differences are confined to subpixel edge antialiasing."
+      }
+    },
+    {
+      "id": "NS-FIG-4",
+      "number": 4,
+      "source_locator": {
+        "pdf": "sources/official/paper/navier-stokes.pdf",
+        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
+        "page": 10,
+        "crop_top_left_points": [
+          160,
+          202,
+          300,
+          112
+        ],
+        "crop_pdf_box_lower_left_points": [
+          160.0,
+          478.0,
+          460.0,
+          590.0
+        ]
+      },
+      "svg_authority": {
+        "path": "reconstruction/assets/figures/figure-4.svg",
+        "sha256": "134d9f78ca6fa7026470fe24b3e5294719229f7e4314e12d2de4cf185a8d6665",
+        "bytes": 376747,
+        "root_width_points": 300,
+        "root_height_points": 112,
+        "root_view_box": [
+          160,
+          202,
+          300,
+          112
+        ],
+        "text_elements": 0,
+        "visible_letters_and_symbols_are_vector_outlines": true
+      },
+      "legacy_imported_pdf": {
+        "bytes": 146241,
+        "sha256": "e1db12f2bf1e8614f44ec343b16fa74f5000c8b217d25dd90ed0449679d2c389",
+        "page_count": 1,
+        "effective_page_boxes_points": {
+          "media": [
+            160.0,
+            478.0,
+            460.0,
+            590.0
+          ],
+          "crop": [
+            160.0,
+            478.0,
+            460.0,
+            590.0
+          ],
+          "trim": [
+            160.0,
+            478.0,
+            460.0,
+            590.0
+          ],
+          "bleed": [
+            160.0,
+            478.0,
+            460.0,
+            590.0
+          ],
+          "art": [
+            160.0,
+            478.0,
+            460.0,
+            590.0
+          ]
+        },
+        "direct_page_box_keys": {
+          "/MediaBox": true,
+          "/CropBox": true,
+          "/TrimBox": true,
+          "/BleedBox": true,
+          "/ArtBox": true
+        },
+        "pypdf_extracted_character_count": 2962,
+        "pdftotext_extracted_character_count": 72,
+        "path": "reconstruction/assets/figures/figure-4.pdf"
+      },
+      "replacement_pdf": {
+        "bytes": 262138,
+        "sha256": "876670a342b2d922318999de941c6c250177204613180ec64e084ecece7212a8",
+        "page_count": 1,
+        "effective_page_boxes_points": {
+          "media": [
+            0.0,
+            0.0,
+            300.0,
+            112.0
+          ],
+          "crop": [
+            0.0,
+            0.0,
+            300.0,
+            112.0
+          ],
+          "trim": [
+            0.0,
+            0.0,
+            300.0,
+            112.0
+          ],
+          "bleed": [
+            0.0,
+            0.0,
+            300.0,
+            112.0
+          ],
+          "art": [
+            0.0,
+            0.0,
+            300.0,
+            112.0
+          ]
+        },
+        "direct_page_box_keys": {
+          "/MediaBox": true,
+          "/CropBox": false,
+          "/TrimBox": false,
+          "/BleedBox": false,
+          "/ArtBox": false
+        },
+        "pypdf_extracted_character_count": 0,
+        "pdftotext_extracted_character_count": 0,
+        "embedded_image_count": 0,
+        "font_resource_count": 0,
+        "xobject_resource_count": 0,
+        "decoded_content_stream_bytes": 2593307,
+        "path": "reconstruction/assets/figures/figure-4.pdf",
+        "determinism_check": {
+          "pass_a_sha256": "876670a342b2d922318999de941c6c250177204613180ec64e084ecece7212a8",
+          "pass_b_sha256": "876670a342b2d922318999de941c6c250177204613180ec64e084ecece7212a8",
+          "identical": true
+        }
+      },
+      "renders": {
+        "old_page_box_import": {
+          "path": "evidence/figures/replacement_qa/figure-4-old-page-box-import-576dpi.png",
+          "sha256": "ecb7b60dc832ffde6d0b58787c03f30985a2e272a48f44a3b0e17fa4e3166f55",
+          "bytes": 74106,
+          "pixel_width": 2400,
+          "pixel_height": 896,
+          "mode": "RGB"
+        },
+        "source_crop": {
+          "path": "evidence/figures/replacement_qa/figure-4-source-crop-576dpi.png",
+          "sha256": "ecb7b60dc832ffde6d0b58787c03f30985a2e272a48f44a3b0e17fa4e3166f55",
+          "bytes": 74106,
+          "pixel_width": 2400,
+          "pixel_height": 896,
+          "mode": "RGB"
+        },
+        "replacement": {
+          "path": "evidence/figures/replacement_qa/figure-4-replacement-576dpi.png",
+          "sha256": "ebf26f317d3c0c1a295720c5e5f2a05251c296c334fa3c809501de5bafd04bf0",
+          "bytes": 76538,
+          "pixel_width": 2400,
+          "pixel_height": 896,
+          "mode": "RGB"
+        },
+        "replacement_source_difference_x8": {
+          "path": "evidence/figures/replacement_qa/figure-4-replacement-source-diff-x8.png",
+          "sha256": "cf781791f9f51e3df2e22a2ec601460b52cba8b230b62257a2c77a3baa27c127",
+          "bytes": 25306,
+          "pixel_width": 2400,
+          "pixel_height": 896,
+          "mode": "RGB"
+        },
+        "comparison": {
+          "path": "evidence/figures/replacement_qa/figure-4-comparison.png",
+          "sha256": "80246a7a1cc5741bd7c8f6ec4a2373e5c37cd936a44f121bc1699f6222441b17",
+          "bytes": 108264,
+          "pixel_width": 3636,
+          "pixel_height": 370,
+          "mode": "RGB"
+        },
+        "svg_authority_mutool": {
+          "path": "evidence/figures/replacement_qa/figure-4-svg-authority-576dpi-mutool.png",
+          "sha256": "d390d4995c1580c881a09405ae121d5c5a5bb625a343cc1bc438d1fcfc0e0452",
+          "bytes": 78321,
+          "pixel_width": 2400,
+          "pixel_height": 896,
+          "mode": "RGB"
+        },
+        "replacement_mutool": {
+          "path": "evidence/figures/replacement_qa/figure-4-replacement-576dpi-mutool.png",
+          "sha256": "98d9046ed9963c5ea085a507c736bf5cd7f739aca27a767a125b1e26594dbf85",
+          "bytes": 78588,
+          "pixel_width": 2400,
+          "pixel_height": 896,
+          "mode": "RGB"
+        },
+        "replacement_svg_difference_x8_mutool": {
+          "path": "evidence/figures/replacement_qa/figure-4-replacement-svg-diff-x8-mutool.png",
+          "sha256": "6c0ee914d26931a9cda017acec644596ec1000be26ef147324a323a3402911ac",
+          "bytes": 19104,
+          "pixel_width": 2400,
+          "pixel_height": 896,
+          "mode": "RGB"
+        },
+        "svg_authority_comparison": {
+          "path": "evidence/figures/replacement_qa/figure-4-svg-authority-comparison.png",
+          "sha256": "cd9e37f3abd8a73f870170dff93bb1319cc99cc7b552596eb5d6dd81c2518b53",
+          "bytes": 89645,
+          "pixel_width": 3024,
+          "pixel_height": 407,
+          "mode": "RGB"
+        }
+      },
+      "image_differences": {
+        "old_import_against_source_crop": {
+          "mean_absolute_error_per_channel": 0.0,
+          "root_mean_square_error_per_channel": 0.0,
+          "maximum_absolute_channel_difference": 0,
+          "changed_channel_values": 0,
+          "changed_pixels": 0,
+          "total_pixels": 2150400,
+          "changed_pixel_fraction": 0.0
+        },
+        "replacement_against_source_crop": {
+          "mean_absolute_error_per_channel": 0.413958488343254,
+          "root_mean_square_error_per_channel": 6.261075268918709,
+          "maximum_absolute_channel_difference": 215,
+          "changed_channel_values": 52335,
+          "changed_pixels": 17463,
+          "total_pixels": 2150400,
+          "changed_pixel_fraction": 0.008120814732142857
+        },
+        "old_import_against_replacement": {
+          "mean_absolute_error_per_channel": 0.413958488343254,
+          "root_mean_square_error_per_channel": 6.261075268918709,
+          "maximum_absolute_channel_difference": 215,
+          "changed_channel_values": 52335,
+          "changed_pixels": 17463,
+          "total_pixels": 2150400,
+          "changed_pixel_fraction": 0.008120814732142857
+        },
+        "replacement_against_svg_authority_using_mutool": {
+          "mean_absolute_error_per_channel": 0.00802610367063492,
+          "root_mean_square_error_per_channel": 0.21190538891025484,
+          "maximum_absolute_channel_difference": 19,
+          "changed_channel_values": 15916,
+          "changed_pixels": 5615,
+          "total_pixels": 2150400,
+          "changed_pixel_fraction": 0.002611142113095238
+        }
+      },
+      "visual_inspection": {
+        "status": "pass",
+        "inspector_note": "Inspected the 576 dpi source/old/replacement comparison, the SVG-authority comparison, and the full-resolution replacement. The cone, four vectors, coefficients, inequalities, arrowheads, and crop edges match with no clipping or visible distortion. Recorded differences are confined to subpixel edge antialiasing."
+      }
+    },
+    {
+      "id": "NS-FIG-5",
+      "number": 5,
+      "source_locator": {
+        "pdf": "sources/official/paper/navier-stokes.pdf",
+        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
+        "page": 13,
+        "crop_top_left_points": [
+          95,
+          125,
+          425,
+          292
+        ],
+        "crop_pdf_box_lower_left_points": [
+          95.0,
+          375.0,
+          520.0,
+          667.0
+        ]
+      },
+      "svg_authority": {
+        "path": "reconstruction/assets/figures/figure-5.svg",
+        "sha256": "78f66ddae8783ff1a054a328979c8c522959cab4f4cd4afa70c4c728fd45d546",
+        "bytes": 320530,
+        "root_width_points": 425,
+        "root_height_points": 292,
+        "root_view_box": [
+          95,
+          125,
+          425,
+          292
+        ],
+        "text_elements": 0,
+        "visible_letters_and_symbols_are_vector_outlines": true
+      },
+      "legacy_imported_pdf": {
+        "bytes": 153415,
+        "sha256": "8aec0aaaca85f0d3d6d506e83285af6c6c47d1b6ab62de0c514d92172b59809c",
+        "page_count": 1,
+        "effective_page_boxes_points": {
+          "media": [
+            95.0,
+            375.0,
+            520.0,
+            667.0
+          ],
+          "crop": [
+            95.0,
+            375.0,
+            520.0,
+            667.0
+          ],
+          "trim": [
+            95.0,
+            375.0,
+            520.0,
+            667.0
+          ],
+          "bleed": [
+            95.0,
+            375.0,
+            520.0,
+            667.0
+          ],
+          "art": [
+            95.0,
+            375.0,
+            520.0,
+            667.0
+          ]
+        },
+        "direct_page_box_keys": {
+          "/MediaBox": true,
+          "/CropBox": true,
+          "/TrimBox": true,
+          "/BleedBox": true,
+          "/ArtBox": true
+        },
+        "pypdf_extracted_character_count": 2221,
+        "pdftotext_extracted_character_count": 793,
+        "path": "reconstruction/assets/figures/figure-5.pdf"
+      },
+      "replacement_pdf": {
+        "bytes": 226083,
+        "sha256": "a07fc50478df34b228573573e03f1948d62bd6504b243bbfa5eae6b1b2a0f68a",
+        "page_count": 1,
+        "effective_page_boxes_points": {
+          "media": [
+            0.0,
+            0.0,
+            425.0,
+            292.0
+          ],
+          "crop": [
+            0.0,
+            0.0,
+            425.0,
+            292.0
+          ],
+          "trim": [
+            0.0,
+            0.0,
+            425.0,
+            292.0
+          ],
+          "bleed": [
+            0.0,
+            0.0,
+            425.0,
+            292.0
+          ],
+          "art": [
+            0.0,
+            0.0,
+            425.0,
+            292.0
+          ]
+        },
+        "direct_page_box_keys": {
+          "/MediaBox": true,
+          "/CropBox": false,
+          "/TrimBox": false,
+          "/BleedBox": false,
+          "/ArtBox": false
+        },
+        "pypdf_extracted_character_count": 0,
+        "pdftotext_extracted_character_count": 0,
+        "embedded_image_count": 0,
+        "font_resource_count": 0,
+        "xobject_resource_count": 0,
+        "decoded_content_stream_bytes": 1975187,
+        "path": "reconstruction/assets/figures/figure-5.pdf",
+        "determinism_check": {
+          "pass_a_sha256": "a07fc50478df34b228573573e03f1948d62bd6504b243bbfa5eae6b1b2a0f68a",
+          "pass_b_sha256": "a07fc50478df34b228573573e03f1948d62bd6504b243bbfa5eae6b1b2a0f68a",
+          "identical": true
+        }
+      },
+      "renders": {
+        "old_page_box_import": {
+          "path": "evidence/figures/replacement_qa/figure-5-old-page-box-import-576dpi.png",
+          "sha256": "fb49cfcce7d419a782d0df397cc5a244f6ae63d9a836aadc5d8e8e7fdfdfdaf2",
+          "bytes": 379600,
+          "pixel_width": 3400,
+          "pixel_height": 2336,
+          "mode": "RGB"
+        },
+        "source_crop": {
+          "path": "evidence/figures/replacement_qa/figure-5-source-crop-576dpi.png",
+          "sha256": "fb49cfcce7d419a782d0df397cc5a244f6ae63d9a836aadc5d8e8e7fdfdfdaf2",
+          "bytes": 379600,
+          "pixel_width": 3400,
+          "pixel_height": 2336,
+          "mode": "RGB"
+        },
+        "replacement": {
+          "path": "evidence/figures/replacement_qa/figure-5-replacement-576dpi.png",
+          "sha256": "3ad0a08135af579126e2d064065d0f7bd01b55f087a141c63a52fd667ca27bb3",
+          "bytes": 378093,
+          "pixel_width": 3400,
+          "pixel_height": 2336,
+          "mode": "RGB"
+        },
+        "replacement_source_difference_x8": {
+          "path": "evidence/figures/replacement_qa/figure-5-replacement-source-diff-x8.png",
+          "sha256": "cf3c0f3b145d452068e77f23592a5ca84c850014bc36d0b51d944367ab608dda",
+          "bytes": 184836,
+          "pixel_width": 3400,
+          "pixel_height": 2336,
+          "mode": "RGB"
+        },
+        "comparison": {
+          "path": "evidence/figures/replacement_qa/figure-5-comparison.png",
+          "sha256": "21f8acb2f2a9874d1dd2112a11eae207408ce0e97c8601606db3aabc8ce6d6da",
+          "bytes": 563478,
+          "pixel_width": 3636,
+          "pixel_height": 652,
+          "mode": "RGB"
+        },
+        "svg_authority_mutool": {
+          "path": "evidence/figures/replacement_qa/figure-5-svg-authority-576dpi-mutool.png",
+          "sha256": "b0c744be74e255f7fcc07ef6cb0c9e21a9d536a90adf04a3c93ce68d8a06ccca",
+          "bytes": 494349,
+          "pixel_width": 3400,
+          "pixel_height": 2336,
+          "mode": "RGB"
+        },
+        "replacement_mutool": {
+          "path": "evidence/figures/replacement_qa/figure-5-replacement-576dpi-mutool.png",
+          "sha256": "99cc19933662664c6fb540afaf176979a010a0b3c5dd1a0fa0858c2150a82990",
+          "bytes": 495155,
+          "pixel_width": 3400,
+          "pixel_height": 2336,
+          "mode": "RGB"
+        },
+        "replacement_svg_difference_x8_mutool": {
+          "path": "evidence/figures/replacement_qa/figure-5-replacement-svg-diff-x8-mutool.png",
+          "sha256": "4447818cf1aa114dca28543f335d2764a3ffdbd5b34668c5187ff3f703e29cf6",
+          "bytes": 130306,
+          "pixel_width": 3400,
+          "pixel_height": 2336,
+          "mode": "RGB"
+        },
+        "svg_authority_comparison": {
+          "path": "evidence/figures/replacement_qa/figure-5-svg-authority-comparison.png",
+          "sha256": "541aabdcdda529b56dfb95c881892fd5321b7701dffcc99ad972b5d5070a45e3",
+          "bytes": 479896,
+          "pixel_width": 3024,
+          "pixel_height": 721,
+          "mode": "RGB"
+        }
+      },
+      "image_differences": {
+        "old_import_against_source_crop": {
+          "mean_absolute_error_per_channel": 0.0,
+          "root_mean_square_error_per_channel": 0.0,
+          "maximum_absolute_channel_difference": 0,
+          "changed_channel_values": 0,
+          "changed_pixels": 0,
+          "total_pixels": 7942400,
+          "changed_pixel_fraction": 0.0
+        },
+        "replacement_against_source_crop": {
+          "mean_absolute_error_per_channel": 1.8277265897797474,
+          "root_mean_square_error_per_channel": 15.32933456301927,
+          "maximum_absolute_channel_difference": 247,
+          "changed_channel_values": 560869,
+          "changed_pixels": 186994,
+          "total_pixels": 7942400,
+          "changed_pixel_fraction": 0.02354376510878324
+        },
+        "old_import_against_replacement": {
+          "mean_absolute_error_per_channel": 1.8277265897797474,
+          "root_mean_square_error_per_channel": 15.32933456301927,
+          "maximum_absolute_channel_difference": 247,
+          "changed_channel_values": 560869,
+          "changed_pixels": 186994,
+          "total_pixels": 7942400,
+          "changed_pixel_fraction": 0.02354376510878324
+        },
+        "replacement_against_svg_authority_using_mutool": {
+          "mean_absolute_error_per_channel": 0.03826106298683857,
+          "root_mean_square_error_per_channel": 0.5608329147672488,
+          "maximum_absolute_channel_difference": 29,
+          "changed_channel_values": 183617,
+          "changed_pixels": 62016,
+          "total_pixels": 7942400,
+          "changed_pixel_fraction": 0.007808219178082192
+        }
+      },
+      "visual_inspection": {
+        "status": "pass",
+        "inspector_note": "Inspected the 576 dpi source/old/replacement comparison, the SVG-authority comparison, and the full-resolution replacement. All five boxes, arrows, side shear bracket, mathematical symbols, proof locators, and crop edges match with no clipping or visible distortion. Recorded differences are confined to subpixel edge antialiasing."
+      }
+    },
+    {
+      "id": "NS-FIG-6",
+      "number": 6,
+      "source_locator": {
+        "pdf": "sources/official/paper/navier-stokes.pdf",
+        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
+        "page": 15,
+        "crop_top_left_points": [
+          105,
+          82,
+          405,
+          223
+        ],
+        "crop_pdf_box_lower_left_points": [
+          105.0,
+          487.0,
+          510.0,
+          710.0
+        ]
+      },
+      "svg_authority": {
+        "path": "reconstruction/assets/figures/figure-6.svg",
+        "sha256": "df0ef562db7795890a91fa55be21c41ab44ef7029daafeb3108a928d802ca6dd",
+        "bytes": 360884,
+        "root_width_points": 405,
+        "root_height_points": 223,
+        "root_view_box": [
+          105,
+          82,
+          405,
+          223
+        ],
+        "text_elements": 0,
+        "visible_letters_and_symbols_are_vector_outlines": true
+      },
+      "legacy_imported_pdf": {
+        "bytes": 187329,
+        "sha256": "aa8ef26620317306c1b80a0951e0ba36cfdd4c1c3c84105c6d95652f6162e15c",
+        "page_count": 1,
+        "effective_page_boxes_points": {
+          "media": [
+            105.0,
+            487.0,
+            510.0,
+            710.0
+          ],
+          "crop": [
+            105.0,
+            487.0,
+            510.0,
+            710.0
+          ],
+          "trim": [
+            105.0,
+            487.0,
+            510.0,
+            710.0
+          ],
+          "bleed": [
+            105.0,
+            487.0,
+            510.0,
+            710.0
+          ],
+          "art": [
+            105.0,
+            487.0,
+            510.0,
+            710.0
+          ]
+        },
+        "direct_page_box_keys": {
+          "/MediaBox": true,
+          "/CropBox": true,
+          "/TrimBox": true,
+          "/BleedBox": true,
+          "/ArtBox": true
+        },
+        "pypdf_extracted_character_count": 2077,
+        "pdftotext_extracted_character_count": 710,
+        "path": "reconstruction/assets/figures/figure-6.pdf"
+      },
+      "replacement_pdf": {
+        "bytes": 262625,
+        "sha256": "bc9209cfe1cb8b74846c9c573f95808a7617b315d4a97c27ef6cd5c0c27424f6",
+        "page_count": 1,
+        "effective_page_boxes_points": {
+          "media": [
+            0.0,
+            0.0,
+            405.0,
+            223.0
+          ],
+          "crop": [
+            0.0,
+            0.0,
+            405.0,
+            223.0
+          ],
+          "trim": [
+            0.0,
+            0.0,
+            405.0,
+            223.0
+          ],
+          "bleed": [
+            0.0,
+            0.0,
+            405.0,
+            223.0
+          ],
+          "art": [
+            0.0,
+            0.0,
+            405.0,
+            223.0
+          ]
+        },
+        "direct_page_box_keys": {
+          "/MediaBox": true,
+          "/CropBox": false,
+          "/TrimBox": false,
+          "/BleedBox": false,
+          "/ArtBox": false
+        },
+        "pypdf_extracted_character_count": 0,
+        "pdftotext_extracted_character_count": 0,
+        "embedded_image_count": 0,
+        "font_resource_count": 0,
+        "xobject_resource_count": 0,
+        "decoded_content_stream_bytes": 1893267,
+        "path": "reconstruction/assets/figures/figure-6.pdf",
+        "determinism_check": {
+          "pass_a_sha256": "bc9209cfe1cb8b74846c9c573f95808a7617b315d4a97c27ef6cd5c0c27424f6",
+          "pass_b_sha256": "bc9209cfe1cb8b74846c9c573f95808a7617b315d4a97c27ef6cd5c0c27424f6",
+          "identical": true
+        }
+      },
+      "renders": {
+        "old_page_box_import": {
+          "path": "evidence/figures/replacement_qa/figure-6-old-page-box-import-576dpi.png",
+          "sha256": "3764c59c1a9aef7ec2fcece35d2777f0ab0607d098075c26197d6bb05b2c483a",
+          "bytes": 301077,
+          "pixel_width": 3240,
+          "pixel_height": 1784,
+          "mode": "RGB"
+        },
+        "source_crop": {
+          "path": "evidence/figures/replacement_qa/figure-6-source-crop-576dpi.png",
+          "sha256": "3764c59c1a9aef7ec2fcece35d2777f0ab0607d098075c26197d6bb05b2c483a",
+          "bytes": 301077,
+          "pixel_width": 3240,
+          "pixel_height": 1784,
+          "mode": "RGB"
+        },
+        "replacement": {
+          "path": "evidence/figures/replacement_qa/figure-6-replacement-576dpi.png",
+          "sha256": "6276c1fc6890222894ddced7b27f1072c05e628a93da90f38e8e7f611675438b",
+          "bytes": 310323,
+          "pixel_width": 3240,
+          "pixel_height": 1784,
+          "mode": "RGB"
+        },
+        "replacement_source_difference_x8": {
+          "path": "evidence/figures/replacement_qa/figure-6-replacement-source-diff-x8.png",
+          "sha256": "f1671d2d5affa5af581036fe2014384cb8fc46bf8f12125fafa527238d1891e5",
+          "bytes": 148049,
+          "pixel_width": 3240,
+          "pixel_height": 1784,
+          "mode": "RGB"
+        },
+        "comparison": {
+          "path": "evidence/figures/replacement_qa/figure-6-comparison.png",
+          "sha256": "cef7795d2f9c25b81ff985b48419089c887be7304838b17d2b4a02c0b183af41",
+          "bytes": 481957,
+          "pixel_width": 3636,
+          "pixel_height": 530,
+          "mode": "RGB"
+        },
+        "svg_authority_mutool": {
+          "path": "evidence/figures/replacement_qa/figure-6-svg-authority-576dpi-mutool.png",
+          "sha256": "29deb4bd48c8780e04b57da328c0639b0df848caec044bd27687a73d5ac9b125",
+          "bytes": 398019,
+          "pixel_width": 3240,
+          "pixel_height": 1784,
+          "mode": "RGB"
+        },
+        "replacement_mutool": {
+          "path": "evidence/figures/replacement_qa/figure-6-replacement-576dpi-mutool.png",
+          "sha256": "f9417ac00a7ef97650c71cce2deee6ad8b954fd9115a9a77514e814373400b9c",
+          "bytes": 397896,
+          "pixel_width": 3240,
+          "pixel_height": 1784,
+          "mode": "RGB"
+        },
+        "replacement_svg_difference_x8_mutool": {
+          "path": "evidence/figures/replacement_qa/figure-6-replacement-svg-diff-x8-mutool.png",
+          "sha256": "c1f5348943755ab959e198fdd9db7ec51ce39ae4af6b3c894501e57379e29d85",
+          "bytes": 26162,
+          "pixel_width": 3240,
+          "pixel_height": 1784,
+          "mode": "RGB"
+        },
+        "svg_authority_comparison": {
+          "path": "evidence/figures/replacement_qa/figure-6-svg-authority-comparison.png",
+          "sha256": "8177f1ca1c5ee4869636b96d0144ab6a5226a67c19f1d8df31124e3aa5b3b966",
+          "bytes": 261019,
+          "pixel_width": 3024,
+          "pixel_height": 585,
+          "mode": "RGB"
+        }
+      },
+      "image_differences": {
+        "old_import_against_source_crop": {
+          "mean_absolute_error_per_channel": 0.0,
+          "root_mean_square_error_per_channel": 0.0,
+          "maximum_absolute_channel_difference": 0,
+          "changed_channel_values": 0,
+          "changed_pixels": 0,
+          "total_pixels": 5780160,
+          "changed_pixel_fraction": 0.0
+        },
+        "replacement_against_source_crop": {
+          "mean_absolute_error_per_channel": 2.065784107475687,
+          "root_mean_square_error_per_channel": 16.331988607905643,
+          "maximum_absolute_channel_difference": 247,
+          "changed_channel_values": 443944,
+          "changed_pixels": 148038,
+          "total_pixels": 5780160,
+          "changed_pixel_fraction": 0.0256114017605049
+        },
+        "old_import_against_replacement": {
+          "mean_absolute_error_per_channel": 2.065784107475687,
+          "root_mean_square_error_per_channel": 16.331988607905643,
+          "maximum_absolute_channel_difference": 247,
+          "changed_channel_values": 443944,
+          "changed_pixels": 148038,
+          "total_pixels": 5780160,
+          "changed_pixel_fraction": 0.0256114017605049
+        },
+        "replacement_against_svg_authority_using_mutool": {
+          "mean_absolute_error_per_channel": 0.0025436435438926717,
+          "root_mean_square_error_per_channel": 0.14260677385226286,
+          "maximum_absolute_channel_difference": 16,
+          "changed_channel_values": 9626,
+          "changed_pixels": 3282,
+          "total_pixels": 5780160,
+          "changed_pixel_fraction": 0.0005678043514366385
+        }
+      },
+      "visual_inspection": {
+        "status": "pass",
+        "inspector_note": "Inspected the 576 dpi source/old/replacement comparison, the SVG-authority comparison, and the full-resolution replacement. All four boxes, vertical arrows, repeat loop, estimates, proof locators, and crop edges match with no clipping or visible distortion. Recorded differences are confined to subpixel edge antialiasing."
+      }
+    }
+  ],
+  "limitations": [
+    "The raster comparison checks one Poppler rendering at 576 dpi; it is not an operator-by-operator equivalence proof for the two vector files.",
+    "Visible labels are vector outlines in the replacement PDFs, so text extractors intentionally return no characters from the figure assets.",
+    "The cropped SVG files retain full-page outline definitions and drawing commands outside the view box. The replacement PDF page clips that geometry; none of it remains extractable as text."
+  ]
+}

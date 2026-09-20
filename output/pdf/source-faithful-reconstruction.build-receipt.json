@@ -1,0 +1,586 @@
+{
+  "accepted_from_run": "pass-b",
+  "accepted_log": {
+    "bytes": 36709,
+    "path": "output/pdf/source-faithful-reconstruction.log",
+    "sha256": "c755b2dae3c4452764ccfc9f272a97b020311083182e5f8427874b3bf7cd2a3b"
+  },
+  "accepted_pdf": {
+    "bytes": 4579755,
+    "path": "output/pdf/source-faithful-reconstruction.pdf",
+    "sha256": "1e8e3f23a2fa67c5a1daf39202cf0004552966668defc36784ef1e73be3483d3"
+  },
+  "builder": {
+    "bytes": 26223,
+    "path": "scripts/build_source_faithful.py",
+    "sha256": "b36671b4a103a79ca7d8df7fadd363feeab742333b8201401ce41606756bc40a"
+  },
+  "byte_identical": true,
+  "completed_at_utc": "2026-09-20T15:43:54Z",
+  "deterministic_rebuilds": 2,
+  "entrypoint": {
+    "bytes": 878,
+    "path": "reconstruction/main.tex",
+    "sha256": "e3bd305f4228f1c814a593a8070741903ed9c18543cc39ab66b0e54d5140feaa"
+  },
+  "environment": {
+    "FORCE_SOURCE_DATE": "1",
+    "PYTHONHASHSEED": "0",
+    "SOURCE_DATE_EPOCH": "1789862400",
+    "TZ": "UTC",
+    "max_print_line": "10000"
+  },
+  "expected_pages": 166,
+  "immediate_pdf_hashes": [
+    "1e8e3f23a2fa67c5a1daf39202cf0004552966668defc36784ef1e73be3483d3",
+    "1e8e3f23a2fa67c5a1daf39202cf0004552966668defc36784ef1e73be3483d3"
+  ],
+  "publication_performed": false,
+  "runs": [
+    {
+      "clean_directory": true,
+      "compiler_passes": [
+        {
+          "arguments": [
+            "${USER_HOME}\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdflatex.exe",
+            "--disable-installer",
+            "-interaction=nonstopmode",
+            "-halt-on-error",
+            "-file-line-error",
+            "-no-shell-escape",
+            "-recorder",
+            "-jobname=source-faithful-reconstruction",
+            "-output-directory=${BUILD_TMP}\\pass-a\\out",
+            "${BUILD_TMP}\\pass-a\\reconstruction\\main.tex"
+          ],
+          "cwd": "${BUILD_TMP}\\pass-a\\reconstruction",
+          "exit_code": 0,
+          "number": 1,
+          "timed_out": false
+        },
+        {
+          "arguments": [
+            "${USER_HOME}\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdflatex.exe",
+            "--disable-installer",
+            "-interaction=nonstopmode",
+            "-halt-on-error",
+            "-file-line-error",
+            "-no-shell-escape",
+            "-recorder",
+            "-jobname=source-faithful-reconstruction",
+            "-output-directory=${BUILD_TMP}\\pass-a\\out",
+            "${BUILD_TMP}\\pass-a\\reconstruction\\main.tex"
+          ],
+          "cwd": "${BUILD_TMP}\\pass-a\\reconstruction",
+          "exit_code": 0,
+          "number": 2,
+          "timed_out": false
+        },
+        {
+          "arguments": [
+            "${USER_HOME}\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdflatex.exe",
+            "--disable-installer",
+            "-interaction=nonstopmode",
+            "-halt-on-error",
+            "-file-line-error",
+            "-no-shell-escape",
+            "-recorder",
+            "-jobname=source-faithful-reconstruction",
+            "-output-directory=${BUILD_TMP}\\pass-a\\out",
+            "${BUILD_TMP}\\pass-a\\reconstruction\\main.tex"
+          ],
+          "cwd": "${BUILD_TMP}\\pass-a\\reconstruction",
+          "exit_code": 0,
+          "number": 3,
+          "timed_out": false
+        },
+        {
+          "arguments": [
+            "${USER_HOME}\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdflatex.exe",
+            "--disable-installer",
+            "-interaction=nonstopmode",
+            "-halt-on-error",
+            "-file-line-error",
+            "-no-shell-escape",
+            "-recorder",
+            "-jobname=source-faithful-reconstruction",
+            "-output-directory=${BUILD_TMP}\\pass-a\\out",
+            "${BUILD_TMP}\\pass-a\\reconstruction\\main.tex"
+          ],
+          "cwd": "${BUILD_TMP}\\pass-a\\reconstruction",
+          "exit_code": 0,
+          "number": 4,
+          "timed_out": false
+        },
+        {
+          "arguments": [
+            "${USER_HOME}\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdflatex.exe",
+            "--disable-installer",
+            "-interaction=nonstopmode",
+            "-halt-on-error",
+            "-file-line-error",
+            "-no-shell-escape",
+            "-recorder",
+            "-jobname=source-faithful-reconstruction",
+            "-output-directory=${BUILD_TMP}\\pass-a\\out",
+            "${BUILD_TMP}\\pass-a\\reconstruction\\main.tex"
+          ],
+          "cwd": "${BUILD_TMP}\\pass-a\\reconstruction",
+          "exit_code": 0,
+          "number": 5,
+          "timed_out": false
+        }
+      ],
+      "immediate_pdf": {
+        "bytes": 4579755,
+        "sha256": "1e8e3f23a2fa67c5a1daf39202cf0004552966668defc36784ef1e73be3483d3"
+      },
+      "immediate_tex_log_sha256": "4c05cd1bf4a7f76b80145a2667cf5c63e309b538c3ba6d257c3a74f933f748ad",
+      "name": "pass-a",
+      "pdfinfo": {
+        "command": {
+          "arguments": [
+            "${USER_HOME}\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdfinfo.exe",
+            "${BUILD_TMP}\\pass-a\\out\\source-faithful-reconstruction.pdf"
+          ],
+          "cwd": "${BUILD_TMP}\\pass-a\\out",
+          "exit_code": 0,
+          "timed_out": false
+        },
+        "output_sha256": "a2571e8fda01b6821a8b32239345bee3785269790be2a74e7e97508c483edc19",
+        "pages": 166
+      },
+      "release_checks": {
+        "final_compiler_console": {
+          "counts": {
+            "duplicate": 0,
+            "fatal": 0,
+            "missing_glyph": 0,
+            "overfull": 0,
+            "rerun_required": 0,
+            "undefined": 0
+          },
+          "findings": [],
+          "status": "pass"
+        },
+        "final_tex_log": {
+          "counts": {
+            "duplicate": 0,
+            "fatal": 0,
+            "missing_glyph": 0,
+            "overfull": 0,
+            "rerun_required": 0,
+            "undefined": 0
+          },
+          "findings": [],
+          "status": "pass"
+        },
+        "note": "The compiler transcript retains all passes; release checks use the final TeX log and the final compiler pass."
+      },
+      "retained": {
+        "console": {
+          "bytes": 200790,
+          "path": "output/pdf/source-faithful-reconstruction.pass-a.console.txt",
+          "sha256": "3e47fe85764a2857651dbbf981bbc68277dcf75f16240fc9b20234b97b2461a3"
+        },
+        "pdf": {
+          "bytes": 4579755,
+          "path": "output/pdf/source-faithful-reconstruction.pass-a.pdf",
+          "sha256": "1e8e3f23a2fa67c5a1daf39202cf0004552966668defc36784ef1e73be3483d3"
+        },
+        "pdfinfo": {
+          "bytes": 786,
+          "path": "output/pdf/source-faithful-reconstruction.pass-a.pdfinfo.txt",
+          "sha256": "a2571e8fda01b6821a8b32239345bee3785269790be2a74e7e97508c483edc19"
+        },
+        "tex_log": {
+          "bytes": 36709,
+          "path": "output/pdf/source-faithful-reconstruction.pass-a.log",
+          "sha256": "ca2c3bba9ed4971b00bd79d5fee14e74e0ede931538af67086a932a6a68bb029"
+        }
+      }
+    },
+    {
+      "clean_directory": true,
+      "compiler_passes": [
+        {
+          "arguments": [
+            "${USER_HOME}\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdflatex.exe",
+            "--disable-installer",
+            "-interaction=nonstopmode",
+            "-halt-on-error",
+            "-file-line-error",
+            "-no-shell-escape",
+            "-recorder",
+            "-jobname=source-faithful-reconstruction",
+            "-output-directory=${BUILD_TMP}\\pass-b\\out",
+            "${BUILD_TMP}\\pass-b\\reconstruction\\main.tex"
+          ],
+          "cwd": "${BUILD_TMP}\\pass-b\\reconstruction",
+          "exit_code": 0,
+          "number": 1,
+          "timed_out": false
+        },
+        {
+          "arguments": [
+            "${USER_HOME}\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdflatex.exe",
+            "--disable-installer",
+            "-interaction=nonstopmode",
+            "-halt-on-error",
+            "-file-line-error",
+            "-no-shell-escape",
+            "-recorder",
+            "-jobname=source-faithful-reconstruction",
+            "-output-directory=${BUILD_TMP}\\pass-b\\out",
+            "${BUILD_TMP}\\pass-b\\reconstruction\\main.tex"
+          ],
+          "cwd": "${BUILD_TMP}\\pass-b\\reconstruction",
+          "exit_code": 0,
+          "number": 2,
+          "timed_out": false
+        },
+        {
+          "arguments": [
+            "${USER_HOME}\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdflatex.exe",
+            "--disable-installer",
+            "-interaction=nonstopmode",
+            "-halt-on-error",
+            "-file-line-error",
+            "-no-shell-escape",
+            "-recorder",
+            "-jobname=source-faithful-reconstruction",
+            "-output-directory=${BUILD_TMP}\\pass-b\\out",
+            "${BUILD_TMP}\\pass-b\\reconstruction\\main.tex"
+          ],
+          "cwd": "${BUILD_TMP}\\pass-b\\reconstruction",
+          "exit_code": 0,
+          "number": 3,
+          "timed_out": false
+        },
+        {
+          "arguments": [
+            "${USER_HOME}\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdflatex.exe",
+            "--disable-installer",
+            "-interaction=nonstopmode",
+            "-halt-on-error",
+            "-file-line-error",
+            "-no-shell-escape",
+            "-recorder",
+            "-jobname=source-faithful-reconstruction",
+            "-output-directory=${BUILD_TMP}\\pass-b\\out",
+            "${BUILD_TMP}\\pass-b\\reconstruction\\main.tex"
+          ],
+          "cwd": "${BUILD_TMP}\\pass-b\\reconstruction",
+          "exit_code": 0,
+          "number": 4,
+          "timed_out": false
+        },
+        {
+          "arguments": [
+            "${USER_HOME}\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdflatex.exe",
+            "--disable-installer",
+            "-interaction=nonstopmode",
+            "-halt-on-error",
+            "-file-line-error",
+            "-no-shell-escape",
+            "-recorder",
+            "-jobname=source-faithful-reconstruction",
+            "-output-directory=${BUILD_TMP}\\pass-b\\out",
+            "${BUILD_TMP}\\pass-b\\reconstruction\\main.tex"
+          ],
+          "cwd": "${BUILD_TMP}\\pass-b\\reconstruction",
+          "exit_code": 0,
+          "number": 5,
+          "timed_out": false
+        }
+      ],
+      "immediate_pdf": {
+        "bytes": 4579755,
+        "sha256": "1e8e3f23a2fa67c5a1daf39202cf0004552966668defc36784ef1e73be3483d3"
+      },
+      "immediate_tex_log_sha256": "4db4bd9fd2b5bb7b86b2241e2cae9b99e3f428d1ec594f6e7bdefa8ab60010b5",
+      "name": "pass-b",
+      "pdfinfo": {
+        "command": {
+          "arguments": [
+            "${USER_HOME}\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdfinfo.exe",
+            "${BUILD_TMP}\\pass-b\\out\\source-faithful-reconstruction.pdf"
+          ],
+          "cwd": "${BUILD_TMP}\\pass-b\\out",
+          "exit_code": 0,
+          "timed_out": false
+        },
+        "output_sha256": "a2571e8fda01b6821a8b32239345bee3785269790be2a74e7e97508c483edc19",
+        "pages": 166
+      },
+      "release_checks": {
+        "final_compiler_console": {
+          "counts": {
+            "duplicate": 0,
+            "fatal": 0,
+            "missing_glyph": 0,
+            "overfull": 0,
+            "rerun_required": 0,
+            "undefined": 0
+          },
+          "findings": [],
+          "status": "pass"
+        },
+        "final_tex_log": {
+          "counts": {
+            "duplicate": 0,
+            "fatal": 0,
+            "missing_glyph": 0,
+            "overfull": 0,
+            "rerun_required": 0,
+            "undefined": 0
+          },
+          "findings": [],
+          "status": "pass"
+        },
+        "note": "The compiler transcript retains all passes; release checks use the final TeX log and the final compiler pass."
+      },
+      "retained": {
+        "console": {
+          "bytes": 200790,
+          "path": "output/pdf/source-faithful-reconstruction.pass-b.console.txt",
+          "sha256": "f91a08f240e67cb76dd975915a03102174cf52899c691836d700d7f41e8aab07"
+        },
+        "pdf": {
+          "bytes": 4579755,
+          "path": "output/pdf/source-faithful-reconstruction.pass-b.pdf",
+          "sha256": "1e8e3f23a2fa67c5a1daf39202cf0004552966668defc36784ef1e73be3483d3"
+        },
+        "pdfinfo": {
+          "bytes": 786,
+          "path": "output/pdf/source-faithful-reconstruction.pass-b.pdfinfo.txt",
+          "sha256": "a2571e8fda01b6821a8b32239345bee3785269790be2a74e7e97508c483edc19"
+        },
+        "tex_log": {
+          "bytes": 36709,
+          "path": "output/pdf/source-faithful-reconstruction.pass-b.log",
+          "sha256": "c755b2dae3c4452764ccfc9f272a97b020311083182e5f8427874b3bf7cd2a3b"
+        }
+      }
+    }
+  ],
+  "schema": "navier-stokes-source-faithful-pdf-build/v1",
+  "source_inputs": [
+    {
+      "bytes": 421665,
+      "path": "reconstruction/assets/figures/figure-1.pdf",
+      "sha256": "6c353ed5cd66e87404649782ecc245dce8c84259446825fb8f837b4e500bcf34"
+    },
+    {
+      "bytes": 1306917,
+      "path": "reconstruction/assets/figures/figure-2.pdf",
+      "sha256": "8891238431a29c228766dbcace8e53436b3c84903a94fd771e0e91299a9b2239"
+    },
+    {
+      "bytes": 329074,
+      "path": "reconstruction/assets/figures/figure-3.pdf",
+      "sha256": "7026bafa48d51e40cc914e297cd717fe4cbbead619464bb2a62d42f78acc81f0"
+    },
+    {
+      "bytes": 262138,
+      "path": "reconstruction/assets/figures/figure-4.pdf",
+      "sha256": "876670a342b2d922318999de941c6c250177204613180ec64e084ecece7212a8"
+    },
+    {
+      "bytes": 226083,
+      "path": "reconstruction/assets/figures/figure-5.pdf",
+      "sha256": "a07fc50478df34b228573573e03f1948d62bd6504b243bbfa5eae6b1b2a0f68a"
+    },
+    {
+      "bytes": 262625,
+      "path": "reconstruction/assets/figures/figure-6.pdf",
+      "sha256": "bc9209cfe1cb8b74846c9c573f95808a7617b315d4a97c27ef6cd5c0c27424f6"
+    },
+    {
+      "bytes": 878,
+      "path": "reconstruction/main.tex",
+      "sha256": "e3bd305f4228f1c814a593a8070741903ed9c18543cc39ab66b0e54d5140feaa"
+    },
+    {
+      "bytes": 3523,
+      "path": "reconstruction/ns-edition.sty",
+      "sha256": "9512cc46184e42bb890a4b159d5e4d91c68e79fbacdf50ca6276314331c9cc54"
+    },
+    {
+      "bytes": 21543,
+      "path": "reconstruction/sections/pp001-006.tex",
+      "sha256": "a5efa27522db4b97a5d18e90b8414bca74e44f2e98ed2de0477e9c5bbb78080d"
+    },
+    {
+      "bytes": 22842,
+      "path": "reconstruction/sections/pp007-012.tex",
+      "sha256": "077c50a30e68490736f531773ccc5bfdf168ca03df5703087a18d7ba94c2fc12"
+    },
+    {
+      "bytes": 23144,
+      "path": "reconstruction/sections/pp013-018.tex",
+      "sha256": "6c6ca5561776264835f62ce04b924088a54ee999cd9c0152294ef580cdb262a1"
+    },
+    {
+      "bytes": 23024,
+      "path": "reconstruction/sections/pp019-024.tex",
+      "sha256": "bbf2df9723d4720b63cab67fcac8e3818a454e020ca688eab543fbbd258a77ab"
+    },
+    {
+      "bytes": 26593,
+      "path": "reconstruction/sections/pp025-030.tex",
+      "sha256": "79f3c38dc7d0c46ca254632bcf74b7712997f23325883bbf72ee46ec82e43d95"
+    },
+    {
+      "bytes": 28407,
+      "path": "reconstruction/sections/pp031-036.tex",
+      "sha256": "0e6b8389b167db12a1d3b79d450fdbd2581be66b065709e022f7175a583ababc"
+    },
+    {
+      "bytes": 28035,
+      "path": "reconstruction/sections/pp037-042.tex",
+      "sha256": "34962ea692d33c871c69aefad76f11d4fc967bd3674d00fcadacdc58f7ebb08b"
+    },
+    {
+      "bytes": 27381,
+      "path": "reconstruction/sections/pp043-048.tex",
+      "sha256": "e2c83a1f3693f8bed47b426917a7586566b85e5b3617fb9dace89f785353359d"
+    },
+    {
+      "bytes": 25823,
+      "path": "reconstruction/sections/pp049-054.tex",
+      "sha256": "2a5bb1406c6994122c2b2f6abde3eca056e80993740c5ce15c731ef6f767c5b2"
+    },
+    {
+      "bytes": 29986,
+      "path": "reconstruction/sections/pp055-060.tex",
+      "sha256": "5d5f23647375e6c69e60d866ddf6802d40f1e7fbc7e4fe45f27516d05b7a6864"
+    },
+    {
+      "bytes": 27600,
+      "path": "reconstruction/sections/pp061-066.tex",
+      "sha256": "a2bfb467ef8525e59037cab98de4e9a28e30ee6c582fb12a05bcb54a22694152"
+    },
+    {
+      "bytes": 27108,
+      "path": "reconstruction/sections/pp067-072.tex",
+      "sha256": "494bc818c4d6f454f496f9ec98be9e0cf4a2732312ad01688569f0a63d63f5cc"
+    },
+    {
+      "bytes": 29025,
+      "path": "reconstruction/sections/pp073-078.tex",
+      "sha256": "5b38e8311290ab187574af3428418fbdbf4decf2b5025fc1eb0ff6790e841c79"
+    },
+    {
+      "bytes": 28450,
+      "path": "reconstruction/sections/pp079-084.tex",
+      "sha256": "99c7c1579dbae68a2debe1def3117c5c72e6d77e1b9dfca5f9f23ccfa18de712"
+    },
+    {
+      "bytes": 28695,
+      "path": "reconstruction/sections/pp085-090.tex",
+      "sha256": "c2533e877bec521c56d44bff81e21fd2c16c5b8d35789803b6a1b0977119a08a"
+    },
+    {
+      "bytes": 29988,
+      "path": "reconstruction/sections/pp091-096.tex",
+      "sha256": "6ceefdd7879aaddc86f284306be95e1014043dd5b7c1839e2772bc2f2f6692a6"
+    },
+    {
+      "bytes": 27063,
+      "path": "reconstruction/sections/pp097-102.tex",
+      "sha256": "2debc08f4cc388a445f3f18ad3717cd53367d13a458d0df9a41406f90cc292f2"
+    },
+    {
+      "bytes": 28116,
+      "path": "reconstruction/sections/pp103-108.tex",
+      "sha256": "ca19ef475da18d2a1e15d18af7e2d66181c0fb3a3920838a199933c8ebf10ffe"
+    },
+    {
+      "bytes": 27515,
+      "path": "reconstruction/sections/pp109-114.tex",
+      "sha256": "7e8094ab1cb8144eec7c9e0e746935f921f3307ff83a78a37996ee83ee4199c1"
+    },
+    {
+      "bytes": 27814,
+      "path": "reconstruction/sections/pp115-120.tex",
+      "sha256": "349578662f5c4b29f1021d09199731a9aa764e5c2703d8c4c75b9bce7bca3726"
+    },
+    {
+      "bytes": 25232,
+      "path": "reconstruction/sections/pp121-126.tex",
+      "sha256": "243fc34f2eb91236228fe2afa1f6d12b4562bdab426c0a2b77ebbdb1bb3cf833"
+    },
+    {
+      "bytes": 29840,
+      "path": "reconstruction/sections/pp127-132.tex",
+      "sha256": "a3549d2b3d57019253e46ab04e94441e4d70b64abd497d73f7fa0199d9f2a6c8"
+    },
+    {
+      "bytes": 28443,
+      "path": "reconstruction/sections/pp133-138.tex",
+      "sha256": "fb6f194afd8606aa273941827ab8065d80cdc4c9c04c23e51cd22c5bad05ca99"
+    },
+    {
+      "bytes": 27314,
+      "path": "reconstruction/sections/pp139-144.tex",
+      "sha256": "1850511f0e279a13fcaf57fa9c66975b5b495909da200e366ba9e2a143cbe137"
+    },
+    {
+      "bytes": 29295,
+      "path": "reconstruction/sections/pp145-150.tex",
+      "sha256": "431e84a9dc82d0a6495936a28ea286a7f387d2149c17b712ee001901a4f2377e"
+    },
+    {
+      "bytes": 30469,
+      "path": "reconstruction/sections/pp151-156.tex",
+      "sha256": "f75c526fb744ca4f6d0cad4f3ffea21d9cb0b06fc9f223280753c04c8bf567d2"
+    },
+    {
+      "bytes": 28962,
+      "path": "reconstruction/sections/pp157-162.tex",
+      "sha256": "147f8815f76008cc51baed23d67a6dc4e63a531cfd03a05e0e7d5198ee45017d"
+    },
+    {
+      "bytes": 9902,
+      "path": "reconstruction/sections/pp163-164.tex",
+      "sha256": "02cb72a22db9c3f3c6b6d85b6181142493550aaeb2a2475b14130b8090114ed5"
+    },
+    {
+      "bytes": 7252,
+      "path": "reconstruction/sections/pp165-166.tex",
+      "sha256": "fbd28d417d02a63eeae499b4abaf7bf142217d00a3925c74a1a4d259d68819bd"
+    }
+  ],
+  "source_unchanged_during_build": true,
+  "status": "pass",
+  "style": {
+    "bytes": 3523,
+    "path": "reconstruction/ns-edition.sty",
+    "sha256": "9512cc46184e42bb890a4b159d5e4d91c68e79fbacdf50ca6276314331c9cc54"
+  },
+  "temporary_build_directories_removed_before_acceptance": true,
+  "tools": {
+    "pdfinfo": {
+      "command": "pdfinfo",
+      "executable_sha256": "a21d3fb3c695d7aa566745c7b2874315636a9914ef135d890058d589511d1db0",
+      "resolved_path": "${USER_HOME}\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin\\pdfinfo.exe",
+      "version": "pdfinfo version 26.07.0 | Copyright 2005-2026 The Poppler Developers - http://poppler.freedesktop.org | Copyright 1996-2011, 2022 Glyph & Cog, LLC"
+    },
+    "pdflatex": {
+      "command": "pdflatex",
+      "executable_sha256": "e64e4b60b1134de70be838ed6cd6366dea4891fc22b08846747e88296ab2b9bf",
+      "resolved_path": "${USER_HOME}\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\pdflatex.exe",
+      "version": "MiKTeX-pdfTeX 4.27 (MiKTeX 26.5) | © 1982 D. E. Knuth, © 1996-2026 Hàn Thế Thành | TeX is a trademark of the American Mathematical Society."
+    },
+    "python": {
+      "implementation": "CPython",
+      "version": "3.13.9"
+    }
+  },
+  "visual_qa": {
+    "claimed": false,
+    "note": "This receipt does not accept page appearance. Rendered-page review must be recorded separately for this exact PDF hash.",
+    "performed": false
+  }
+}

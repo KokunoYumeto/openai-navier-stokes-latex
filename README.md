@@ -10,10 +10,10 @@ This is not an official OpenAI source release. It is a source-faithful reconstru
 | --- | --- | --- |
 | Paper; transcription authority | [OpenAI PDF](https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf) | 2,959,204 bytes; 166 pages; SHA-256 `0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f` |
 | Release description and status language | [OpenAI announcement](https://openai.com/index/navier-stokes-solution/) | Frozen HTML SHA-256 `c2f55d8b2cc538bc9cd93503937440303cfc9afbef78895240db54ca3de62179` |
-| Complementary formalization | [OpenAI Lean repository at commit `f9e8bc5...`](https://github.com/openai/NavierStokesAndEuler/commit/f9e8bc5b38b6e212696e8a30e3e91517af887bbd) | Commit `f9e8bc5b38b6e212696e8a30e3e91517af887bbd`; Git tree `a503f07635f200c0f2f9c5361df1fa07f95c4741`; frozen checkout archive SHA-256 `a9322b2112ef89c9a0cbb5029578cd672a757fe715a565d55f032e0b443cb7a7` |
+| Official Lean source and metadata | [OpenAI Lean repository at commit `f9e8bc5...`](https://github.com/openai/NavierStokesAndEuler/commit/f9e8bc5b38b6e212696e8a30e3e91517af887bbd) | Commit `f9e8bc5b38b6e212696e8a30e3e91517af887bbd`; [Git tree `a503f076...`](https://api.github.com/repos/openai/NavierStokesAndEuler/git/trees/a503f07635f200c0f2f9c5361df1fa07f95c4741); audit-time local archive SHA-256 `a9322b2112ef89c9a0cbb5029578cd672a757fe715a565d55f032e0b443cb7a7` (archive not bundled) |
 | Official problem formulation | [Clay Mathematics Institute statement](https://www.claymath.org/wp-content/uploads/2022/06/navierstokes.pdf) | 203,736 bytes; 6 PDF pages; SHA-256 `c1b5f27b1a64705cfaf1afceea513db5deedca8a18ca56ab32e7f86445a06d0c` |
 
-The PDF displays `OPENAI` as its author and no visible version label. No semantic version has been invented here. The Lean repository is a complementary authority for its formalized results, not the transcription authority for the paper's prose or typesetting.
+The PDF displays `OPENAI` as its author and no visible version label. No semantic version has been invented here. The Lean repository is the official source for its own files and metadata, not the transcription authority for the paper's prose or typesetting. This repository did not run or independently certify the Lean code.
 
 ## Verification status
 
@@ -30,15 +30,15 @@ Each page was compared with a 180-dpi rendering of the frozen official PDF. Text
 
 The supplied cumulative PDF has 166 pages. Its exact byte hash, and the hashes of every other staged file, are recorded in [`MANIFEST.sha256`](MANIFEST.sha256). The audit establishes the reported transcription checks; it does not turn this repository into official source, independently prove the paper's mathematics, or decide any Clay Mathematics Institute recognition or prize process.
 
-The final checked PDF is 3,679,554 bytes with SHA-256 `67bca97d638868c2fcb34b0ef1acdc4918cfcbb1a210afe98f0019a3c93fe8d9`. Two final pdfTeX runs produced the same PDF hash and byte-identical console transcripts. All 166 pages were rendered from those exact PDF bytes and inspected. The page records in [`visual_qa.jsonl`](evidence/build/visual_qa.jsonl) report no blank or missing pages, clipped text or equations, lost figures, bad glyphs, or broken layouts.
+The corrected deterministic PDF is 4,579,755 bytes with SHA-256 `1e8e3f23a2fa67c5a1daf39202cf0004552966668defc36784ef1e73be3483d3`. Two isolated clean builds ran five pdfTeX passes each and produced exactly the same PDF bytes. All 166 output pages were compared with the matching official pages through the exact-byte build record `NS-BUILD-20260920-006` and visual-review record `NS-VQA-20260920-005`; the corrected PDF bytes named above passed that review.
 
-The notation checks are under [`evidence/integration/`](evidence/integration/). The static manuscript-to-Lean map under [`evidence/lean/`](evidence/lean/) covers all 80 numbered statements and points to 132 exact Lean declaration locations in the frozen commit. It is a source-reading map, not a Lean build receipt: Lean, Lake, and Elan were not run for that check.
+The notation checks are under [`evidence/integration/`](evidence/integration/). The static manuscript-to-Lean map under [`evidence/lean/`](evidence/lean/) lists all 80 numbered statements and records 132 declaration-source locators at the frozen official commit. The classifications are bounded source-reading judgments, not proof that those files compile or that each manuscript statement has been formally verified. Lean, Lake, and Elan were not run for that check.
 
 ## Build
 
 The recorded full build used MiKTeX pdfTeX 1.40.29. A current TeX Live or MiKTeX installation needs the packages named in `reconstruction/ns-edition.sty`, including the AMS packages, `mathtools`, `mathpazo`, `mathrsfs`, `graphicx`, `microtype`, `enumitem`, `geometry`, `fancyhdr`, `hyperref`, and `cleveref`.
 
-From the repository root:
+For an ordinary local build, run:
 
 ```powershell
 Set-Location reconstruction
@@ -48,15 +48,43 @@ pdflatex -interaction=nonstopmode -halt-on-error -file-line-error main.tex
 
 The result is `reconstruction/main.pdf`. Two passes resolve the table of contents and internal references. The edition suppresses volatile PDF dates and trailer identifiers, but exact PDF bytes can still depend on the TeX engine, package versions, and installed fonts; preserve those inputs when bit-for-bit reproduction matters.
 
-The build receipt under `evidence/build/` records the hashes of the final log and both deterministic console transcripts. The log has no undefined reference, undefined citation, duplicate destination, multiply defined label, overfull box, or fatal TeX error. It has seven underfull-box notices and four Hyperref warnings caused by mathematics in the page-150 bookmark text. The visible page-150 heading is intact.
+For the checked release build, run this from the repository root:
+
+```powershell
+python scripts/build_source_faithful.py
+```
+
+That builder uses two isolated clean directories, runs five pdfTeX passes in each one, checks the final logs and page counts, requires the two PDFs to be byte-for-byte identical, and retains both PDFs, logs, console records, and `pdfinfo` records. Its machine-readable receipt is [`source-faithful-reconstruction.build-receipt.json`](output/pdf/source-faithful-reconstruction.build-receipt.json).
 
 The receipts also name temporary page renders, contact sheets, build logs, and console transcripts from the checked build workspace. Those temporary files are not part of this repository; their paths and hashes are kept in the receipts so the reported checks remain specific about the artifacts that were inspected.
 
-The structural audit script is included under `scripts/`. It checks against the official PDF and therefore expects the frozen official file at `sources/official/paper/navier-stokes.pdf`. That PDF is not copied into this repository; download it from the official link above and confirm its SHA-256 before running the audit.
+## Prepare the official PDF inputs
+
+The official PDF, extracted page text, and 180-dpi page renders are deliberately not bundled. Download the PDF from the official link above and save it as `navier-stokes.pdf` in the repository root. Poppler's `pdfinfo`, `pdftotext`, and `pdftoppm` commands must be on `PATH`.
+
+From the repository root, the complete preparation command is:
+
+```powershell
+python scripts/prepare_official_pdf.py navier-stokes.pdf
+```
+
+Before writing anything, the script requires the exact 2,959,204-byte PDF, SHA-256 `0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f`, and a `pdfinfo` page count of 166. It then writes the frozen PDF to `sources/official/paper/navier-stokes.pdf`, creates all 166 UTF-8 page-text files under `sources/official/paper/extracted/pages/`, and creates all 166 PNG page renders at 180 dpi under `sources/official/paper/renders/180dpi/`. The text remains a drafting aid; the page images and official PDF remain the visual authority. Append `--check-only` to perform the identity, page-count, and tool checks without writing files.
+
+The structural audit under `scripts/audit_transcription.py` expects exactly those generated paths.
 
 ## Figures
 
-The paper's six figures occur on official PDF pages 4, 5, 9, 10, 13, and 15. The PDF assets under `reconstruction/assets/figures/` are direct vector crops of those pages: only the page boxes were changed, and the drawings were not recreated. SVG counterparts are supplied as derived convenience files. Crop coordinates, source pages, inspection results, and hashes are in [`FIGURE_CROP_RECEIPT.json`](evidence/figures/FIGURE_CROP_RECEIPT.json) and [`FIGURE_LEDGER.jsonl`](evidence/figures/FIGURE_LEDGER.jsonl).
+The paper's six figures occur on official PDF pages 4, 5, 9, 10, 13, and 15. The checked cropped SVGs keep the visible artwork as vector outlines. The current PDF assets were made deterministically from those SVGs so that no hidden text from the surrounding source pages remains inside the figure files. Both `pypdf` and `pdftotext` extract zero characters from every current figure PDF, and two independent conversions produced the same bytes for each figure.
+
+[`FIGURE_SVG_PDF_REPAIR_RECEIPT.json`](evidence/figures/FIGURE_SVG_PDF_REPAIR_RECEIPT.json) records the current PDF and SVG hashes, page boxes, source-page crops, high-resolution comparisons, difference measurements, and visual checks. [`FIGURE_LEDGER.jsonl`](evidence/figures/FIGURE_LEDGER.jsonl) links each current PDF to the earlier page-box import that it replaced. [`FIGURE_CROP_RECEIPT.json`](evidence/figures/FIGURE_CROP_RECEIPT.json) is kept only as clearly marked history for those replaced imports.
+
+From the repository root, the current figure evidence can be checked with:
+
+```powershell
+python scripts/audit_figure_pdf_repair.py .
+```
+
+After preparing the official PDF inputs, the six PDFs and their evidence can be rebuilt with `python scripts/rebuild_figure_pdfs_from_svg.py .`.
 
 ## Repository contents
 
@@ -71,12 +99,12 @@ The paper's six figures occur on official PDF pages 4, 5, 9, 10, 13, and 15. The
 - `evidence/lean/` contains the static manuscript-to-Lean map and its stated limits.
 - `evidence/build/` contains the final build and every-page visual-check receipts.
 - `evidence/errata/` is separate from the faithful text; suspected source defects or proposed corrections belong there and are never silently applied.
-- `scripts/` contains the structural audit and inventory builder.
+- `scripts/` contains the source-preparation tool, transcription and figure audits, inventory builder, deterministic PDF builder, and figure-PDF rebuild tool.
 - `MANIFEST.sha256` binds the staged repository files to exact bytes.
 
 ## Relationship to the Everyday English Edition
 
-This repository is the source-faithful layer, not the **Everyday English Edition of the Navier--Stokes Proof**. That edition is a separate work with its own repository target, [`KokunoYumeto/navier-stokes-proof-everyday-english`](https://github.com/KokunoYumeto/navier-stokes-proof-everyday-english). It is derived from verified spans of this reconstruction while retaining exact traceability to the official PDF. Explanations or teaching additions from that edition do not belong in the faithful source here.
+This repository is the source-faithful layer, not the **Everyday English Edition of the Navier–Stokes Proof**. That edition is a separate work with its own repository target, [`KokunoYumeto/navier-stokes-proof-everyday-english`](https://github.com/KokunoYumeto/navier-stokes-proof-everyday-english). It is derived from verified spans of this reconstruction while retaining exact traceability to the official PDF. Explanations or teaching additions from that edition do not belong in the faithful source here.
 
 ## Citation
 

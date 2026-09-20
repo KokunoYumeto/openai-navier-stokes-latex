@@ -7,3 +7,15 @@
 /reconstruction/main.pdf
 /reconstruction/main.synctex.gz
 /reconstruction/main.toc
+
+# Downloaded authority and deterministic audit inputs created by
+# scripts/prepare_official_pdf.py. They are intentionally not bundled.
+/navier-stokes.pdf
+/sources/official/paper/navier-stokes.pdf
+/sources/official/paper/extracted/layout.txt
+/sources/official/paper/extracted/pages/
+/sources/official/paper/renders/180dpi/
+
+# Python runtime caches created by local validation commands.
+__pycache__/
+*.py[cod]
