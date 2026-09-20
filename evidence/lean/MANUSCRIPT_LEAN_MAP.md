@@ -23,7 +23,7 @@ The frozen repository says its scope is “Full formalization of main results”
 | Frozen archive | `sources/official/lean/NavierStokesAndEuler-f9e8bc5b38b6e212696e8a30e3e91517af887bbd.tar` |
 | Archive SHA-256 | `a9322b2112ef89c9a0cbb5029578cd672a757fe715a565d55f032e0b443cb7a7` |
 | Archive size | 36,454,400 bytes |
-| Freeze receipt | `evidence/source_freeze/SOURCE_FREEZE.json`, record `NS-SOURCE-FREEZE-20260919-001` |
+| Freeze receipt | `evidence/source/SOURCE_FREEZE.json`, record `NS-SOURCE-FREEZE-20260919-001` |
 | Reconstruction entrypoint SHA-256 at audit | `e3bd305f4228f1c814a593a8070741903ed9c18543cc39ab66b0e54d5140feaa` |
 
 The receipt describes the Lean repository as a “complementary formal main-result authority; not transcription authority.” That limitation governs this map.

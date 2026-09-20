@@ -13,7 +13,7 @@
     "archive": "sources/official/lean/NavierStokesAndEuler-f9e8bc5b38b6e212696e8a30e3e91517af887bbd.tar",
     "archive_sha256": "a9322b2112ef89c9a0cbb5029578cd672a757fe715a565d55f032e0b443cb7a7",
     "archive_bytes": 36454400,
-    "freeze_receipt": "evidence/source_freeze/SOURCE_FREEZE.json",
+    "freeze_receipt": "evidence/source/SOURCE_FREEZE.json",
     "freeze_record_id": "NS-SOURCE-FREEZE-20260919-001",
     "checkout_clean_when_inspected": true
   },

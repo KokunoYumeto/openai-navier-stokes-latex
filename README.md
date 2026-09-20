@@ -50,6 +50,8 @@ The result is `reconstruction/main.pdf`. Two passes resolve the table of content
 
 The build receipt under `evidence/build/` records the hashes of the final log and both deterministic console transcripts. The log has no undefined reference, undefined citation, duplicate destination, multiply defined label, overfull box, or fatal TeX error. It has seven underfull-box notices and four Hyperref warnings caused by mathematics in the page-150 bookmark text. The visible page-150 heading is intact.
 
+The receipts also name temporary page renders, contact sheets, build logs, and console transcripts from the checked build workspace. Those temporary files are not part of this repository; their paths and hashes are kept in the receipts so the reported checks remain specific about the artifacts that were inspected.
+
 The structural audit script is included under `scripts/`. It checks against the official PDF and therefore expects the frozen official file at `sources/official/paper/navier-stokes.pdf`. That PDF is not copied into this repository; download it from the official link above and confirm its SHA-256 before running the audit.
 
 ## Figures
