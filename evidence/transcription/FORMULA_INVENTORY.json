@@ -12,7 +12,7 @@
     "align*": 14,
     "gather*": 2
   },
-  "records_sha256": "13d6da876975f58d1122b0d93ea1c04a4d987ba26e71e28c3d2342857ba56d7f",
+  "records_sha256": "a7f4849315e34400c0ac4648051808e1a12d98fc37399799872b514dc91ff75f",
   "records": [
     {
       "id": "NS-F-P001-001",
@@ -28443,8 +28443,8 @@
       "kind": "display",
       "printed_number": "7.2",
       "display_syntax": "equation",
-      "tex": "\\begin{equation}\nk=\\left\\lceil\\varepsilon^{-1/2}\\right\\rceil,\\qquad\nB_s^2=\\frac{2\\lambda_0}{\\varepsilon k^2(1+u_*^2)^{3/2}},\\qquad\ns(v)=\\sigma\\left(\\frac{u_*}{2}+\\frac{u_*v}{L_s}\\right).\n\\tag{7.2}\\label{eq:7.2}\n\\end{equation}",
-      "tex_sha256": "116132634b3125a7e6189721723b8de5e7c125d8e7fac5607d37c71ae04085e6",
+      "tex": "\\begin{equation}\nk=\\left\\lceil\\varepsilon^{-1/2}\\right\\rceil,\\qquad\nB_s^2=\\frac{\\lambda_0}{\\varepsilon k^2(1+u_*^2)^{3/2}},\\qquad\ns(v)=\\sigma\\left(\\frac{u_*}{2}+\\frac{u_*v}{L_s}\\right).\n\\tag{7.2}\\label{eq:7.2}\n\\end{equation}",
+      "tex_sha256": "67c531f8a2127d6947b904938cf40ec34c6d3c6665a0de31d59f54c9961cf4df",
       "file": "reconstruction/sections/pp073-078.tex",
       "line": 101
     },
@@ -35357,8 +35357,8 @@
       "ordinal": 11,
       "kind": "inline",
       "printed_number": null,
-      "tex": "M=\\Lambda_g^{i_0}Q^{d_r}/2",
-      "tex_sha256": "0b598560b9ebcb0d39497b9cfedbdbcfa08c85b9c4b063fae8e6775606a6aaed",
+      "tex": "M=\\Lambda_g^{i_0}Q^{d_r/2}",
+      "tex_sha256": "f7786a018a214f3f0c3168ee8aba71cdb5ed0e1a228b7cbf038484babfd41971",
       "file": "reconstruction/sections/pp085-090.tex",
       "line": 449
     },
@@ -36845,8 +36845,8 @@
       "ordinal": 15,
       "kind": "inline",
       "printed_number": null,
-      "tex": "\\Psi=-r^{-1}\\mathcal I_c(r\\gamma_{d,\\mathrm{phys}})",
-      "tex_sha256": "7f8acd9abbc236686986acdd7366c4ecb430b60020e9d638f6195d23a8286861",
+      "tex": "\\Psi=r^{-1}\\mathcal I_c(r\\gamma_{d,\\mathrm{phys}})",
+      "tex_sha256": "28362cd8f555a7fee22e29572a3d9225370ec5f4bc8475e906b8ded12a48970a",
       "file": "reconstruction/sections/pp091-096.tex",
       "line": 193
     },
@@ -48361,8 +48361,8 @@
       "kind": "display",
       "printed_number": "10.20",
       "display_syntax": "equation",
-      "tex": "\\begin{equation}\n  x_\\tau=(\\sqrt2X_{\\mathrm{in}}\\tau,0,0),\\qquad t=1-\\tau.\n\\tag{10.20}\\label{eq:10.20}\n\\end{equation}",
-      "tex_sha256": "6161c952fee427700b63286668d9a7329b0e0c8ca74399cbb6f60b2a164711cb",
+      "tex": "\\begin{equation}\n  x_\\tau=(\\sqrt{2X_{\\mathrm{in}}\\tau},0,0),\\qquad t=1-\\tau.\n\\tag{10.20}\\label{eq:10.20}\n\\end{equation}",
+      "tex_sha256": "2eee56f06c5bdaafddc0ec24904cda3e1f2bf37502b5552cf8585ea4488f8101",
       "file": "reconstruction/sections/pp121-126.tex",
       "line": 304
     },
@@ -57026,8 +57026,8 @@
       "kind": "display",
       "printed_number": "none",
       "display_syntax": "bracket",
-      "tex": "\\[\n  \\int_{R_*}^\\infty\\bigl(r^2|K-K_{\\mathrm{pow}}|+|\\partial_tK|\\bigr)\\,dr\n  \\leq C_h(1+\\tau)\\int_{R_*}^\\infty r^{-1-2h}\\,dr\n  =\\frac{C_h(1+\\tau)}{2h}R_*^{-2h}.\n\\]",
-      "tex_sha256": "e5656bd1680b6489e741fd0757b9886098e265aaa0aa6af06d353d6f6c2dd3f5",
+      "tex": "\\[\n  \\int_{R_*}^\\infty r^2\\bigl(|K-K_{\\mathrm{pow}}|+|\\partial_tK|\\bigr)\\,dr\n  \\leq C_h(1+\\tau)\\int_{R_*}^\\infty r^{-1-2h}\\,dr\n  =\\frac{C_h(1+\\tau)}{2h}R_*^{-2h}.\n\\]",
+      "tex_sha256": "5abb0a29a5857f8568131704ecd8063f405842a2fdba976905cc6002b0716c2b",
       "file": "reconstruction/sections/pp139-144.tex",
       "line": 179
     },
@@ -58767,8 +58767,8 @@
       "kind": "display",
       "printed_number": "B.3",
       "display_syntax": "equation",
-      "tex": "\\begin{equation}\n  \\zeta_*=-\\frac{LH_*}{H_*^2+\\sigma_*^2},\n  \\qquad \\widetilde\\xi_0=\\Lambda\\zeta_*,\n  \\qquad \\phi_*=\\exp\\!\\left(\\Lambda\\int_0^\\eta \\zeta_*(w)\\,dw\\right).\n  \\tag{B.3}\\label{eq:B.3}\n\\end{equation}",
-      "tex_sha256": "b33cf42fe2ff0703bebddaa60fead226a59a6a02a737e04690f9da6b74d3bb98",
+      "tex": "\\begin{equation}\n  \\zeta_*=-\\frac{LH_*}{H_*^2+\\sigma_*^2},\n  \\qquad \\widetilde\\zeta_0=\\Lambda\\zeta_*,\n  \\qquad \\phi_*=\\exp\\!\\left(\\Lambda\\int_0^\\eta \\zeta_*(w)\\,dw\\right).\n  \\tag{B.3}\\label{eq:B.3}\n\\end{equation}",
+      "tex_sha256": "a70c35fbf0398ec30bfc94b493e3c89dd451f8afd4bebd590d689852c9f505cb",
       "file": "reconstruction/sections/pp145-150.tex",
       "line": 4
     },
@@ -59806,8 +59806,8 @@
       "kind": "display",
       "printed_number": "none",
       "display_syntax": "align*",
-      "tex": "\\begin{align*}\n  LR_1={}&[W+h(1-2\\eta U)+d\\mathfrak u\\zeta_*]\\Phi+W\\mathcal D_X\\Phi+H_c\\Phi_\\eta,\\\\\n  LR_2={}&[A(1-4\\eta U_*)+dU_{*\\eta}]\\mathfrak u-2A_\\eta\\Lambda^{-1}\\mathfrak u^2\n            +W\\mathcal D_X\\mathfrak u+H_*\\mathfrak u_\\eta+d\\Lambda^{-1}\\mathfrak u\\mathfrak u_\\eta\\\\\n          &\\quad-4A_\\eta\\mathfrak p+d\\partial_\\eta\\mathfrak p-2\\eta\\mathcal D_X\\mathfrak p.\n\\end{align*}",
-      "tex_sha256": "218a6d2bf3b2e2e5168d688d81ce362aba46e276f2ab5ed1e226bce8fd5fb243",
+      "tex": "\\begin{align*}\n  LR_1={}&[W+h(1-2\\eta U)+d\\mathfrak u\\zeta_*]\\Phi+W\\mathcal D_X\\Phi+H_c\\Phi_\\eta,\\\\\n  LR_2={}&[A(1-4\\eta U_*)+dU_{*\\eta}]\\mathfrak u-2A\\eta\\Lambda^{-1}\\mathfrak u^2\n            +W\\mathcal D_X\\mathfrak u+H_*\\mathfrak u_\\eta+d\\Lambda^{-1}\\mathfrak u\\mathfrak u_\\eta\\\\\n          &\\quad-4A\\eta\\mathfrak p+d\\partial_\\eta\\mathfrak p-2\\eta\\mathcal D_X\\mathfrak p.\n\\end{align*}",
+      "tex_sha256": "6b38bcc69d8f7e70746a9e697c647657b9979208e460b1cba6810e0ccbba8bbd",
       "file": "reconstruction/sections/pp145-150.tex",
       "line": 232
     },
@@ -59817,8 +59817,8 @@
       "ordinal": 16,
       "kind": "inline",
       "printed_number": null,
-      "tex": "H_*\\widetilde\\xi_0/(\\Lambda L)=-\\chi",
-      "tex_sha256": "62e04528452ef68d4027094221c5cc9e7318de9de9d68dccb1278e189faa169d",
+      "tex": "H_*\\widetilde\\zeta_0/(\\Lambda L)=-\\chi",
+      "tex_sha256": "768f2c586d0957923550ac1d576a80e0e502bc3e49b4b926f48836841384cced",
       "file": "reconstruction/sections/pp145-150.tex",
       "line": 240
     },
@@ -59839,8 +59839,8 @@
       "ordinal": 18,
       "kind": "inline",
       "printed_number": null,
-      "tex": "L^{-1}\\{A(1-2\\eta U)U+W\\mathcal D_XU+H_cU_\\eta-4A_\\eta\\Pi+d\\Pi_\\eta-2\\eta\\mathcal D_X\\Pi\\}",
-      "tex_sha256": "554ca735c52d35de9dfbabfefabeff8b735cf8a2fa69c8882813722b92f7442b",
+      "tex": "L^{-1}\\{A(1-2\\eta U)U+W\\mathcal D_XU+H_cU_\\eta-4A\\eta\\Pi+d\\Pi_\\eta-2\\eta\\mathcal D_X\\Pi\\}",
+      "tex_sha256": "19bd0f6c527375dbbb36e52a59dcb750f93cc1df49e446645208dba3d3960679",
       "file": "reconstruction/sections/pp145-150.tex",
       "line": 242
     },
@@ -60762,8 +60762,8 @@
       "kind": "display",
       "printed_number": "B.21",
       "display_syntax": "align",
-      "tex": "\\begin{align}\n  -H_c\\widetilde\\xi_0&=\\Lambda L\\chi+O_{\\sigma_*}(\\sqrt\\chi),\\notag\\\\\n  -H_c(\\log\\phi)_\\eta\n    &\\geq\\Lambda L\\chi-C\\chi-C_{\\sigma_*}\\sqrt\\chi-C/\\Lambda\n      \\geq.95\\Lambda L\\chi-C_{\\sigma_*}/\\Lambda.\n  \\tag{B.21}\\label{eq:B.21}\n\\end{align}",
-      "tex_sha256": "1ac765883a24b5b7dd086d4998367961837af1145bed4c35f36013ee90ba4042",
+      "tex": "\\begin{align}\n  -H_c\\widetilde\\zeta_0&=\\Lambda L\\chi+O_{\\sigma_*}(\\sqrt\\chi),\\notag\\\\\n  -H_c(\\log\\phi)_\\eta\n    &\\geq\\Lambda L\\chi-C\\chi-C_{\\sigma_*}\\sqrt\\chi-C/\\Lambda\n      \\geq.95\\Lambda L\\chi-C_{\\sigma_*}/\\Lambda.\n  \\tag{B.21}\\label{eq:B.21}\n\\end{align}",
+      "tex_sha256": "566c632431c741fcc4dd44cca7b90e055c3cb55184aaf6fcf7a9b5ae89ab6079",
       "file": "reconstruction/sections/pp145-150.tex",
       "line": 397
     },
@@ -61860,8 +61860,8 @@
       "ordinal": 5,
       "kind": "inline",
       "printed_number": null,
-      "tex": "-H_*\\widetilde\\xi_0=L\\Lambda\\chi",
-      "tex_sha256": "b886641ac411d4820423ebff7357ed1a7236cbf0bca0ac7004d820f62005cd74",
+      "tex": "-H_*\\widetilde\\zeta_0=L\\Lambda\\chi",
+      "tex_sha256": "2055a56783931466743e2970d8a25d260daad26b9de0a720a5660a1426f0bcab",
       "file": "reconstruction/sections/pp151-156.tex",
       "line": 15
     },
@@ -61871,8 +61871,8 @@
       "ordinal": 6,
       "kind": "inline",
       "printed_number": null,
-      "tex": "|\\widetilde\\xi_0|\\leq L\\Lambda\\sigma_*^{-1}\\sqrt\\chi",
-      "tex_sha256": "95b2e89efdc680b0cb2e9153902a9a84edb9095ad43a79511633daf14f0e6d8d",
+      "tex": "|\\widetilde\\zeta_0|\\leq L\\Lambda\\sigma_*^{-1}\\sqrt\\chi",
+      "tex_sha256": "11e1bcd75bc3e7f6148cd99d59fa18504629548c18ba3d2302392de698414e7f",
       "file": "reconstruction/sections/pp151-156.tex",
       "line": 16
     },
@@ -64140,8 +64140,8 @@
       "ordinal": 48,
       "kind": "inline",
       "printed_number": null,
-      "tex": "\\ell_i'=\\widetilde\\xi_0+(\\log\\Phi(4,\\mathord\\cdot))_\\eta+",
-      "tex_sha256": "cdb8c80de8ad5b5db45961829dff01bc89ed33489b78d5e0c441f2f054e47b56",
+      "tex": "\\ell_i'=\\widetilde\\zeta_0+(\\log\\Phi(4,\\mathord\\cdot))_\\eta+",
+      "tex_sha256": "51099de4a39e01ff5dcfed7a746513ec2825b78abcf6847b813625182c35b43c",
       "file": "reconstruction/sections/pp151-156.tex",
       "line": 335
     },
@@ -64218,8 +64218,8 @@
       "ordinal": 7,
       "kind": "inline",
       "printed_number": null,
-      "tex": "\\widetilde\\xi_0",
-      "tex_sha256": "0fd592dfa62b99e6e29b4a0251098a876780b31273481a72abe4445d3f3e22b5",
+      "tex": "\\widetilde\\zeta_0",
+      "tex_sha256": "b28397e98728568d31cdea227b0166499fae35ff8865ff537d500a82b41bf05e",
       "file": "reconstruction/sections/pp151-156.tex",
       "line": 349
     },

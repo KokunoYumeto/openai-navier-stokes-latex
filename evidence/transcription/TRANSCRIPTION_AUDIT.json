@@ -1,46 +1,11 @@
 {
-  "schema": "navier-stokes-transcription-audit/v1",
+  "schema": "navier-stokes-transcription-status/v2",
   "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-  "status": "pass",
+  "status": "bounded-source-comparison",
+  "full_fidelity_validated": false,
   "expected_pages": 166,
-  "completed_ranges": [
-    "pp001-006",
-    "pp007-012",
-    "pp013-018",
-    "pp019-024",
-    "pp025-030",
-    "pp031-036",
-    "pp037-042",
-    "pp043-048",
-    "pp049-054",
-    "pp055-060",
-    "pp061-066",
-    "pp067-072",
-    "pp073-078",
-    "pp079-084",
-    "pp085-090",
-    "pp091-096",
-    "pp097-102",
-    "pp103-108",
-    "pp109-114",
-    "pp115-120",
-    "pp121-126",
-    "pp127-132",
-    "pp133-138",
-    "pp139-144",
-    "pp145-150",
-    "pp151-156",
-    "pp157-162",
-    "pp163-164",
-    "pp165-166"
-  ],
-  "pending_ranges": [],
   "page_markers": 166,
-  "page_checks": 166,
   "formula_markers": 6175,
-  "labels": 527,
-  "references": 1671,
-  "unresolved_references": [],
   "files": [
     {
       "range": "pp001-006",
@@ -117,8 +82,8 @@
     {
       "range": "pp073-078",
       "path": "reconstruction/sections/pp073-078.tex",
-      "bytes": 29025,
-      "sha256": "5b38e8311290ab187574af3428418fbdbf4decf2b5025fc1eb0ff6790e841c79"
+      "bytes": 29024,
+      "sha256": "5bb7d9b3a298aeb20d06f1a139fcb48fef666c910d766ba88fe046188d52d678"
     },
     {
       "range": "pp079-084",
@@ -130,13 +95,13 @@
       "range": "pp085-090",
       "path": "reconstruction/sections/pp085-090.tex",
       "bytes": 28695,
-      "sha256": "c2533e877bec521c56d44bff81e21fd2c16c5b8d35789803b6a1b0977119a08a"
+      "sha256": "6f86f36aeee7cee6cc949a2c819c7223ae1d35c27f305177abfc948c69cae731"
     },
     {
       "range": "pp091-096",
       "path": "reconstruction/sections/pp091-096.tex",
-      "bytes": 29988,
-      "sha256": "6ceefdd7879aaddc86f284306be95e1014043dd5b7c1839e2772bc2f2f6692a6"
+      "bytes": 29987,
+      "sha256": "7c7bc0cb34abecd22d76b63d977af865060b9226831d23cedc2638c273730f54"
     },
     {
       "range": "pp097-102",
@@ -165,8 +130,8 @@
     {
       "range": "pp121-126",
       "path": "reconstruction/sections/pp121-126.tex",
-      "bytes": 25232,
-      "sha256": "243fc34f2eb91236228fe2afa1f6d12b4562bdab426c0a2b77ebbdb1bb3cf833"
+      "bytes": 25234,
+      "sha256": "c01e062b52ec9c92f8f4c35b9d166bee9e7a04402609d53284179a1db74636a4"
     },
     {
       "range": "pp127-132",
@@ -183,20 +148,20 @@
     {
       "range": "pp139-144",
       "path": "reconstruction/sections/pp139-144.tex",
-      "bytes": 27314,
-      "sha256": "1850511f0e279a13fcaf57fa9c66975b5b495909da200e366ba9e2a143cbe137"
+      "bytes": 27315,
+      "sha256": "aa6e2d0faa72a5837b46c8cd6aa45ad6b3d151062d6a8187f35dbc782f90331d"
     },
     {
       "range": "pp145-150",
       "path": "reconstruction/sections/pp145-150.tex",
-      "bytes": 29295,
-      "sha256": "431e84a9dc82d0a6495936a28ea286a7f387d2149c17b712ee001901a4f2377e"
+      "bytes": 29298,
+      "sha256": "c250d46c9d0f206a1db98d1f4b69a6bca55f844a0f197360a36a44b1eb7f1098"
     },
     {
       "range": "pp151-156",
       "path": "reconstruction/sections/pp151-156.tex",
-      "bytes": 30469,
-      "sha256": "f75c526fb744ca4f6d0cad4f3ffea21d9cb0b06fc9f223280753c04c8bf567d2"
+      "bytes": 30477,
+      "sha256": "0c7f6f14ecbabed6efa999bb387b1ba8e2d013bfa266ee920a627778a26f335c"
     },
     {
       "range": "pp157-162",
@@ -217,5 +182,36 @@
       "sha256": "fbd28d417d02a63eeae499b4abaf7bf142217d00a3925c74a1a4d259d68819bd"
     }
   ],
-  "issues": []
+  "comparison_scope": "The specified coefficients, sign, exponent, radical grouping, radial weight, A times eta products and accented zeta symbols in the listed formulas were compared visually with the original pages. This is not a complete comparison of those pages or the whole paper.",
+  "compared_formula_ids": [
+    "NS-F-P074-027",
+    "NS-F-P090-011",
+    "NS-F-P093-015",
+    "NS-F-P124-005",
+    "NS-F-P141-008",
+    "NS-F-P145-003",
+    "NS-F-P147-015",
+    "NS-F-P147-016",
+    "NS-F-P147-018",
+    "NS-F-P149-019",
+    "NS-F-P151-005",
+    "NS-F-P151-006",
+    "NS-F-P154-048",
+    "NS-F-P155-007"
+  ],
+  "original_pages": [
+    74,
+    90,
+    93,
+    124,
+    141,
+    145,
+    147,
+    149,
+    151,
+    154,
+    155
+  ],
+  "method": "Visual comparison with original PDF page images and the rendered transcription; AI review, not independent human review.",
+  "mathematical_proof_validated": false
 }

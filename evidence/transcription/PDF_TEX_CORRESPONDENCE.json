@@ -41,19 +41,8 @@
         "NS-F-P001-013"
       ],
       "page_check": {
-        "id": "NS-PAGE-001",
-        "pdf_page": 1,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp001-006.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 13,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Title matter, abstract, contents, Theorem 1.1, equations, and final status paragraph checked against page-001.png; physical running page number omitted per protocol."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp001-006/PAGE_CHECKS.jsonl"
     },
@@ -88,20 +77,8 @@
         "NS-F-P002-007"
       ],
       "page_check": {
-        "id": "NS-PAGE-002",
-        "pdf_page": 2,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp001-006.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 7,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Equation (1.2), all inline mathematical runs, citations, diacritics, and prose checked against page-002.png.",
-          "The final paragraph continues onto source page 3 after the words 'also exploits'."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp001-006/PAGE_CHECKS.jsonl"
     },
@@ -149,20 +126,8 @@
         "NS-F-P003-020"
       ],
       "page_check": {
-        "id": "NS-PAGE-003",
-        "pdf_page": 3,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp001-006.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 20,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Continuation from page 2, Section 2, Subsection 2.1, the cylindrical-coordinate display, and every inline formula checked against page-003.png.",
-          "The final paragraph continues onto source page 4 after the words 'The radial'."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp001-006/PAGE_CHECKS.jsonl"
     },
@@ -211,23 +176,8 @@
         "NS-F-P004-021"
       ],
       "page_check": {
-        "id": "NS-PAGE-004",
-        "pdf_page": 4,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp001-006.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 21,
-        "figure_ids": [
-          "NS-FIG-1"
-        ],
-        "uncertainty_ids": [],
-        "notes": [
-          "Figure 1 artwork and caption were visually inspected; the required NS-FIG-1 placeholder is retained pending a separately checked vector crop.",
-          "All scaling and Reynolds-number formulas were compared character by character against page-004.png.",
-          "The final paragraph continues onto source page 5 after the words 'transport and diffusion'."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp001-006/PAGE_CHECKS.jsonl"
     },
@@ -262,23 +212,8 @@
         "NS-F-P005-007"
       ],
       "page_check": {
-        "id": "NS-PAGE-005",
-        "pdf_page": 5,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp001-006.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 7,
-        "figure_ids": [
-          "NS-FIG-2"
-        ],
-        "uncertainty_ids": [],
-        "notes": [
-          "Figure 2 artwork and caption were visually inspected; the required NS-FIG-2 placeholder is retained pending a separately checked vector crop.",
-          "The cross-page transport-rate sentence and both unnumbered displays were checked against page-005.png.",
-          "Subsection 2.2 and all inline formulas were checked; the last paragraph ends on this page."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp001-006/PAGE_CHECKS.jsonl"
     },
@@ -307,20 +242,8 @@
         "NS-F-P006-001"
       ],
       "page_check": {
-        "id": "NS-PAGE-006",
-        "pdf_page": 6,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp001-006.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 1,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "All pulse, exterior-flow, and localization prose was checked against page-006.png.",
-          "Section 3 opening and numbered residual equation (3.1) were compared visually; the equation ends on this page."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp001-006/PAGE_CHECKS.jsonl"
     },
@@ -380,19 +303,8 @@
         "NS-F-P007-032"
       ],
       "page_check": {
-        "id": "NS-PAGE-007",
-        "pdf_page": 7,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp007-012.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 32,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page begins by continuing the paragraph after displayed equation (3.1) on PDF page 6."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp007-012/PAGE_CHECKS.jsonl"
     },
@@ -449,19 +361,8 @@
         "NS-F-P008-029"
       ],
       "page_check": {
-        "id": "NS-PAGE-008",
-        "pdf_page": 8,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp007-012.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 29,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page begins within the profile paragraph continued from PDF page 7."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp007-012/PAGE_CHECKS.jsonl"
     },
@@ -506,21 +407,8 @@
         "NS-F-P009-017"
       ],
       "page_check": {
-        "id": "NS-PAGE-009",
-        "pdf_page": 9,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp007-012.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 17,
-        "figure_ids": [
-          "NS-FIG-3"
-        ],
-        "uncertainty_ids": [],
-        "notes": [
-          "Figure 3 caption was transcribed and checked; the diagram is represented by the protocol-required placeholder pending a separately checked vector crop."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp007-012/PAGE_CHECKS.jsonl"
     },
@@ -567,21 +455,8 @@
         "NS-F-P010-019"
       ],
       "page_check": {
-        "id": "NS-PAGE-010",
-        "pdf_page": 10,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp007-012.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 19,
-        "figure_ids": [
-          "NS-FIG-4"
-        ],
-        "uncertainty_ids": [],
-        "notes": [
-          "Figure 4 caption was transcribed and checked; the diagram is represented by the protocol-required placeholder pending a separately checked vector crop."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp007-012/PAGE_CHECKS.jsonl"
     },
@@ -635,19 +510,8 @@
         "NS-F-P011-026"
       ],
       "page_check": {
-        "id": "NS-PAGE-011",
-        "pdf_page": 11,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp007-012.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 26,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "The final sentence continues onto PDF page 12 after the word 'while'."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp007-012/PAGE_CHECKS.jsonl"
     },
@@ -696,19 +560,8 @@
         "NS-F-P012-021"
       ],
       "page_check": {
-        "id": "NS-PAGE-012",
-        "pdf_page": 12,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp007-012.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 21,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page begins mid-sentence from PDF page 11."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp007-012/PAGE_CHECKS.jsonl"
     },
@@ -747,22 +600,8 @@
         "NS-F-P013-011"
       ],
       "page_check": {
-        "id": "NS-PAGE-013",
-        "pdf_page": 13,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp013-018.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 11,
-        "figure_ids": [
-          "NS-FIG-5"
-        ],
-        "uncertainty_ids": [],
-        "notes": [
-          "Figure 5 artwork, including its embedded formula, was visually inspected; the complete caption and label are transcribed and the art is represented by the required NS-FIG-5 placeholder pending checked vector extraction.",
-          "The page's two unnumbered correction-stage displays were checked directly against the render."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp013-018/PAGE_CHECKS.jsonl"
     },
@@ -808,19 +647,8 @@
         "NS-F-P014-018"
       ],
       "page_check": {
-        "id": "NS-PAGE-014",
-        "pdf_page": 14,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp013-018.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 18,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "The extracted text scrambled the three fractions in the residual-decay recurrence; the TeX follows the visually inspected formula in the page render."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp013-018/PAGE_CHECKS.jsonl"
     },
@@ -877,22 +705,8 @@
         "NS-F-P015-029"
       ],
       "page_check": {
-        "id": "NS-PAGE-015",
-        "pdf_page": 15,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp013-018.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 29,
-        "figure_ids": [
-          "NS-FIG-6"
-        ],
-        "uncertainty_ids": [],
-        "notes": [
-          "Figure 6 artwork, including its embedded recurrence and flatness estimate, was visually inspected; the complete caption and label are transcribed and the art is represented by the required NS-FIG-6 placeholder pending checked vector extraction.",
-          "Theorem 3.1 begins on this page and remains open across the source-page boundary."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp013-018/PAGE_CHECKS.jsonl"
     },
@@ -977,20 +791,8 @@
         "NS-F-P016-057"
       ],
       "page_check": {
-        "id": "NS-PAGE-016",
-        "pdf_page": 16,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp013-018.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 57,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Theorem 3.1 continues from page 15 and closes before Section 3.5.",
-          "The extraction reordered symbols in (3.6) and degraded stacked fractions in the terminal energy display; both were resolved from the page render."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp013-018/PAGE_CHECKS.jsonl"
     },
@@ -1047,20 +849,8 @@
         "NS-F-P017-029"
       ],
       "page_check": {
-        "id": "NS-PAGE-017",
-        "pdf_page": 17,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp013-018.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 29,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Equations (3.7)--(3.10), all integration variables, primes, normalizations, and the square roots in the normalized chart were visually checked.",
-          "The final normalized-operator sentence continues without a paragraph break onto page 18."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp013-018/PAGE_CHECKS.jsonl"
     },
@@ -1112,21 +902,8 @@
         "NS-F-P018-024"
       ],
       "page_check": {
-        "id": "NS-PAGE-018",
-        "pdf_page": 18,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp013-018.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 24,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "The page begins by completing the normalized-operator sentence from page 17.",
-          "All three rows of (3.11), the three coefficient-class bounds, and Definitions 3.2--3.3 were checked symbol by symbol.",
-          "The prose introducing Table 1 is complete on this page; the table itself starts on page 19."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp013-018/PAGE_CHECKS.jsonl"
     },
@@ -1183,19 +960,8 @@
         "NS-F-P019-029"
       ],
       "page_check": {
-        "id": "NS-PAGE-019",
-        "pdf_page": 19,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp019-024.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 29,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Table 1 begins on this page; every row and all 29 marked inline mathematical occurrences were checked against page-019.png and the frozen PDF glyph data."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp019-024/PAGE_CHECKS.jsonl"
     },
@@ -1263,19 +1029,8 @@
         "NS-F-P020-040"
       ],
       "page_check": {
-        "id": "NS-PAGE-020",
-        "pdf_page": 20,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp019-024.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 40,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "The continued Table 1 rows, continuation heading, column headings, and all 40 marked inline mathematical occurrences were visually checked."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp019-024/PAGE_CHECKS.jsonl"
     },
@@ -1337,19 +1092,8 @@
         "NS-F-P021-034"
       ],
       "page_check": {
-        "id": "NS-PAGE-021",
-        "pdf_page": 21,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp019-024.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 34,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "The continued Table 1 rows and all 34 marked inline mathematical occurrences were visually checked, including calligraphic interval and collar symbols and the Euler-fraktur derivative operators."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp019-024/PAGE_CHECKS.jsonl"
     },
@@ -1403,19 +1147,8 @@
         "NS-F-P022-026"
       ],
       "page_check": {
-        "id": "NS-PAGE-022",
-        "pdf_page": 22,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp019-024.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 26,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "The continued Table 1 rows and all 26 marked inline mathematical occurrences were visually checked, including frame, pulse, covariance, and mean-velocity notation."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp019-024/PAGE_CHECKS.jsonl"
     },
@@ -1471,19 +1204,8 @@
         "NS-F-P023-028"
       ],
       "page_check": {
-        "id": "NS-PAGE-023",
-        "pdf_page": 23,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp019-024.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 28,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "The continued Table 1 rows and all 28 marked inline mathematical occurrences were visually checked, including the inversion operators and sans-serif coefficient-class symbols."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp019-024/PAGE_CHECKS.jsonl"
     },
@@ -1538,19 +1260,8 @@
         "NS-F-P024-027"
       ],
       "page_check": {
-        "id": "NS-PAGE-024",
-        "pdf_page": 24,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp019-024.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 27,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Table 1 ends before Section 4; Section 4 and Subsection 4.1 begin on this page; display (4.1) and all marked inline mathematics were visually checked. The final sentence continues on PDF page 25 and is intentionally left open for the next fragment."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp019-024/PAGE_CHECKS.jsonl"
     },
@@ -1622,19 +1333,8 @@
         "NS-F-P025-044"
       ],
       "page_check": {
-        "id": "NS-PAGE-025",
-        "pdf_page": 25,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp025-030.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 44,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page begins with the continuation of the final paragraph on PDF page 24; the page marker is placed before the continuing word determine."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp025-030/PAGE_CHECKS.jsonl"
     },
@@ -1706,19 +1406,8 @@
         "NS-F-P026-044"
       ],
       "page_check": {
-        "id": "NS-PAGE-026",
-        "pdf_page": 26,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp025-030.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 44,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "The final prose sentence continues onto PDF page 27; the page marker will remain inside that paragraph."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp025-030/PAGE_CHECKS.jsonl"
     },
@@ -1778,19 +1467,8 @@
         "NS-F-P027-032"
       ],
       "page_check": {
-        "id": "NS-PAGE-027",
-        "pdf_page": 27,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp025-030.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 32,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page begins inside the paragraph started on PDF page 26; PDF font inspection identifies the stress symbol as calligraphic T and the shear vector symbol as fraktur s."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp025-030/PAGE_CHECKS.jsonl"
     },
@@ -1858,19 +1536,8 @@
         "NS-F-P028-040"
       ],
       "page_check": {
-        "id": "NS-PAGE-028",
-        "pdf_page": 28,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp025-030.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 40,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Lemma 4.4 begins on this page and remains open across the page boundary."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp025-030/PAGE_CHECKS.jsonl"
     },
@@ -1941,19 +1608,8 @@
         "NS-F-P029-043"
       ],
       "page_check": {
-        "id": "NS-PAGE-029",
-        "pdf_page": 29,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp025-030.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 43,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Lemma 4.4 closes and its proof begins; the proof sentence continues across the page boundary after the words or of."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp025-030/PAGE_CHECKS.jsonl"
     },
@@ -2022,19 +1678,8 @@
         "NS-F-P030-041"
       ],
       "page_check": {
-        "id": "NS-PAGE-030",
-        "pdf_page": 30,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp025-030.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 41,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page begins inside the proof sentence from PDF page 29 and closes Lemma 4.4; Section 4.3 begins on this page."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp025-030/PAGE_CHECKS.jsonl"
     },
@@ -2104,20 +1749,8 @@
         "NS-F-P031-042"
       ],
       "page_check": {
-        "id": "NS-PAGE-031",
-        "pdf_page": 31,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp031-036.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 42,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page begins with the continuation of the profile-coordinate paragraph from PDF page 30.",
-          "Lemma 4.5 and its proof begin on this page; the proof continues onto PDF page 32."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp031-036/PAGE_CHECKS.jsonl"
     },
@@ -2187,20 +1820,8 @@
         "NS-F-P032-042"
       ],
       "page_check": {
-        "id": "NS-PAGE-032",
-        "pdf_page": 32,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp031-036.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 42,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page begins inside the proof of Lemma 4.5 and closes that proof.",
-          "Theorem 4.6 begins near the foot of this page and continues through PDF page 34."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp031-036/PAGE_CHECKS.jsonl"
     },
@@ -2289,20 +1910,8 @@
         "NS-F-P033-061"
       ],
       "page_check": {
-        "id": "NS-PAGE-033",
-        "pdf_page": 33,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp031-036.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 61,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Entire page is inside Theorem 4.6.",
-          "Item (vi) begins at the foot of this page and continues onto PDF page 34."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp031-036/PAGE_CHECKS.jsonl"
     },
@@ -2370,20 +1979,8 @@
         "NS-F-P034-040"
       ],
       "page_check": {
-        "id": "NS-PAGE-034",
-        "pdf_page": 34,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp031-036.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 40,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page begins inside item (vi) of Theorem 4.6 and closes that theorem.",
-          "The proof of Lemma 4.7 begins on this page and continues onto PDF page 35."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp031-036/PAGE_CHECKS.jsonl"
     },
@@ -2460,20 +2057,8 @@
         "NS-F-P035-049"
       ],
       "page_check": {
-        "id": "NS-PAGE-035",
-        "pdf_page": 35,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp031-036.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 49,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page begins inside and closes the proof of Lemma 4.7.",
-          "Lemma 4.8 is stated in full on this page; its proof begins on PDF page 36."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp031-036/PAGE_CHECKS.jsonl"
     },
@@ -2548,20 +2133,8 @@
         "NS-F-P036-047"
       ],
       "page_check": {
-        "id": "NS-PAGE-036",
-        "pdf_page": 36,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp031-036.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 47,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page begins with and closes the proof of Lemma 4.8.",
-          "Proposition 4.10 and its enumerate environment remain open at the end of this range because item (i) continues on PDF page 37."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp031-036/PAGE_CHECKS.jsonl"
     },
@@ -2644,21 +2217,8 @@
         "NS-F-P037-055"
       ],
       "page_check": {
-        "id": "NS-PAGE-037",
-        "pdf_page": 37,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp037-042.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 55,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Begins with Proposition 4.10 item (ii) inside the enumerate and proposition environments opened on page 36.",
-          "The page ends mid-sentence after the word 'and'; the exact continuation is marked on page 38.",
-          "The coefficient 5\\sqrt{2}/8 and all radicals, hats, fraktur symbols, subscripts, exponents, and equation tags in (4.33)--(4.34) were resolved from the page image rather than the extraction draft."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp037-042/PAGE_CHECKS.jsonl"
     },
@@ -2740,21 +2300,8 @@
         "NS-F-P038-054"
       ],
       "page_check": {
-        "id": "NS-PAGE-038",
-        "pdf_page": 38,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp037-042.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 54,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Begins with the continuation of the page-37 sentence.",
-          "Closes the proof of Proposition 4.10 and begins Lemma 4.11, whose statement continues on page 39.",
-          "Absolute-value bars, norm indices, decimal constants without leading zero, and the two-line definition (4.35) were checked visually."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp037-042/PAGE_CHECKS.jsonl"
     },
@@ -2820,20 +2367,8 @@
         "NS-F-P039-038"
       ],
       "page_check": {
-        "id": "NS-PAGE-039",
-        "pdf_page": 39,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp037-042.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 38,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Completes Lemma 4.11 and its proof, then begins Section 4.6 and the proof of Theorem 4.6.",
-          "The lifted-parameter formulas, both direct-integration identities, and the parameter lower bound at the page foot were checked character by character against the render."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp037-042/PAGE_CHECKS.jsonl"
     },
@@ -2897,20 +2432,8 @@
         "NS-F-P040-036"
       ],
       "page_check": {
-        "id": "NS-PAGE-040",
-        "pdf_page": 40,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp037-042.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 36,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Continues the proof of Theorem 4.6, Step 1, and ends mid-sentence at 'containing'.",
-          "The complete smallness hierarchy, piecewise joined profile, five-component integral vector, and angular identity were checked visually; fraktur m and fraktur s and calligraphic T were retained."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp037-042/PAGE_CHECKS.jsonl"
     },
@@ -2991,20 +2514,8 @@
         "NS-F-P041-053"
       ],
       "page_check": {
-        "id": "NS-PAGE-041",
-        "pdf_page": 41,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp037-042.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 53,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Begins with the continuation of the page-40 sentence and starts Step 2 of the proof of Theorem 4.6.",
-          "The rsfs primitives A and B, exact chain-rule identities, norm bounds (4.39), and five-component increment vector were checked visually."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp037-042/PAGE_CHECKS.jsonl"
     },
@@ -3076,20 +2587,8 @@
         "NS-F-P042-044"
       ],
       "page_check": {
-        "id": "NS-PAGE-042",
-        "pdf_page": 42,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp037-042.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 44,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Continues Step 2, starts Step 3, and ends mid-sentence after 'both blocks are invertible,'; the proof remains open for page 43.",
-          "Both compact-domain minima, the two inequalities in (4.41), the row order (M,J,I,S,C_p) in (4.42), and both diagonal blocks were checked visually."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp037-042/PAGE_CHECKS.jsonl"
     },
@@ -3156,20 +2655,8 @@
         "NS-F-P043-039"
       ],
       "page_check": {
-        "id": "NS-PAGE-043",
-        "pdf_page": 43,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp043-048.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 39,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page begins inside the proof of Theorem 4.6 and ends mid-paragraph; both cross-page continuations are preserved.",
-          "Bold vector m, p, c, and d and calligraphic stress T were restored from the page image where text extraction discarded font distinctions."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp043-048/PAGE_CHECKS.jsonl"
     },
@@ -3233,20 +2720,8 @@
         "NS-F-P044-036"
       ],
       "page_check": {
-        "id": "NS-PAGE-044",
-        "pdf_page": 44,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp043-048.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 36,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "The page continues the paragraph begun on page 43.",
-          "Vector stress notation and every endpoint, exponential, and derivative exponent were checked visually."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp043-048/PAGE_CHECKS.jsonl"
     },
@@ -3304,20 +2779,8 @@
         "NS-F-P045-030"
       ],
       "page_check": {
-        "id": "NS-PAGE-045",
-        "pdf_page": 45,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp043-048.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 30,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "The proof of Theorem 4.6 closes on this page and Section 5 and subsection 5.1 begin.",
-          "The final subsection paragraph crosses to page 46 and remains open across the page marker."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp043-048/PAGE_CHECKS.jsonl"
     },
@@ -3385,19 +2848,8 @@
         "NS-F-P046-040"
       ],
       "page_check": {
-        "id": "NS-PAGE-046",
-        "pdf_page": 46,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp043-048.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 40,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Equations (5.1)--(5.6), including the ordered composition defining Z superscript [2], were checked symbol by symbol against the rendered page."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp043-048/PAGE_CHECKS.jsonl"
     },
@@ -3474,20 +2926,8 @@
         "NS-F-P047-049"
       ],
       "page_check": {
-        "id": "NS-PAGE-047",
-        "pdf_page": 47,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp043-048.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 49,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Lemma 5.1 and its proof opening are preserved.",
-          "Equation (5.7) ends the page and the proof continues on page 48."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp043-048/PAGE_CHECKS.jsonl"
     },
@@ -3555,20 +2995,8 @@
         "NS-F-P048-040"
       ],
       "page_check": {
-        "id": "NS-PAGE-048",
-        "pdf_page": 48,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp043-048.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 40,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Sparse matrix entries, integral operators, ceiling, Cauchy-radius variables, factorial, and all exponents in (5.8) were checked visually.",
-          "The page ends mid-sentence and mid-proof; both remain open for page 49."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp043-048/PAGE_CHECKS.jsonl"
     },
@@ -3624,22 +3052,8 @@
         "NS-F-P049-028"
       ],
       "page_check": {
-        "id": "NS-PAGE-049",
-        "pdf_page": 49,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "render_file": "sources/official/paper/renders/180dpi/page-049.png",
-        "render_sha256": "f4e1fc2cff2400f89b5d5af25c1b0423655190aabce1747c6836927be96baf67",
-        "tex_file": "reconstruction/sections/pp049-054.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 28,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Closes the Lemma 5.1 proof continued from page 48, then opens subsection 5.2.",
-          "Equation groups (5.9), (5.10), and (5.11), including all residual indices and integration weights, were checked against an enlarged crop."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp049-054/PAGE_CHECKS.jsonl"
     },
@@ -3715,22 +3129,8 @@
         "NS-F-P050-048"
       ],
       "page_check": {
-        "id": "NS-PAGE-050",
-        "pdf_page": 50,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "render_file": "sources/official/paper/renders/180dpi/page-050.png",
-        "render_sha256": "af170d40a10dd0df07d4d5dd7ffb292a21e99d91ab610a3a499f39a7546b3749",
-        "tex_file": "reconstruction/sections/pp049-054.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 48,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Contains the full statement of Lemma 5.2 and begins its proof.",
-          "The final bump-function display continues grammatically onto page 51; the page marker is placed immediately after that display."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp049-054/PAGE_CHECKS.jsonl"
     },
@@ -3778,22 +3178,8 @@
         "NS-F-P051-020"
       ],
       "page_check": {
-        "id": "NS-PAGE-051",
-        "pdf_page": 51,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "render_file": "sources/official/paper/renders/180dpi/page-051.png",
-        "render_sha256": "1572d5fdec4714723ff54684e965d4fd5bb3bbcc964ab020a6af0d3907ae0881",
-        "tex_file": "reconstruction/sections/pp049-054.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 20,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Continues the bump-support sentence from page 50.",
-          "The affine corrections, reconstruction formulas (5.14)-(5.15), fifth-moment identity, pressure identity, and both moment matrices were visually checked."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp049-054/PAGE_CHECKS.jsonl"
     },
@@ -3865,22 +3251,8 @@
         "NS-F-P052-044"
       ],
       "page_check": {
-        "id": "NS-PAGE-052",
-        "pdf_page": 52,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "render_file": "sources/official/paper/renders/180dpi/page-052.png",
-        "render_sha256": "c1f2c1fb32cddfe8fc7ba8d78817a5e201de3fb64b8263def301fb477f78c52d",
-        "tex_file": "reconstruction/sections/pp049-054.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 44,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Covers the two finite moment systems, equation (5.16), and proof Step 3 through (5.18).",
-          "Bold vector notation, transpose marks, support conditions, and all zero identities were checked against the page image."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp049-054/PAGE_CHECKS.jsonl"
     },
@@ -3933,22 +3305,8 @@
         "NS-F-P053-025"
       ],
       "page_check": {
-        "id": "NS-PAGE-053",
-        "pdf_page": 53,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "render_file": "sources/official/paper/renders/180dpi/page-053.png",
-        "render_sha256": "378dd9447b045f4bc119f7e027e71fea6195f629ef304e0072b86ed6a9cf9bf6",
-        "tex_file": "reconstruction/sections/pp049-054.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 25,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Contains proof Step 4 and equations (5.19)-(5.21).",
-          "The final sentence crosses the page boundary after the word 'from'; the page-54 marker is placed at that exact break."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp049-054/PAGE_CHECKS.jsonl"
     },
@@ -4017,22 +3375,8 @@
         "NS-F-P054-041"
       ],
       "page_check": {
-        "id": "NS-PAGE-054",
-        "pdf_page": 54,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "render_file": "sources/official/paper/renders/180dpi/page-054.png",
-        "render_sha256": "9923bea7d64ab061931094d786a60606ab4f1f0dc830d71c7b95471df2755007",
-        "tex_file": "reconstruction/sections/pp049-054.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 41,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Continues the page-53 sentence, completes Lemma 5.2, and opens subsection 5.3.",
-          "The backward stress integrals, terminal-collar differentiation formula, and estimate (5.22) were checked against the full-resolution render."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp049-054/PAGE_CHECKS.jsonl"
     },
@@ -4095,20 +3439,8 @@
         "NS-F-P055-035"
       ],
       "page_check": {
-        "id": "NS-PAGE-055",
-        "pdf_page": 55,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp055-060.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 35,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Checked frozen PDF page 55 directly and inspected sources/official/paper/renders/180dpi/page-055.png at original detail; extraction was used only as a draft.",
-          "Page continues subsection 5.3 begun on PDF page 54 and opens the proof of Proposition 5.3."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp055-060/PAGE_CHECKS.jsonl"
     },
@@ -4178,20 +3510,8 @@
         "NS-F-P056-042"
       ],
       "page_check": {
-        "id": "NS-PAGE-056",
-        "pdf_page": 56,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp055-060.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 42,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Checked frozen PDF page 56 directly and inspected sources/official/paper/renders/180dpi/page-056.png at original detail; extraction was used only as a draft.",
-          "Page closes the proof of Proposition 5.3 and begins subsection 5.4."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp055-060/PAGE_CHECKS.jsonl"
     },
@@ -4273,20 +3593,8 @@
         "NS-F-P057-054"
       ],
       "page_check": {
-        "id": "NS-PAGE-057",
-        "pdf_page": 57,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp055-060.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 54,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Checked frozen PDF page 57 directly and inspected sources/official/paper/renders/180dpi/page-057.png at original detail; extraction was used only as a draft.",
-          "Page opens Lemma 5.4; its statement continues on PDF page 58."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp055-060/PAGE_CHECKS.jsonl"
     },
@@ -4365,20 +3673,8 @@
         "NS-F-P058-051"
       ],
       "page_check": {
-        "id": "NS-PAGE-058",
-        "pdf_page": 58,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp055-060.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 51,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Checked frozen PDF page 58 directly and inspected sources/official/paper/renders/180dpi/page-058.png at original detail; extraction was used only as a draft.",
-          "Page continues and closes the statement of Lemma 5.4, then opens its proof; the proof continues on PDF page 59."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp055-060/PAGE_CHECKS.jsonl"
     },
@@ -4458,20 +3754,8 @@
         "NS-F-P059-052"
       ],
       "page_check": {
-        "id": "NS-PAGE-059",
-        "pdf_page": 59,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp055-060.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 52,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Checked frozen PDF page 59 directly and inspected sources/official/paper/renders/180dpi/page-059.png at original detail; extraction was used only as a draft.",
-          "Page continues and closes the proof of Lemma 5.4, followed by the residual-comparison and normalized-estimate paragraphs."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp055-060/PAGE_CHECKS.jsonl"
     },
@@ -4553,20 +3837,8 @@
         "NS-F-P060-054"
       ],
       "page_check": {
-        "id": "NS-PAGE-060",
-        "pdf_page": 60,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp055-060.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 54,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Checked frozen PDF page 60 directly and inspected sources/official/paper/renders/180dpi/page-060.png at original detail; extraction was used only as a draft.",
-          "Page begins subsection 5.5 and Proposition 5.5; the proposition proof remains open and continues on PDF page 61."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp055-060/PAGE_CHECKS.jsonl"
     },
@@ -4627,19 +3899,8 @@
         "NS-F-P061-033"
       ],
       "page_check": {
-        "id": "NS-PAGE-061",
-        "pdf_page": 61,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp061-066.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 33,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page begins inside the proof of Proposition 5.5; its displayed and inline mathematics were checked against page-061.png."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp061-066/PAGE_CHECKS.jsonl"
     },
@@ -4689,19 +3950,8 @@
         "NS-F-P062-022"
       ],
       "page_check": {
-        "id": "NS-PAGE-062",
-        "pdf_page": 62,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp061-066.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 22,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "The carried proof closes before Section 6; Section 6 and Subsection 6.1 begin on this page."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp061-066/PAGE_CHECKS.jsonl"
     },
@@ -4769,19 +4019,8 @@
         "NS-F-P063-040"
       ],
       "page_check": {
-        "id": "NS-PAGE-063",
-        "pdf_page": 63,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp061-066.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 40,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "The matrix, eigenvector data, absolute and band torus maps, evaluated derivative glyphs, floors, exponents, and asymptotic factors in (6.2)--(6.6) were visually checked."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp061-066/PAGE_CHECKS.jsonl"
     },
@@ -4843,19 +4082,8 @@
         "NS-F-P064-034"
       ],
       "page_check": {
-        "id": "NS-PAGE-064",
-        "pdf_page": 64,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp061-066.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 34,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "All inequalities, set bounds, partition formulas, and equation (6.8) were visually checked."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp061-066/PAGE_CHECKS.jsonl"
     },
@@ -4918,19 +4146,8 @@
         "NS-F-P065-035"
       ],
       "page_check": {
-        "id": "NS-PAGE-065",
-        "pdf_page": 65,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp061-066.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 35,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "The absolute-rectangle superscripts and the closures in (6.13), which the text extraction dropped, were restored from visual inspection; the proof continues onto page 66."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp061-066/PAGE_CHECKS.jsonl"
     },
@@ -4994,19 +4211,8 @@
         "NS-F-P066-036"
       ],
       "page_check": {
-        "id": "NS-PAGE-066",
-        "pdf_page": 66,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp061-066.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 36,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Lemma 6.1 closes on this page; Subsection 6.3 begins and its last sentence continues on page 67."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp061-066/PAGE_CHECKS.jsonl"
     },
@@ -5067,20 +4273,8 @@
         "NS-F-P067-033"
       ],
       "page_check": {
-        "id": "NS-PAGE-067",
-        "pdf_page": 67,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp067-072.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 33,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page begins with the continuation of the Section 6.3 paragraph from source page 66.",
-          "Lemma 6.2 and Equations (6.17)--(6.20), including the finite-quotient disjoint union and Haar integrals, were compared to the full-resolution render."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp067-072/PAGE_CHECKS.jsonl"
     },
@@ -5152,20 +4346,8 @@
         "NS-F-P068-044"
       ],
       "page_check": {
-        "id": "NS-PAGE-068",
-        "pdf_page": 68,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp067-072.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 44,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Lemma 6.3, its three counting bounds, and Equations (6.21)--(6.22) were visually checked.",
-          "The lifted-rectangle path, copy index, derivative factors, and all exponents were read from the page image rather than accepted from extraction."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp067-072/PAGE_CHECKS.jsonl"
     },
@@ -5228,20 +4410,8 @@
         "NS-F-P069-035"
       ],
       "page_check": {
-        "id": "NS-PAGE-069",
-        "pdf_page": 69,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp067-072.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 35,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Section 6.4 begins on this page; Definition 6.4 remains open across the page boundary into page 70.",
-          "Equations (6.23)--(6.24), derivative multi-indices, shell weights, and class notation were visually checked."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp067-072/PAGE_CHECKS.jsonl"
     },
@@ -5302,20 +4472,8 @@
         "NS-F-P070-033"
       ],
       "page_check": {
-        "id": "NS-PAGE-070",
-        "pdf_page": 70,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp067-072.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 33,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "The page completes Definition 6.4 and contains Definition 6.5 and Equations (6.25)--(6.29).",
-          "The radial-moment exponent e in Equation (6.26), harmonic-set script H, support restrictions, and square-root zeta weight were checked against the render and mathematical context."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp067-072/PAGE_CHECKS.jsonl"
     },
@@ -5371,20 +4529,8 @@
         "NS-F-P071-028"
       ],
       "page_check": {
-        "id": "NS-PAGE-071",
-        "pdf_page": 71,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp067-072.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 28,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Proposition 6.6 and Equations (6.30)--(6.32), including the cases formula and operator-mapping table, were visually checked.",
-          "The proof begins on this page and remains open across the page boundary."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp067-072/PAGE_CHECKS.jsonl"
     },
@@ -5436,20 +4582,8 @@
         "NS-F-P072-024"
       ],
       "page_check": {
-        "id": "NS-PAGE-072",
-        "pdf_page": 72,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp067-072.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 24,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "All weight inequalities, angular-average cases, normalized-operator factors, and the proof end mark were visually checked.",
-          "The final paragraph continues onto source page 73 and is intentionally left open after the word 'The'."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp067-072/PAGE_CHECKS.jsonl"
     },
@@ -5469,7 +4603,7 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp073-078.tex",
-        "file_sha256": "5b38e8311290ab187574af3428418fbdbf4decf2b5025fc1eb0ff6790e841c79",
+        "file_sha256": "5bb7d9b3a298aeb20d06f1a139fcb48fef666c910d766ba88fe046188d52d678",
         "start_line": 1,
         "end_line": 55,
         "span_sha256": "e2ae5d113e4fb9fb797285836c0028d919452a87f775ff44a32f85833a00d91e"
@@ -5509,21 +4643,8 @@
         "NS-F-P073-032"
       ],
       "page_check": {
-        "id": "NS-PAGE-073",
-        "pdf_page": 73,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "render_file": "sources/official/paper/renders/180dpi/page-073.png",
-        "render_sha256": "6cdad20230b9aeca3cda95e902847eeffdd4728556a13edb88e9fdaa36f9c6f6",
-        "tex_file": "reconstruction/sections/pp073-078.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 32,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page begins with the continuation of the support paragraph from PDF page 72 and introduces Section 7 and Subsection 7.1."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp073-078/PAGE_CHECKS.jsonl"
     },
@@ -5543,10 +4664,10 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp073-078.tex",
-        "file_sha256": "5b38e8311290ab187574af3428418fbdbf4decf2b5025fc1eb0ff6790e841c79",
+        "file_sha256": "5bb7d9b3a298aeb20d06f1a139fcb48fef666c910d766ba88fe046188d52d678",
         "start_line": 55,
         "end_line": 127,
-        "span_sha256": "c63c157be8c2107a3cd3a2c7435771991d84338575510c8bc11cdc4a681ba7c4"
+        "span_sha256": "17a9ee91f49abb703fe39a627e4b619ebd39050c48b8e77b52ea210c09f37c55"
       },
       "formula_ids": [
         "NS-F-P074-001",
@@ -5590,21 +4711,8 @@
         "NS-F-P074-039"
       ],
       "page_check": {
-        "id": "NS-PAGE-074",
-        "pdf_page": 74,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "render_file": "sources/official/paper/renders/180dpi/page-074.png",
-        "render_sha256": "5c54b9d06a8ec9d1a384b7d1b7b98863c24bf688801a9bb4da2830e0593eb675",
-        "tex_file": "reconstruction/sections/pp073-078.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 39,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Equations (7.1)--(7.4) and the unnumbered frame and pre-rounded wave-number displays were checked against the render."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp073-078/PAGE_CHECKS.jsonl"
     },
@@ -5624,7 +4732,7 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp073-078.tex",
-        "file_sha256": "5b38e8311290ab187574af3428418fbdbf4decf2b5025fc1eb0ff6790e841c79",
+        "file_sha256": "5bb7d9b3a298aeb20d06f1a139fcb48fef666c910d766ba88fe046188d52d678",
         "start_line": 127,
         "end_line": 220,
         "span_sha256": "f5b3e02c4a3264618688df42ad14f881f971359ac50f0827e8ca11e405710790"
@@ -5672,22 +4780,8 @@
         "NS-F-P075-040"
       ],
       "page_check": {
-        "id": "NS-PAGE-075",
-        "pdf_page": 75,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "render_file": "sources/official/paper/renders/180dpi/page-075.png",
-        "render_sha256": "b42d1b7d616869fe4d7f7de69f51b33fe87ff73e2a728f77c65a22cd7a7b2e4d",
-        "tex_file": "reconstruction/sections/pp073-078.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 40,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Equation (7.8) was checked at increased magnification: its second factor is the 2-by-2 matrix with first row (1,1), not a pair of fractions.",
-          "Lemma 7.1 and its proof begin on this page."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp073-078/PAGE_CHECKS.jsonl"
     },
@@ -5707,7 +4801,7 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp073-078.tex",
-        "file_sha256": "5b38e8311290ab187574af3428418fbdbf4decf2b5025fc1eb0ff6790e841c79",
+        "file_sha256": "5bb7d9b3a298aeb20d06f1a139fcb48fef666c910d766ba88fe046188d52d678",
         "start_line": 220,
         "end_line": 300,
         "span_sha256": "306e7f1c6f6e3380ad333d99e5f8dfc05e482163d4d28679f9d5276e333d142c"
@@ -5772,21 +4866,8 @@
         "NS-F-P076-057"
       ],
       "page_check": {
-        "id": "NS-PAGE-076",
-        "pdf_page": 76,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "render_file": "sources/official/paper/renders/180dpi/page-076.png",
-        "render_sha256": "d7a8fe39c7c783dc2d7cb240ad1d13979b4ebaf5d419021f8fab591d049c73d8",
-        "tex_file": "reconstruction/sections/pp073-078.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 57,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "All unnumbered proof displays were visually checked; physical line-wrap hyphenation in multiplication and differentiating was removed per protocol."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp073-078/PAGE_CHECKS.jsonl"
     },
@@ -5806,7 +4887,7 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp073-078.tex",
-        "file_sha256": "5b38e8311290ab187574af3428418fbdbf4decf2b5025fc1eb0ff6790e841c79",
+        "file_sha256": "5bb7d9b3a298aeb20d06f1a139fcb48fef666c910d766ba88fe046188d52d678",
         "start_line": 300,
         "end_line": 361,
         "span_sha256": "91f0f81efff53fe1f281df682bab2437e1a759e15ccccc1bb6c5c7750be6b53d"
@@ -5864,21 +4945,8 @@
         "NS-F-P077-050"
       ],
       "page_check": {
-        "id": "NS-PAGE-077",
-        "pdf_page": 77,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "render_file": "sources/official/paper/renders/180dpi/page-077.png",
-        "render_sha256": "c9671a51bf0b366ef09baf97cb5965879383e5f7f909d2305a0637e1e075d9f8",
-        "tex_file": "reconstruction/sections/pp073-078.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 50,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "The proof of Lemma 7.1 closes, Subsection 7.2 begins, and Proposition 7.2 opens on this page."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp073-078/PAGE_CHECKS.jsonl"
     },
@@ -5898,7 +4966,7 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp073-078.tex",
-        "file_sha256": "5b38e8311290ab187574af3428418fbdbf4decf2b5025fc1eb0ff6790e841c79",
+        "file_sha256": "5bb7d9b3a298aeb20d06f1a139fcb48fef666c910d766ba88fe046188d52d678",
         "start_line": 361,
         "end_line": 439,
         "span_sha256": "169e67a49b2e044dd648e406f54a3821f36a5cb2b47cf3069b2ed68324c979d6"
@@ -5942,21 +5010,8 @@
         "NS-F-P078-036"
       ],
       "page_check": {
-        "id": "NS-PAGE-078",
-        "pdf_page": 78,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "render_file": "sources/official/paper/renders/180dpi/page-078.png",
-        "render_sha256": "ef327b1105c5908e1fdc0e7ea189941db52951d9c83d9bb0099106b6a6674c00",
-        "tex_file": "reconstruction/sections/pp073-078.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 36,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Proposition 7.2 closes and its proof opens; the proof remains deliberately open after Equation (7.17) for continuation on PDF page 79."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp073-078/PAGE_CHECKS.jsonl"
     },
@@ -6029,21 +5084,8 @@
         "NS-F-P079-045"
       ],
       "page_check": {
-        "id": "NS-PAGE-079",
-        "pdf_page": 79,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp079-084.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 45,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Continues the proof of Proposition 7.2 and Step 1 inherited from page 78; no new proof environment is opened.",
-          "The page break after the hyphenated source line 'initial-value' is preserved at the exact continuation point without retaining physical line-wrap hyphenation.",
-          "Equations (7.18), (7.19), and (7.20), both unnumbered displays, and every inline mathematical occurrence were checked against render page-079.png."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp079-084/PAGE_CHECKS.jsonl"
     },
@@ -6102,20 +5144,8 @@
         "NS-F-P080-031"
       ],
       "page_check": {
-        "id": "NS-PAGE-080",
-        "pdf_page": 80,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp079-084.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 31,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Closes the proof of Proposition 7.2, contains Corollary 7.3 and its complete proof, and contains the complete statement of Lemma 7.4.",
-          "Equation (7.21), both unnumbered constraint/pressure displays, and every inline mathematical occurrence were checked against render page-080.png."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp079-084/PAGE_CHECKS.jsonl"
     },
@@ -6185,20 +5215,8 @@
         "NS-F-P081-042"
       ],
       "page_check": {
-        "id": "NS-PAGE-081",
-        "pdf_page": 81,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp079-084.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 42,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Contains and closes the proof of Lemma 7.4, the Energy transfer from the shear paragraph, and the opening of Subsection 7.3.",
-          "Equation (7.22), four unnumbered displays, and every inline mathematical occurrence were checked against render page-081.png."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp079-084/PAGE_CHECKS.jsonl"
     },
@@ -6275,20 +5293,8 @@
         "NS-F-P082-049"
       ],
       "page_check": {
-        "id": "NS-PAGE-082",
-        "pdf_page": 82,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp079-084.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 49,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Contains covariance definitions, the complete statement of Proposition 7.5, and Step 1 of its proof; that proof continues on page 83.",
-          "Equations (7.23) through (7.27), the unnumbered local-wave display, and every inline mathematical occurrence were checked against render page-082.png."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp079-084/PAGE_CHECKS.jsonl"
     },
@@ -6360,20 +5366,8 @@
         "NS-F-P083-044"
       ],
       "page_check": {
-        "id": "NS-PAGE-083",
-        "pdf_page": 83,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp079-084.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 44,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Continues Proposition 7.5 at the start of Step 1, includes Steps 2 and 3, and closes its proof.",
-          "Equations (7.28) and (7.29), four unnumbered displays, radical extents, primes on b'_I and a'_I, and every inline mathematical occurrence were checked against render page-083.png."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp079-084/PAGE_CHECKS.jsonl"
     },
@@ -6438,20 +5432,8 @@
         "NS-F-P084-037"
       ],
       "page_check": {
-        "id": "NS-PAGE-084",
-        "pdf_page": 84,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp079-084.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 37,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Contains the leading physical stress calculation and Proposition 7.6 with its complete proof; no environment remains open at the range boundary.",
-          "Equations (7.30) through (7.34), the unnumbered scale display, primes on b'_I and a'_I, and every inline mathematical occurrence were checked against render page-084.png."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp079-084/PAGE_CHECKS.jsonl"
     },
@@ -6471,7 +5453,7 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp085-090.tex",
-        "file_sha256": "c2533e877bec521c56d44bff81e21fd2c16c5b8d35789803b6a1b0977119a08a",
+        "file_sha256": "6f86f36aeee7cee6cc949a2c819c7223ae1d35c27f305177abfc948c69cae731",
         "start_line": 1,
         "end_line": 86,
         "span_sha256": "dacbd96ad42036db7c88d0434837a442acc337db4169a6450bf221d89983a24b"
@@ -6517,19 +5499,8 @@
         "NS-F-P085-038"
       ],
       "page_check": {
-        "id": "NS-PAGE-085",
-        "pdf_page": 85,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp085-090.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 38,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "The final sentence continues on PDF page 86; the NSPage marker preserves the exact break."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp085-090/PAGE_CHECKS.jsonl"
     },
@@ -6549,7 +5520,7 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp085-090.tex",
-        "file_sha256": "c2533e877bec521c56d44bff81e21fd2c16c5b8d35789803b6a1b0977119a08a",
+        "file_sha256": "6f86f36aeee7cee6cc949a2c819c7223ae1d35c27f305177abfc948c69cae731",
         "start_line": 86,
         "end_line": 181,
         "span_sha256": "93458761605fe5a9645ec0d843bb769e6f18a343d0c3d461c822f5635bbf3811"
@@ -6606,19 +5577,8 @@
         "NS-F-P086-049"
       ],
       "page_check": {
-        "id": "NS-PAGE-086",
-        "pdf_page": 86,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp085-090.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 49,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "The page begins inside the sentence started on PDF page 85 and ends inside the temporal-cutoff paragraph continued on PDF page 87; both boundaries are preserved."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp085-090/PAGE_CHECKS.jsonl"
     },
@@ -6638,7 +5598,7 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp085-090.tex",
-        "file_sha256": "c2533e877bec521c56d44bff81e21fd2c16c5b8d35789803b6a1b0977119a08a",
+        "file_sha256": "6f86f36aeee7cee6cc949a2c819c7223ae1d35c27f305177abfc948c69cae731",
         "start_line": 181,
         "end_line": 280,
         "span_sha256": "618fb4eacdf0320d24c0a2e7ae3a1776669e106a9e32b5ef07fdb0bcf2ebcb7a"
@@ -6682,19 +5642,8 @@
         "NS-F-P087-036"
       ],
       "page_check": {
-        "id": "NS-PAGE-087",
-        "pdf_page": 87,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp085-090.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 36,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "The proof of Corollary 7.8 continues onto PDF page 88; the proof environment remains open across the NSPage marker."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp085-090/PAGE_CHECKS.jsonl"
     },
@@ -6714,7 +5663,7 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp085-090.tex",
-        "file_sha256": "c2533e877bec521c56d44bff81e21fd2c16c5b8d35789803b6a1b0977119a08a",
+        "file_sha256": "6f86f36aeee7cee6cc949a2c819c7223ae1d35c27f305177abfc948c69cae731",
         "start_line": 280,
         "end_line": 353,
         "span_sha256": "db4e12d40293a6839c554716a212b3fef2cff212f5b3df7219c0bcbfc6b6a238"
@@ -6743,19 +5692,8 @@
         "NS-F-P088-021"
       ],
       "page_check": {
-        "id": "NS-PAGE-088",
-        "pdf_page": 88,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp085-090.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 21,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "The page begins with the conclusion of the proof continued from PDF page 87; Section 8 then begins in source order."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp085-090/PAGE_CHECKS.jsonl"
     },
@@ -6775,7 +5713,7 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp085-090.tex",
-        "file_sha256": "c2533e877bec521c56d44bff81e21fd2c16c5b8d35789803b6a1b0977119a08a",
+        "file_sha256": "6f86f36aeee7cee6cc949a2c819c7223ae1d35c27f305177abfc948c69cae731",
         "start_line": 353,
         "end_line": 425,
         "span_sha256": "b0be2bec79ae1831498c0847bf8b3f24ab0997d1b93e6fd4238f406f1fec52bb"
@@ -6806,19 +5744,8 @@
         "NS-F-P089-023"
       ],
       "page_check": {
-        "id": "NS-PAGE-089",
-        "pdf_page": 89,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp085-090.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 23,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "The physical-definition sentence continues on PDF page 90; the NSPage marker preserves the exact break."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp085-090/PAGE_CHECKS.jsonl"
     },
@@ -6838,10 +5765,10 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp085-090.tex",
-        "file_sha256": "c2533e877bec521c56d44bff81e21fd2c16c5b8d35789803b6a1b0977119a08a",
+        "file_sha256": "6f86f36aeee7cee6cc949a2c819c7223ae1d35c27f305177abfc948c69cae731",
         "start_line": 425,
         "end_line": 522,
-        "span_sha256": "00824be5672959701b5b7721b4ca216e9bc7634bed2bf497eaf3a8751689f64b"
+        "span_sha256": "8820e231604bf482db1e886d386fc9944847d1219f1fb50d2d0610ddef7d00af"
       },
       "formula_ids": [
         "NS-F-P090-001",
@@ -6888,20 +5815,8 @@
         "NS-F-P090-042"
       ],
       "page_check": {
-        "id": "NS-PAGE-090",
-        "pdf_page": 90,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp085-090.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 42,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "The page begins inside the sentence started on PDF page 89.",
-          "Lemma 8.2 continues on PDF page 91; its theorem environment is intentionally left open for the next source fragment."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp085-090/PAGE_CHECKS.jsonl"
     },
@@ -6921,7 +5836,7 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp091-096.tex",
-        "file_sha256": "6ceefdd7879aaddc86f284306be95e1014043dd5b7c1839e2772bc2f2f6692a6",
+        "file_sha256": "7c7bc0cb34abecd22d76b63d977af865060b9226831d23cedc2638c273730f54",
         "start_line": 1,
         "end_line": 81,
         "span_sha256": "2b726d858c2057eeba0fae57a0fcdb7ebfe7a6b7ea573f3065aa23bd99323c05"
@@ -6975,20 +5890,8 @@
         "NS-F-P091-046"
       ],
       "page_check": {
-        "id": "NS-PAGE-091",
-        "pdf_page": 91,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp091-096.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 46,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page begins inside the proof of Lemma 8.2 and ends mid-sentence; both cross-page continuations are preserved.",
-          "Equation (8.9), equation (8.10), and the following unnumbered display were checked directly against page-091.png."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp091-096/PAGE_CHECKS.jsonl"
     },
@@ -7008,7 +5911,7 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp091-096.tex",
-        "file_sha256": "6ceefdd7879aaddc86f284306be95e1014043dd5b7c1839e2772bc2f2f6692a6",
+        "file_sha256": "7c7bc0cb34abecd22d76b63d977af865060b9226831d23cedc2638c273730f54",
         "start_line": 81,
         "end_line": 163,
         "span_sha256": "69faacb991881fb2cbc22a01a499fc5d97cbe04e7986e196a9ec08ba04310411"
@@ -7058,20 +5961,8 @@
         "NS-F-P092-042"
       ],
       "page_check": {
-        "id": "NS-PAGE-092",
-        "pdf_page": 92,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp091-096.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 42,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page begins by continuing a sentence from page 91, closes the proof of Lemma 8.2, and ends inside the statement of Proposition 8.3.",
-          "Equation (8.11) and both unnumbered displays were checked directly against page-092.png."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp091-096/PAGE_CHECKS.jsonl"
     },
@@ -7091,10 +5982,10 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp091-096.tex",
-        "file_sha256": "6ceefdd7879aaddc86f284306be95e1014043dd5b7c1839e2772bc2f2f6692a6",
+        "file_sha256": "7c7bc0cb34abecd22d76b63d977af865060b9226831d23cedc2638c273730f54",
         "start_line": 163,
         "end_line": 259,
-        "span_sha256": "56a35868780cfa1a47b358d1e4ee54827751c60c4fbbacb5eb69f91b8f205c42"
+        "span_sha256": "4c56f22ac76474ab2e7c849407cfccf831a863e9f92cf2376ba716e63775d96c"
       },
       "formula_ids": [
         "NS-F-P093-001",
@@ -7144,21 +6035,8 @@
         "NS-F-P093-045"
       ],
       "page_check": {
-        "id": "NS-PAGE-093",
-        "pdf_page": 93,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp091-096.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 45,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page continues and closes Proposition 8.3, contains its complete proof, and begins subsection 8.4.",
-          "Equations (8.12)--(8.14) and both unnumbered proof displays were checked directly against page-093.png.",
-          "The distinct physical radial derivative operator is transcribed as math-sans-serif r, separate from the ordinary radial coordinate r."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp091-096/PAGE_CHECKS.jsonl"
     },
@@ -7178,7 +6056,7 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp091-096.tex",
-        "file_sha256": "6ceefdd7879aaddc86f284306be95e1014043dd5b7c1839e2772bc2f2f6692a6",
+        "file_sha256": "7c7bc0cb34abecd22d76b63d977af865060b9226831d23cedc2638c273730f54",
         "start_line": 259,
         "end_line": 362,
         "span_sha256": "c8597fd9e5bc43ed3a5cddc7d967ff0ebf21a2d104b7c25320860e2b86494c5f"
@@ -7222,20 +6100,8 @@
         "NS-F-P094-036"
       ],
       "page_check": {
-        "id": "NS-PAGE-094",
-        "pdf_page": 94,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp091-096.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 36,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page contains all of Proposition 8.4 and its proof, followed by the normalization and bump constructions.",
-          "Equations (8.15)--(8.17), the two radial-viscosity displays, the pressure-moment display, and the unnumbered bump display were checked directly against page-094.png."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp091-096/PAGE_CHECKS.jsonl"
     },
@@ -7255,7 +6121,7 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp091-096.tex",
-        "file_sha256": "6ceefdd7879aaddc86f284306be95e1014043dd5b7c1839e2772bc2f2f6692a6",
+        "file_sha256": "7c7bc0cb34abecd22d76b63d977af865060b9226831d23cedc2638c273730f54",
         "start_line": 362,
         "end_line": 448,
         "span_sha256": "42e1a2bbf9c1048bd1984e6413440a924e328fa558d73e8ffe5f5ad1ba8b03c5"
@@ -7296,20 +6162,8 @@
         "NS-F-P095-033"
       ],
       "page_check": {
-        "id": "NS-PAGE-095",
-        "pdf_page": 95,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp091-096.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 33,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page contains Corollary 8.5 and its proof, begins subsection 8.5, and ends inside the statement of Lemma 8.6.",
-          "Equations (8.18)--(8.19) and the displayed divergence and moment identities were checked directly against page-095.png."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp091-096/PAGE_CHECKS.jsonl"
     },
@@ -7329,7 +6183,7 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp091-096.tex",
-        "file_sha256": "6ceefdd7879aaddc86f284306be95e1014043dd5b7c1839e2772bc2f2f6692a6",
+        "file_sha256": "7c7bc0cb34abecd22d76b63d977af865060b9226831d23cedc2638c273730f54",
         "start_line": 448,
         "end_line": 544,
         "span_sha256": "df0d4be8ce16fe1643bc58396db8e42654a868740970cc9f2087c6f14d4c5615"
@@ -7372,20 +6226,8 @@
         "NS-F-P096-035"
       ],
       "page_check": {
-        "id": "NS-PAGE-096",
-        "pdf_page": 96,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp091-096.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 35,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page continues and closes Lemma 8.6, contains its complete proof, and begins subsection 8.6.",
-          "Equations (8.20)--(8.23) were checked directly against page-096.png; there are no figures on this page."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp091-096/PAGE_CHECKS.jsonl"
     },
@@ -7446,19 +6288,8 @@
         "NS-F-P097-033"
       ],
       "page_check": {
-        "id": "NS-PAGE-097",
-        "pdf_page": 97,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp097-102.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 33,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Lemma 8.7 and its proof begin on this page; the proof continues on PDF page 98."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp097-102/PAGE_CHECKS.jsonl"
     },
@@ -7512,19 +6343,8 @@
         "NS-F-P098-026"
       ],
       "page_check": {
-        "id": "NS-PAGE-098",
-        "pdf_page": 98,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp097-102.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 26,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "The proof of Lemma 8.7 closes on this page. Lemma 8.8 begins and its statement continues on PDF page 99."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp097-102/PAGE_CHECKS.jsonl"
     },
@@ -7578,19 +6398,8 @@
         "NS-F-P099-026"
       ],
       "page_check": {
-        "id": "NS-PAGE-099",
-        "pdf_page": 99,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp097-102.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 26,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Lemma 8.8 and its proof close on this page; subsection 8.7 begins."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp097-102/PAGE_CHECKS.jsonl"
     },
@@ -7640,19 +6449,8 @@
         "NS-F-P100-022"
       ],
       "page_check": {
-        "id": "NS-PAGE-100",
-        "pdf_page": 100,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp097-102.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 22,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Subsection 8.7 closes and Section 9 begins. The final paragraph continues on PDF page 101."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp097-102/PAGE_CHECKS.jsonl"
     },
@@ -7720,19 +6518,8 @@
         "NS-F-P101-040"
       ],
       "page_check": {
-        "id": "NS-PAGE-101",
-        "pdf_page": 101,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp097-102.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 40,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "The opening paragraph continues directly from PDF page 100. Proposition 9.1 and its proof begin; the proof continues on PDF page 102."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp097-102/PAGE_CHECKS.jsonl"
     },
@@ -7792,19 +6579,8 @@
         "NS-F-P102-032"
       ],
       "page_check": {
-        "id": "NS-PAGE-102",
-        "pdf_page": 102,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp097-102.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 32,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "The proof of Proposition 9.1 closes on this page. Lemma 9.2 begins and remains open after its first sentence; its statement continues on PDF page 103."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp097-102/PAGE_CHECKS.jsonl"
     },
@@ -7861,20 +6637,8 @@
         "NS-F-P103-029"
       ],
       "page_check": {
-        "id": "NS-PAGE-103",
-        "pdf_page": 103,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp103-108.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 29,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Opens inside the Lemma 9.2 statement begun on PDF page 102; closes that lemma and its proof before Section 9.2.",
-          "Proposition 9.3 item (i) continues across the page 103-to-104 boundary."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp103-108/PAGE_CHECKS.jsonl"
     },
@@ -7923,20 +6687,8 @@
         "NS-F-P104-021"
       ],
       "page_check": {
-        "id": "NS-PAGE-104",
-        "pdf_page": 104,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp103-108.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 21,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Continues Proposition 9.3 item (i), closes the proposition, and begins its proof.",
-          "The final unnumbered two-inequality display is complete on this page."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp103-108/PAGE_CHECKS.jsonl"
     },
@@ -7990,19 +6742,8 @@
         "NS-F-P105-026"
       ],
       "page_check": {
-        "id": "NS-PAGE-105",
-        "pdf_page": 105,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp103-108.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 26,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Completes the proof of Proposition 9.3 and the closing realization-step paragraph of Section 9.2."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp103-108/PAGE_CHECKS.jsonl"
     },
@@ -8053,20 +6794,8 @@
         "NS-F-P106-023"
       ],
       "page_check": {
-        "id": "NS-PAGE-106",
-        "pdf_page": 106,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp103-108.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 23,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Begins Section 9.3 and contains Definition 9.4 and the statement of Proposition 9.5.",
-          "The proof of Proposition 9.5 continues mid-sentence across the page 106-to-107 boundary."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp103-108/PAGE_CHECKS.jsonl"
     },
@@ -8134,20 +6863,8 @@
         "NS-F-P107-040"
       ],
       "page_check": {
-        "id": "NS-PAGE-107",
-        "pdf_page": 107,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp103-108.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 40,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Continues and closes the proof of Proposition 9.5.",
-          "Opens Proposition 9.6 and its ordered enumerate, which continues on PDF page 108."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp103-108/PAGE_CHECKS.jsonl"
     },
@@ -8195,20 +6912,8 @@
         "NS-F-P108-020"
       ],
       "page_check": {
-        "id": "NS-PAGE-108",
-        "pdf_page": 108,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp103-108.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 20,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Closes the Proposition 9.6 statement, opens its proof, and completes Step 1.",
-          "The proof remains open; Step 2 ends mid-sentence with the word 'flatness' and continues with 'bound.' on PDF page 109."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp103-108/PAGE_CHECKS.jsonl"
     },
@@ -8277,20 +6982,8 @@
         "NS-F-P109-041"
       ],
       "page_check": {
-        "id": "NS-PAGE-109",
-        "pdf_page": 109,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp109-114.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 41,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page begins mid-paragraph and inside the proof of Proposition 9.6; both continuations are preserved.",
-          "All inline and displayed mathematics was compared against sources/official/paper/renders/180dpi/page-109.png."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp109-114/PAGE_CHECKS.jsonl"
     },
@@ -8351,20 +7044,8 @@
         "NS-F-P110-033"
       ],
       "page_check": {
-        "id": "NS-PAGE-110",
-        "pdf_page": 110,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp109-114.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 33,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page continues the proof of Proposition 9.6 through Step 3.",
-          "All inline and displayed mathematics was compared against sources/official/paper/renders/180dpi/page-110.png."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp109-114/PAGE_CHECKS.jsonl"
     },
@@ -8419,20 +7100,8 @@
         "NS-F-P111-027"
       ],
       "page_check": {
-        "id": "NS-PAGE-111",
-        "pdf_page": 111,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp109-114.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 27,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page closes the proof of Proposition 9.6, begins subsection 9.4, states Lemma 9.7, and begins its proof.",
-          "All inline and displayed mathematics was compared against sources/official/paper/renders/180dpi/page-111.png."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp109-114/PAGE_CHECKS.jsonl"
     },
@@ -8493,20 +7162,8 @@
         "NS-F-P112-033"
       ],
       "page_check": {
-        "id": "NS-PAGE-112",
-        "pdf_page": 112,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp109-114.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 33,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page closes the proof of Lemma 9.7 and introduces the representatives in equation (9.15).",
-          "All inline and displayed mathematics was compared against sources/official/paper/renders/180dpi/page-112.png."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp109-114/PAGE_CHECKS.jsonl"
     },
@@ -8568,21 +7225,8 @@
         "NS-F-P113-034"
       ],
       "page_check": {
-        "id": "NS-PAGE-113",
-        "pdf_page": 113,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp109-114.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 34,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page states Lemma 9.8 and begins its proof.",
-          "The small superscripts and subscripts in the physical-derivative example and phase estimates were checked from a magnified crop of the frozen 180 dpi render.",
-          "All inline and displayed mathematics was compared against sources/official/paper/renders/180dpi/page-113.png."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp109-114/PAGE_CHECKS.jsonl"
     },
@@ -8646,20 +7290,8 @@
         "NS-F-P114-036"
       ],
       "page_check": {
-        "id": "NS-PAGE-114",
-        "pdf_page": 114,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp109-114.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 36,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page closes the proof of Lemma 9.8, begins subsection 9.5, states Proposition 9.9, and leaves its Step 1 proof open for page 115.",
-          "All inline and displayed mathematics was compared against sources/official/paper/renders/180dpi/page-114.png."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp109-114/PAGE_CHECKS.jsonl"
     },
@@ -8712,21 +7344,8 @@
         "NS-F-P115-025"
       ],
       "page_check": {
-        "id": "NS-PAGE-115",
-        "pdf_page": 115,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp115-120.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 25,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Inspected frozen PDF page and 180dpi/page-115.png at enlarged detail.",
-          "Continues the Proposition 9.9 proof opened on page 114; the page ends mid-sentence after the word 'mean'.",
-          "Three displayed and twenty-two inline formula occurrences were checked in visual order."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp115-120/PAGE_CHECKS.jsonl"
     },
@@ -8788,22 +7407,8 @@
         "NS-F-P116-034"
       ],
       "page_check": {
-        "id": "NS-PAGE-116",
-        "pdf_page": 116,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp115-120.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 34,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Inspected frozen PDF page and 180dpi/page-116.png at enlarged detail.",
-          "Continues the page-115 sentence, closes the Proposition 9.9 proof, begins Section 10, and ends mid-sentence after a semicolon.",
-          "The visible change from subscripted local-field notation in Proposition 9.9 to superscripted local-field notation in Section 10 was preserved.",
-          "Four displayed and thirty inline formula occurrences were checked in visual order."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp115-120/PAGE_CHECKS.jsonl"
     },
@@ -8869,22 +7474,8 @@
         "NS-F-P117-038"
       ],
       "page_check": {
-        "id": "NS-PAGE-117",
-        "pdf_page": 117,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp115-120.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 38,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Inspected frozen PDF page and 180dpi/page-117.png at enlarged detail.",
-          "Continues the Section 10 opening sentence, begins Subsection 10.1, and states Proposition 10.1; its proof begins on page 118.",
-          "Calligraphic A and B glyphs and the unsigned radial primitive defining Psi were checked directly against the page image.",
-          "Four displayed and thirty-four inline formula occurrences were checked in visual order."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp115-120/PAGE_CHECKS.jsonl"
     },
@@ -8956,22 +7547,8 @@
         "NS-F-P118-044"
       ],
       "page_check": {
-        "id": "NS-PAGE-118",
-        "pdf_page": 118,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp115-120.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 44,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Inspected frozen PDF page and 180dpi/page-118.png at enlarged detail.",
-          "Opens and closes the proof of Proposition 10.1, defines the localized force, begins Subsection 10.2, and states Lemma 10.2.",
-          "Radical extent, half-open interval, compact-containment symbol, and superscript loc notation were checked visually.",
-          "Eight displayed and thirty-six inline formula occurrences were checked in visual order."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp115-120/PAGE_CHECKS.jsonl"
     },
@@ -9044,22 +7621,8 @@
         "NS-F-P119-045"
       ],
       "page_check": {
-        "id": "NS-PAGE-119",
-        "pdf_page": 119,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp115-120.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 45,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Inspected frozen PDF page and 180dpi/page-119.png at enlarged detail.",
-          "Opens the proof of Lemma 10.2 and leaves that proof open at the page break.",
-          "The scope of the time derivative over the quotient in (10.8), all decay exponents, and the differentiated pressure integral were checked visually.",
-          "Five displayed and forty inline formula occurrences were checked in visual order."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp115-120/PAGE_CHECKS.jsonl"
     },
@@ -9126,22 +7689,8 @@
         "NS-F-P120-039"
       ],
       "page_check": {
-        "id": "NS-PAGE-120",
-        "pdf_page": 120,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp115-120.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 39,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Inspected frozen PDF page and 180dpi/page-120.png at enlarged detail.",
-          "Continues and closes the proof of Lemma 10.2, then states and proves Lemma 10.3; all environments are closed at the range boundary.",
-          "The differentiated-series bound, defining minimum for b_j, floor bound, and final decay estimate were checked visually.",
-          "Five displayed and thirty-four inline formula occurrences were checked in visual order."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp115-120/PAGE_CHECKS.jsonl"
     },
@@ -9161,7 +7710,7 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp121-126.tex",
-        "file_sha256": "243fc34f2eb91236228fe2afa1f6d12b4562bdab426c0a2b77ebbdb1bb3cf833",
+        "file_sha256": "c01e062b52ec9c92f8f4c35b9d166bee9e7a04402609d53284179a1db74636a4",
         "start_line": 1,
         "end_line": 104,
         "span_sha256": "568e4ba4a4914f2d1adec423ca9d60bd8de7e3936f54d2215a8501aeff6e14b5"
@@ -9213,20 +7762,8 @@
         "NS-F-P121-044"
       ],
       "page_check": {
-        "id": "NS-PAGE-121",
-        "pdf_page": 121,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp121-126.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 44,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Begins subsection 10.3 after the preceding range closes Lemma 10.3.",
-          "Contains Lemmas 10.4 and 10.5; the proof of Lemma 10.5 continues on page 122."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp121-126/PAGE_CHECKS.jsonl"
     },
@@ -9246,7 +7783,7 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp121-126.tex",
-        "file_sha256": "243fc34f2eb91236228fe2afa1f6d12b4562bdab426c0a2b77ebbdb1bb3cf833",
+        "file_sha256": "c01e062b52ec9c92f8f4c35b9d166bee9e7a04402609d53284179a1db74636a4",
         "start_line": 104,
         "end_line": 200,
         "span_sha256": "1123cc24796b846eb29a6f0f0627e49530d19d1ce0bed19e48ba1c86ff92bd46"
@@ -9300,20 +7837,8 @@
         "NS-F-P122-046"
       ],
       "page_check": {
-        "id": "NS-PAGE-122",
-        "pdf_page": 122,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp121-126.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 46,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Continues the proof of Lemma 10.5 through the pressure-gradient and pressure-flux estimates.",
-          "The extracted-text placement of the squared L1 norm was checked against the page image."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp121-126/PAGE_CHECKS.jsonl"
     },
@@ -9333,7 +7858,7 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp121-126.tex",
-        "file_sha256": "243fc34f2eb91236228fe2afa1f6d12b4562bdab426c0a2b77ebbdb1bb3cf833",
+        "file_sha256": "c01e062b52ec9c92f8f4c35b9d166bee9e7a04402609d53284179a1db74636a4",
         "start_line": 200,
         "end_line": 294,
         "span_sha256": "2e667b2ef7a1d3b7bc03c961af611c45716947e862b85d4d7ec447a679ad4e15"
@@ -9380,20 +7905,8 @@
         "NS-F-P123-039"
       ],
       "page_check": {
-        "id": "NS-PAGE-123",
-        "pdf_page": 123,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp121-126.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 39,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Concludes the proof of Lemma 10.5 and begins subsection 10.4.",
-          "All exponents in the pressure-flux and difference-energy bounds were checked visually."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp121-126/PAGE_CHECKS.jsonl"
     },
@@ -9413,10 +7926,10 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp121-126.tex",
-        "file_sha256": "243fc34f2eb91236228fe2afa1f6d12b4562bdab426c0a2b77ebbdb1bb3cf833",
+        "file_sha256": "c01e062b52ec9c92f8f4c35b9d166bee9e7a04402609d53284179a1db74636a4",
         "start_line": 294,
         "end_line": 390,
-        "span_sha256": "7f3970b82b66258ab99d1464f0c3cb29a04089fef06360a69fb7cc4ff56eb743"
+        "span_sha256": "7e445335555bb742a5534d2b7f3187d141a5f4408b91173b3e03bc1e94a73331"
       },
       "formula_ids": [
         "NS-F-P124-001",
@@ -9458,20 +7971,8 @@
         "NS-F-P124-037"
       ],
       "page_check": {
-        "id": "NS-PAGE-124",
-        "pdf_page": 124,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp121-126.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 37,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Contains and closes the proof of Theorem 1.1.",
-          "Square-root extents, viscosity powers, derivative scaling, and energy scaling were checked against the page image."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp121-126/PAGE_CHECKS.jsonl"
     },
@@ -9491,7 +7992,7 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp121-126.tex",
-        "file_sha256": "243fc34f2eb91236228fe2afa1f6d12b4562bdab426c0a2b77ebbdb1bb3cf833",
+        "file_sha256": "c01e062b52ec9c92f8f4c35b9d166bee9e7a04402609d53284179a1db74636a4",
         "start_line": 390,
         "end_line": 470,
         "span_sha256": "9eac78d79eab3a93f1362942d8a5c8df2d4f0be8d81a4f86e7361fd672263489"
@@ -9526,20 +8027,8 @@
         "NS-F-P125-027"
       ],
       "page_check": {
-        "id": "NS-PAGE-125",
-        "pdf_page": 125,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp121-126.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 27,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Begins subsection 10.5 and Corollary 10.6.",
-          "The proof of Corollary 10.6 and its displayed periodization continue on page 126."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp121-126/PAGE_CHECKS.jsonl"
     },
@@ -9559,7 +8048,7 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp121-126.tex",
-        "file_sha256": "243fc34f2eb91236228fe2afa1f6d12b4562bdab426c0a2b77ebbdb1bb3cf833",
+        "file_sha256": "c01e062b52ec9c92f8f4c35b9d166bee9e7a04402609d53284179a1db74636a4",
         "start_line": 470,
         "end_line": 546,
         "span_sha256": "c34df5636e9584592e0ab3498709d9afa06ab6fe899ea44feb6ceef0b6154120"
@@ -9591,20 +8080,8 @@
         "NS-F-P126-024"
       ],
       "page_check": {
-        "id": "NS-PAGE-126",
-        "pdf_page": 126,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp121-126.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 24,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Closes the proof of Corollary 10.6, starts Appendix A and subsection A.1, and contains the complete statement of Lemma A.1.",
-          "The proof of Lemma A.1 starts on page 127 in the next range."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp121-126/PAGE_CHECKS.jsonl"
     },
@@ -9688,21 +8165,8 @@
         "NS-F-P127-056"
       ],
       "page_check": {
-        "id": "NS-PAGE-127",
-        "pdf_page": 127,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp127-132.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 56,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Inspected sources/official/paper/renders/180dpi/page-127.png at full page and enlarged crops.",
-          "Page begins the proof of Lemma A.1 after the statement closes on page 126, closes that proof, states Lemma A.2, and begins its proof.",
-          "All five displays, including (A.1)-(A.3), and every inline mathematical occurrence were compared visually."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp127-132/PAGE_CHECKS.jsonl"
     },
@@ -9774,21 +8238,8 @@
         "NS-F-P128-044"
       ],
       "page_check": {
-        "id": "NS-PAGE-128",
-        "pdf_page": 128,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp127-132.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 44,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Inspected sources/official/paper/renders/180dpi/page-128.png at full page and enlarged crops.",
-          "Page completes the proof of Lemma A.2 and gives Corollary A.3 with its proof.",
-          "The extraction obscured the block-table punctuation and radical grouping in (A.4); both were resolved directly from the render."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp127-132/PAGE_CHECKS.jsonl"
     },
@@ -9858,21 +8309,8 @@
         "NS-F-P129-042"
       ],
       "page_check": {
-        "id": "NS-PAGE-129",
-        "pdf_page": 129,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp127-132.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 42,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Inspected sources/official/paper/renders/180dpi/page-129.png at full page and enlarged crops.",
-          "Page opens Subsection A.2 and transcribes the smooth step, ordered parameter choices, inner data, moment identities, and the first two radial stages.",
-          "All six displays, including (A.5)-(A.9), and every inline mathematical occurrence were compared visually."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp127-132/PAGE_CHECKS.jsonl"
     },
@@ -9971,21 +8409,8 @@
         "NS-F-P130-071"
       ],
       "page_check": {
-        "id": "NS-PAGE-130",
-        "pdf_page": 130,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp127-132.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 71,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Inspected sources/official/paper/renders/180dpi/page-130.png at full page and enlarged crops.",
-          "The extraction's xi-like rendering of the pulse coordinate was checked against the page and transcribed as zeta_b.",
-          "Page begins Proposition A.4; its statement continues across the page boundary to page 131."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp127-132/PAGE_CHECKS.jsonl"
     },
@@ -10064,22 +8489,8 @@
         "NS-F-P131-051"
       ],
       "page_check": {
-        "id": "NS-PAGE-131",
-        "pdf_page": 131,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp127-132.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 51,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Inspected sources/official/paper/renders/180dpi/page-131.png at full page and enlarged crops.",
-          "Page completes Proposition A.4, opens Subsection A.3, and includes (A.14)-(A.15).",
-          "The prefix-average operator in (A.14) was verified as calligraphic A_X from the render and its earlier definition.",
-          "The inline expression r_I-(1-lambda)^(-1) crosses the physical page boundary; its page-visible pieces receive the last page-131 marker and first page-132 marker."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp127-132/PAGE_CHECKS.jsonl"
     },
@@ -10158,21 +8569,8 @@
         "NS-F-P132-051"
       ],
       "page_check": {
-        "id": "NS-PAGE-132",
-        "pdf_page": 132,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp127-132.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 51,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Inspected sources/official/paper/renders/180dpi/page-132.png at full page and enlarged crops.",
-          "All four displays, including (A.16)-(A.18), and every inline mathematical occurrence were compared visually.",
-          "The final paragraph ends on page 132; page 133 begins a new indented paragraph, so the fragment closes the paragraph explicitly."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp127-132/PAGE_CHECKS.jsonl"
     },
@@ -10243,20 +8641,8 @@
         "NS-F-P133-043"
       ],
       "page_check": {
-        "id": "NS-PAGE-133",
-        "pdf_page": 133,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp133-138.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 43,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page begins a new indented paragraph with 'On the pulse'; the preceding page-132 paragraph is closed before this fragment.",
-          "Lemma A.5 begins on this page and its proof continues across the page-134 boundary."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp133-138/PAGE_CHECKS.jsonl"
     },
@@ -10324,20 +8710,8 @@
         "NS-F-P134-040"
       ],
       "page_check": {
-        "id": "NS-PAGE-134",
-        "pdf_page": 134,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp133-138.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 40,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page begins inside the proof of Lemma A.5 and closes that proof.",
-          "The final paragraph continues onto PDF page 135 after the words 'against the'."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp133-138/PAGE_CHECKS.jsonl"
     },
@@ -10428,20 +8802,8 @@
         "NS-F-P135-063"
       ],
       "page_check": {
-        "id": "NS-PAGE-135",
-        "pdf_page": 135,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp133-138.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 63,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page begins in the paragraph continued from PDF page 134.",
-          "The page ends after display (A.28); the same paragraph continues on PDF page 136 with 'Indeed'."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp133-138/PAGE_CHECKS.jsonl"
     },
@@ -10518,20 +8880,8 @@
         "NS-F-P136-049"
       ],
       "page_check": {
-        "id": "NS-PAGE-136",
-        "pdf_page": 136,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp133-138.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 49,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page begins in the pulse paragraph continued from PDF page 135.",
-          "The final sentence continues onto PDF page 137 after the word 'Combining'."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp133-138/PAGE_CHECKS.jsonl"
     },
@@ -10610,20 +8960,8 @@
         "NS-F-P137-051"
       ],
       "page_check": {
-        "id": "NS-PAGE-137",
-        "pdf_page": 137,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp133-138.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 51,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page begins in the sentence continued from PDF page 136.",
-          "The stress-cone verification for Proposition A.4 is completed and subsection A.6 begins."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp133-138/PAGE_CHECKS.jsonl"
     },
@@ -10693,20 +9031,8 @@
         "NS-F-P138-042"
       ],
       "page_check": {
-        "id": "NS-PAGE-138",
-        "pdf_page": 138,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp133-138.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 42,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page starts a new paragraph defining the heat factor.",
-          "Lemma A.6 and its proof close cleanly after display (A.38); no environment or paragraph crosses into PDF page 139."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp133-138/PAGE_CHECKS.jsonl"
     },
@@ -10726,7 +9052,7 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp139-144.tex",
-        "file_sha256": "1850511f0e279a13fcaf57fa9c66975b5b495909da200e366ba9e2a143cbe137",
+        "file_sha256": "aa6e2d0faa72a5837b46c8cd6aa45ad6b3d151062d6a8187f35dbc782f90331d",
         "start_line": 1,
         "end_line": 88,
         "span_sha256": "5e391e47d8a1a5dad38b2e93f2011723a472084ac1820d9c04a2eebe9703d80f"
@@ -10776,20 +9102,8 @@
         "NS-F-P139-042"
       ],
       "page_check": {
-        "id": "NS-PAGE-139",
-        "pdf_page": 139,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp139-144.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 42,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page begins a new paragraph after the completed proof of Lemma A.6 on page 138.",
-          "Proposition A.7 and equations (A.39)--(A.43) were compared with the 180 dpi page render."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp139-144/PAGE_CHECKS.jsonl"
     },
@@ -10809,7 +9123,7 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp139-144.tex",
-        "file_sha256": "1850511f0e279a13fcaf57fa9c66975b5b495909da200e366ba9e2a143cbe137",
+        "file_sha256": "aa6e2d0faa72a5837b46c8cd6aa45ad6b3d151062d6a8187f35dbc782f90331d",
         "start_line": 88,
         "end_line": 163,
         "span_sha256": "f89e7f00a082d49dba38086c1675b2ce5068e669a634803c2ecfd67847e39dd5"
@@ -10861,20 +9175,8 @@
         "NS-F-P140-044"
       ],
       "page_check": {
-        "id": "NS-PAGE-140",
-        "pdf_page": 140,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp139-144.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 44,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page continues and completes the proof of Proposition A.7, then begins subsection A.7 and Lemma A.8.",
-          "The proof of Lemma A.8 continues onto page 141."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp139-144/PAGE_CHECKS.jsonl"
     },
@@ -10894,10 +9196,10 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp139-144.tex",
-        "file_sha256": "1850511f0e279a13fcaf57fa9c66975b5b495909da200e366ba9e2a143cbe137",
+        "file_sha256": "aa6e2d0faa72a5837b46c8cd6aa45ad6b3d151062d6a8187f35dbc782f90331d",
         "start_line": 163,
         "end_line": 250,
-        "span_sha256": "0c977434be3bdec9e316d18628f04fb27e7a9e7000cbdb7dd128f0400639a7d6"
+        "span_sha256": "b0b20de6ce85b55047fd084273fa0f89327fbdacc96b3890b71aba4597824805"
       },
       "formula_ids": [
         "NS-F-P141-001",
@@ -10942,20 +9244,8 @@
         "NS-F-P141-040"
       ],
       "page_check": {
-        "id": "NS-PAGE-141",
-        "pdf_page": 141,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp139-144.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 40,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page completes Lemma A.8 and its proof, then begins Lemma A.9.",
-          "Lemma A.9 continues across the page boundary to page 142."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp139-144/PAGE_CHECKS.jsonl"
     },
@@ -10975,7 +9265,7 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp139-144.tex",
-        "file_sha256": "1850511f0e279a13fcaf57fa9c66975b5b495909da200e366ba9e2a143cbe137",
+        "file_sha256": "aa6e2d0faa72a5837b46c8cd6aa45ad6b3d151062d6a8187f35dbc782f90331d",
         "start_line": 250,
         "end_line": 341,
         "span_sha256": "82457d5c6cbda233d65e4bd1aa04080faf142bbd9b47e8f485021c4f5e74a472"
@@ -11021,20 +9311,8 @@
         "NS-F-P142-038"
       ],
       "page_check": {
-        "id": "NS-PAGE-142",
-        "pdf_page": 142,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp139-144.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 38,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page completes Lemma A.9 and its proof, then begins Proposition A.10 and its proof.",
-          "The final proof paragraph continues onto page 143."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp139-144/PAGE_CHECKS.jsonl"
     },
@@ -11054,7 +9332,7 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp139-144.tex",
-        "file_sha256": "1850511f0e279a13fcaf57fa9c66975b5b495909da200e366ba9e2a143cbe137",
+        "file_sha256": "aa6e2d0faa72a5837b46c8cd6aa45ad6b3d151062d6a8187f35dbc782f90331d",
         "start_line": 341,
         "end_line": 417,
         "span_sha256": "fb675e09832959dc02c2d3e8021c048aa4622d28dab5647861a64f4484bb864f"
@@ -11102,20 +9380,8 @@
         "NS-F-P143-040"
       ],
       "page_check": {
-        "id": "NS-PAGE-143",
-        "pdf_page": 143,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp139-144.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 40,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page continues the proof of Proposition A.10.",
-          "All flat-factor exponents, subscripts, primes, and scale powers were checked visually; the proof continues onto page 144."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp139-144/PAGE_CHECKS.jsonl"
     },
@@ -11135,7 +9401,7 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp139-144.tex",
-        "file_sha256": "1850511f0e279a13fcaf57fa9c66975b5b495909da200e366ba9e2a143cbe137",
+        "file_sha256": "aa6e2d0faa72a5837b46c8cd6aa45ad6b3d151062d6a8187f35dbc782f90331d",
         "start_line": 417,
         "end_line": 489,
         "span_sha256": "45f1b8dac7e934282f1dfc18601522ca8e5801ad4a29e1e9c8a22b1b5045b7dd"
@@ -11186,20 +9452,8 @@
         "NS-F-P144-043"
       ],
       "page_check": {
-        "id": "NS-PAGE-144",
-        "pdf_page": 144,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp139-144.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 43,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page completes Proposition A.10, begins Appendix B and subsection B.1, and ends mid-sentence.",
-          "The final sentence continues directly on page 145 after the words 'do not'; no paragraph or mathematical environment is closed at the range boundary."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp139-144/PAGE_CHECKS.jsonl"
     },
@@ -11219,10 +9473,10 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp145-150.tex",
-        "file_sha256": "431e84a9dc82d0a6495936a28ea286a7f387d2149c17b712ee001901a4f2377e",
+        "file_sha256": "c250d46c9d0f206a1db98d1f4b69a6bca55f844a0f197360a36a44b1eb7f1098",
         "start_line": 1,
         "end_line": 97,
-        "span_sha256": "b337ea1c2663b4b3bdcac798dc67c37cdd79b1d5f230aff6884c984beb679835"
+        "span_sha256": "8c1b27256b705e70e5414c654bdbcd13c122f64cb8e92ffe8e76f78f7e05fb48"
       },
       "formula_ids": [
         "NS-F-P145-001",
@@ -11269,20 +9523,8 @@
         "NS-F-P145-042"
       ],
       "page_check": {
-        "id": "NS-PAGE-145",
-        "pdf_page": 145,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp145-150.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 42,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page begins inside the final paragraph of B.1; the page marker precedes the continuation word 'vanish'.",
-          "The extraction draft loses the tilde on \\widetilde{\\xi}_0 in (B.3); the page image controls."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp145-150/PAGE_CHECKS.jsonl"
     },
@@ -11302,7 +9544,7 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp145-150.tex",
-        "file_sha256": "431e84a9dc82d0a6495936a28ea286a7f387d2149c17b712ee001901a4f2377e",
+        "file_sha256": "c250d46c9d0f206a1db98d1f4b69a6bca55f844a0f197360a36a44b1eb7f1098",
         "start_line": 97,
         "end_line": 186,
         "span_sha256": "4d4444e295d25bcc22679fe756c9e6fe9093b3667af7ed5635ca1d168c74fc83"
@@ -11349,19 +9591,8 @@
         "NS-F-P146-039"
       ],
       "page_check": {
-        "id": "NS-PAGE-146",
-        "pdf_page": 146,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp145-150.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 39,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page continues the proof of Lemma B.1, closes it, begins B.3, and ends inside the displayed form (B.12) of Proposition B.2."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp145-150/PAGE_CHECKS.jsonl"
     },
@@ -11381,10 +9612,10 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp145-150.tex",
-        "file_sha256": "431e84a9dc82d0a6495936a28ea286a7f387d2149c17b712ee001901a4f2377e",
+        "file_sha256": "c250d46c9d0f206a1db98d1f4b69a6bca55f844a0f197360a36a44b1eb7f1098",
         "start_line": 186,
         "end_line": 275,
-        "span_sha256": "9c9f534b41fb39ad890c874c7f0dac65dfa0936d783acf5e0eef9df4f720d0c1"
+        "span_sha256": "70990d5d3afb9c0f071509f627062e3d6d269f3836ecf88d4a61570a6d4e5853"
       },
       "formula_ids": [
         "NS-F-P147-001",
@@ -11425,20 +9656,8 @@
         "NS-F-P147-036"
       ],
       "page_check": {
-        "id": "NS-PAGE-147",
-        "pdf_page": 147,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp145-150.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 36,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page continues Proposition B.2 and its proof.",
-          "The extraction draft flattens the blackletter pressure perturbation; visual inspection identifies it as \\mathfrak p in (B.14) and the subsequent formulas."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp145-150/PAGE_CHECKS.jsonl"
     },
@@ -11458,7 +9677,7 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp145-150.tex",
-        "file_sha256": "431e84a9dc82d0a6495936a28ea286a7f387d2149c17b712ee001901a4f2377e",
+        "file_sha256": "c250d46c9d0f206a1db98d1f4b69a6bca55f844a0f197360a36a44b1eb7f1098",
         "start_line": 275,
         "end_line": 364,
         "span_sha256": "e3fa2f6c0a18d32c0d9dcd9e898e4515e9f98870e1f1e240a72c9ccb03e47e85"
@@ -11512,20 +9731,8 @@
         "NS-F-P148-046"
       ],
       "page_check": {
-        "id": "NS-PAGE-148",
-        "pdf_page": 148,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp145-150.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 46,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page closes the proof of Proposition B.2, begins B.4, and ends inside the statement of Proposition B.3.",
-          "The radical in E=\\sqrt{2X}\\phi/C was checked visually."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp145-150/PAGE_CHECKS.jsonl"
     },
@@ -11545,10 +9752,10 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp145-150.tex",
-        "file_sha256": "431e84a9dc82d0a6495936a28ea286a7f387d2149c17b712ee001901a4f2377e",
+        "file_sha256": "c250d46c9d0f206a1db98d1f4b69a6bca55f844a0f197360a36a44b1eb7f1098",
         "start_line": 364,
         "end_line": 457,
-        "span_sha256": "d28a77830a2cde335d759c8d77ab8d5a28ca057c7a89e2f311bc00acb4a62e37"
+        "span_sha256": "09e09ea77c129334e9d0d1be58bb4dd8c21740b2864b1dd3dca47866a2b8aa92"
       },
       "formula_ids": [
         "NS-F-P149-001",
@@ -11607,20 +9814,8 @@
         "NS-F-P149-054"
       ],
       "page_check": {
-        "id": "NS-PAGE-149",
-        "pdf_page": 149,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp145-150.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 54,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page continues Proposition B.3, then its proof, and ends mid-sentence after the reference to (B.11).",
-          "The tilde on \\widetilde{\\xi}_0 and the square-root factors in (B.21) were checked from the page image."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp145-150/PAGE_CHECKS.jsonl"
     },
@@ -11640,7 +9835,7 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp145-150.tex",
-        "file_sha256": "431e84a9dc82d0a6495936a28ea286a7f387d2149c17b712ee001901a4f2377e",
+        "file_sha256": "c250d46c9d0f206a1db98d1f4b69a6bca55f844a0f197360a36a44b1eb7f1098",
         "start_line": 457,
         "end_line": 546,
         "span_sha256": "b3ea84ee557c8cd29a837cc29c265da839bc3fbe4ef8ef156d192bc0ec514686"
@@ -11707,20 +9902,8 @@
         "NS-F-P150-059"
       ],
       "page_check": {
-        "id": "NS-PAGE-150",
-        "pdf_page": 150,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp145-150.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 59,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page begins inside the proof of Proposition B.3, closes it, begins B.5 and Lemma B.4, and ends mid-paragraph inside the proof of Lemma B.4.",
-          "The radical in |p_2|=C\\sqrt{2/\\Lambda}|n_s|/(\\phi_*\\Phi) was checked visually."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp145-150/PAGE_CHECKS.jsonl"
     },
@@ -11740,10 +9923,10 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp151-156.tex",
-        "file_sha256": "f75c526fb744ca4f6d0cad4f3ffea21d9cb0b06fc9f223280753c04c8bf567d2",
+        "file_sha256": "0c7f6f14ecbabed6efa999bb387b1ba8e2d013bfa266ee920a627778a26f335c",
         "start_line": 1,
         "end_line": 85,
-        "span_sha256": "2ab80b7ab2267ba2aa7857e08be093ed17fb970f6a7f65dd352629357d88a3ba"
+        "span_sha256": "66ef1e4b2ad329946ff6e45b4a01e15347700a193d0df8b41176b7a354f8ed97"
       },
       "formula_ids": [
         "NS-F-P151-001",
@@ -11799,19 +9982,8 @@
         "NS-F-P151-051"
       ],
       "page_check": {
-        "id": "NS-PAGE-151",
-        "pdf_page": 151,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp151-156.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 51,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Continues the final paragraph of the proof of Lemma B.4 from page 150 and closes that proof after the two comparison estimates."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp151-156/PAGE_CHECKS.jsonl"
     },
@@ -11831,7 +10003,7 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp151-156.tex",
-        "file_sha256": "f75c526fb744ca4f6d0cad4f3ffea21d9cb0b06fc9f223280753c04c8bf567d2",
+        "file_sha256": "0c7f6f14ecbabed6efa999bb387b1ba8e2d013bfa266ee920a627778a26f335c",
         "start_line": 85,
         "end_line": 180,
         "span_sha256": "fceab66c79adce182126079982b2315b53e9f3baa3c1f47a36c592cf403a713a"
@@ -11888,19 +10060,8 @@
         "NS-F-P152-049"
       ],
       "page_check": {
-        "id": "NS-PAGE-152",
-        "pdf_page": 152,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp151-156.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 49,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Proposition B.5 proof continues across both page boundaries; displays B.26--B.30 checked character by character."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp151-156/PAGE_CHECKS.jsonl"
     },
@@ -11920,7 +10081,7 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp151-156.tex",
-        "file_sha256": "f75c526fb744ca4f6d0cad4f3ffea21d9cb0b06fc9f223280753c04c8bf567d2",
+        "file_sha256": "0c7f6f14ecbabed6efa999bb387b1ba8e2d013bfa266ee920a627778a26f335c",
         "start_line": 180,
         "end_line": 256,
         "span_sha256": "d08a983d5f63c9f74828479bf210438a828683295e111ded8a422eb86acb2572"
@@ -11991,19 +10152,8 @@
         "NS-F-P153-063"
       ],
       "page_check": {
-        "id": "NS-PAGE-153",
-        "pdf_page": 153,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp151-156.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 63,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Closes Proposition B.5 and transcribes and closes Corollary B.6, including display B.31."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp151-156/PAGE_CHECKS.jsonl"
     },
@@ -12023,10 +10173,10 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp151-156.tex",
-        "file_sha256": "f75c526fb744ca4f6d0cad4f3ffea21d9cb0b06fc9f223280753c04c8bf567d2",
+        "file_sha256": "0c7f6f14ecbabed6efa999bb387b1ba8e2d013bfa266ee920a627778a26f335c",
         "start_line": 256,
         "end_line": 336,
-        "span_sha256": "be1fa47ad2e4c65d71f23eeab465202ac0a74c1e3ae65ceddb3a76b3496cf8a1"
+        "span_sha256": "2dee75c669062c086ca06aac82310b7aaf2ec6576e5fe01e36f5a48f6e52bded"
       },
       "formula_ids": [
         "NS-F-P154-001",
@@ -12079,19 +10229,8 @@
         "NS-F-P154-048"
       ],
       "page_check": {
-        "id": "NS-PAGE-154",
-        "pdf_page": 154,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp151-156.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 48,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "The final inline asymptotic identity begins on page 154 and continues after the page marker on page 155; its source-page parts have separate occurrence markers."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp151-156/PAGE_CHECKS.jsonl"
     },
@@ -12111,10 +10250,10 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp151-156.tex",
-        "file_sha256": "f75c526fb744ca4f6d0cad4f3ffea21d9cb0b06fc9f223280753c04c8bf567d2",
+        "file_sha256": "0c7f6f14ecbabed6efa999bb387b1ba8e2d013bfa266ee920a627778a26f335c",
         "start_line": 336,
         "end_line": 418,
-        "span_sha256": "96fb591418cf28b709fb9763544120357f659c0769c05c365a3163c5b2c40581"
+        "span_sha256": "b6fe374a19ed65c0f6f66fed73577e3b6ae70393190f57572f8922780d023e54"
       },
       "formula_ids": [
         "NS-F-P155-001",
@@ -12154,19 +10293,8 @@
         "NS-F-P155-035"
       ],
       "page_check": {
-        "id": "NS-PAGE-155",
-        "pdf_page": 155,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp151-156.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 35,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Continues the inline asymptotic identity from page 154; begins Proposition B.8 and its proof; displays and hats in B.35 were visually checked."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp151-156/PAGE_CHECKS.jsonl"
     },
@@ -12186,7 +10314,7 @@
       },
       "tex": {
         "path": "reconstruction/sections/pp151-156.tex",
-        "file_sha256": "f75c526fb744ca4f6d0cad4f3ffea21d9cb0b06fc9f223280753c04c8bf567d2",
+        "file_sha256": "0c7f6f14ecbabed6efa999bb387b1ba8e2d013bfa266ee920a627778a26f335c",
         "start_line": 418,
         "end_line": 507,
         "span_sha256": "f691fa79d4ae4f6d3cbae8c66555670b4abf065c89defc8850c5b7094aa4997b"
@@ -12243,19 +10371,8 @@
         "NS-F-P156-049"
       ],
       "page_check": {
-        "id": "NS-PAGE-156",
-        "pdf_page": 156,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp151-156.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 49,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Proposition B.8 proof remains open for page 157; the final unnumbered two-block display is complete on this page."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp151-156/PAGE_CHECKS.jsonl"
     },
@@ -12310,20 +10427,8 @@
         "NS-F-P157-027"
       ],
       "page_check": {
-        "id": "NS-PAGE-157",
-        "pdf_page": 157,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp157-162.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 27,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "The page begins inside the proof of Proposition B.8 continued from page 156; that proof closes at the visible square before subsection B.9.",
-          "The final paragraph begins Appendix C and continues on PDF page 158; the NSPage marker preserves the exact break."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp157-162/PAGE_CHECKS.jsonl"
     },
@@ -12384,20 +10489,8 @@
         "NS-F-P158-033"
       ],
       "page_check": {
-        "id": "NS-PAGE-158",
-        "pdf_page": 158,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp157-162.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 33,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "The page begins inside the Appendix C opening paragraph continued from page 157.",
-          "Lemma C.1 begins here and remains open across the PDF page break to page 159."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp157-162/PAGE_CHECKS.jsonl"
     },
@@ -12486,20 +10579,8 @@
         "NS-F-P159-061"
       ],
       "page_check": {
-        "id": "NS-PAGE-159",
-        "pdf_page": 159,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp157-162.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 61,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "The page begins with the final part of the Lemma C.1 statement, then its proof.",
-          "The proof continues on PDF page 160; the proof environment remains open across the NSPage marker."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp157-162/PAGE_CHECKS.jsonl"
     },
@@ -12569,19 +10650,8 @@
         "NS-F-P160-042"
       ],
       "page_check": {
-        "id": "NS-PAGE-160",
-        "pdf_page": 160,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp157-162.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 42,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "The page continues and closes the proof of Lemma C.1 at the visible square."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp157-162/PAGE_CHECKS.jsonl"
     },
@@ -12651,19 +10721,8 @@
         "NS-F-P161-042"
       ],
       "page_check": {
-        "id": "NS-PAGE-161",
-        "pdf_page": 161,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp157-162.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 42,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Proposition C.2 begins here; its proof starts on this page and continues through later pages."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp157-162/PAGE_CHECKS.jsonl"
     },
@@ -12731,20 +10790,8 @@
         "NS-F-P162-040"
       ],
       "page_check": {
-        "id": "NS-PAGE-162",
-        "pdf_page": 162,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp157-162.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 40,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "The page is entirely inside the proof of Proposition C.2.",
-          "The final sentence breaks after the words 'Its partial radial'; the following fragment must continue with 'moment functions' on page 163 without a paragraph break, and the proof environment is intentionally left open."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp157-162/PAGE_CHECKS.jsonl"
     },
@@ -12810,21 +10857,8 @@
         "NS-F-P163-038"
       ],
       "page_check": {
-        "id": "NS-PAGE-163",
-        "pdf_page": 163,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp163-164.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 38,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page begins mid-paragraph and inside the proof of Proposition C.2, continuing source page 162.",
-          "Equation (C.17), subsection C.3, Proposition C.3, equation (C.18), and every inline mathematical occurrence were checked against the frozen PDF and page-163.png.",
-          "The page ends mid-sentence inside the proof of Proposition C.3 after the words 'it is a'."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp163-164/PAGE_CHECKS.jsonl"
     },
@@ -12880,21 +10914,8 @@
         "NS-F-P164-028"
       ],
       "page_check": {
-        "id": "NS-PAGE-164",
-        "pdf_page": 164,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp163-164.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 28,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page begins by continuing the inner-edge sentence from source page 163.",
-          "Both unnumbered edge/cone displays, equation (C.19), all exponential weights, indices, inequalities, and inline formulas were checked against the frozen PDF and page-164.png.",
-          "Page ends mid-sentence and inside the proof of Proposition C.3 after X_v=X_end in (X_a,X_b); the proof must remain open for page 165."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp163-164/PAGE_CHECKS.jsonl"
     },
@@ -12938,20 +10959,8 @@
         "NS-F-P165-016"
       ],
       "page_check": {
-        "id": "NS-PAGE-165",
-        "pdf_page": 165,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp165-166.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 16,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Page begins with the end of the Appendix C proof from page 164 and then contains References 1--17.",
-          "Physical line-wrap hyphenation was removed; lexical hyphens and source title wording were preserved."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp165-166/PAGE_CHECKS.jsonl"
     },
@@ -12978,21 +10987,12 @@
       },
       "formula_ids": [],
       "page_check": {
-        "id": "NS-PAGE-166",
-        "pdf_page": 166,
-        "pdf_sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
-        "tex_file": "reconstruction/sections/pp165-166.tex",
-        "visual_inspection": "pass",
-        "text_order": "pass",
-        "formula_visual_check": "pass",
-        "formula_count": 0,
-        "figure_ids": [],
-        "uncertainty_ids": [],
-        "notes": [
-          "Contains References 18--22 and no mathematical formula occurrence."
-        ]
+        "status": "full-page-fidelity-not-revalidated",
+        "current_comparison_status": "TRANSCRIPTION_AUDIT.json"
       },
       "page_check_ledger": "evidence/transcription/pp165-166/PAGE_CHECKS.jsonl"
     }
-  ]
+  ],
+  "coverage_kind": "All 166 source-page markers; this is not a fidelity certificate",
+  "full_fidelity_validated": false
 }
